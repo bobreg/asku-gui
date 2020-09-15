@@ -25,6 +25,11 @@ AskuGuiApplication::AskuGuiApplication(int & argc, char** argv)
 	loadSettings();
 
 	guiModule = new AskuGuiModule(this, MYID());
+
+//----чел----запуск программы слежения за asku-svc
+    control_run.startDetached("/opt/amcs-observer/check_asku_svc");
+//----чел----
+
 }
 
 //-----------------------------------------------------------------------------
