@@ -1,0 +1,2411 @@
+2020-02-05 15:40:36.408 --- Log started --------------------------------------
+2020-02-05 15:40:36.408 LogLevel=F00000F000000F0F
+2020-02-05 15:40:36.409 Settings: RMO0
+2020-02-05 15:40:36.418 Loading asku config: /home/observer/config/asku-config.xml
+2020-02-05 15:40:36.426 AskuRlsControlConfig: no rls name
+2020-02-05 15:40:36.442 ASKU_config: make action (act_level_up)
+2020-02-05 15:40:36.443 ASKU_config: make action (act_level_base)
+2020-02-05 15:40:36.443 ASKU_config: make action group (group_base_zal) append (act_level_base)
+2020-02-05 15:40:36.443 ASKU_config: make action (act_level_zal)
+2020-02-05 15:40:36.443 ASKU_config: action group (group_base_zal) append (act_level_zal)
+2020-02-05 15:40:36.443 ASKU_config: make action (act_reload_scheme)
+2020-02-05 15:40:36.443 ASKU_config: make action (act_reload_config)
+2020-02-05 15:40:36.443 ASKU_config: make action (act_main_show)
+2020-02-05 15:40:36.443 ASKU_config: make action (act_main_hide)
+2020-02-05 15:40:36.443 ASKU_config: make action (act_quit)
+2020-02-05 15:40:36.443 ASKU_config: make action (act_dialog_about_exec)
+2020-02-05 15:40:36.443 ASKU_config: make action (act_dialog_settings_ui_exec)
+2020-02-05 15:40:36.443 ASKU_config: make action (act_dialog_dasd_show)
+2020-02-05 15:40:36.443 ASKU_config: make action (act_dialog_dasd_tables_show)
+2020-02-05 15:40:36.443 ASKU_config: make action (act_dialog_control_panel_show)
+2020-02-05 15:40:36.443 ASKU_config: make action (act_dialog_control_prd_show)
+2020-02-05 15:40:36.443 ASKU_config: make action (act_dialog_control_elk_show)
+2020-02-05 15:40:36.443 ASKU_config: make action (act_dialog_skrpilot_show)
+2020-02-05 15:40:36.443 ASKU_config: make action (act_dialog_setprm_show)
+2020-02-05 15:40:36.443 ASKU_config: make action (act_dialog_viewer_show)
+2020-02-05 15:40:36.444 ASKU_config: make action (act_dialog_phase_show)
+2020-02-05 15:40:36.444 ASKU_config: make action (act_dialog_coolers_show)
+2020-02-05 15:40:36.444 ASKU_config: make action (act_dialog_drives_show)
+2020-02-05 15:40:36.444 ASKU_config: make action (act_dialog_upses_show)
+2020-02-05 15:40:36.444 ASKU_config: make action (act_dialog_deses_show)
+2020-02-05 15:40:36.444 ASKU_config: make action (act_dialog_listrgdv_show)
+2020-02-05 15:40:36.444 ASKU_config: make action (act_dialog_logger_show)
+2020-02-05 15:40:36.444 ASKU_config: make action (act_dialog_powermeter_show)
+2020-02-05 15:40:36.444 ASKU_config: make action (act_dialog_avtomatica_show)
+2020-02-05 15:40:36.444 ASKU_config: make action (act_reset_avar_prd1)
+2020-02-05 15:40:36.444 ASKU_config: make action (act_reset_avar_prd2)
+2020-02-05 15:40:36.444 ASKU_config: make action (act_reset_avar_prm)
+2020-02-05 15:40:36.444 ASKU_config: make action (act_reset_avar_bep)
+2020-02-05 15:40:36.444 ASKU_config: make action (act_reset_avar_svo)
+2020-02-05 15:40:36.444 ASKU_config: make action (act_reset_avar_comm)
+2020-02-05 15:40:36.444 ASKU_config: make action (act_regime_test)
+2020-02-05 15:40:36.444 ASKU_config: make action (act_regime_rgdv)
+2020-02-05 15:40:36.444 ASKU_config: make action (act_regime_raf)
+2020-02-05 15:40:36.479 Loading RLS: 0-"" (lt='')
+2020-02-05 15:40:36.480 AskuLevelCollection: cleanup
+2020-02-05 15:40:36.480 AskuLevelCollection: invalidate
+2020-02-05 15:40:36.492 Loading level scheme: /home/observer/levels/scheme.xml
+2020-02-05 15:40:36.500 Loading level file: /home/observer/levels/base.xml
+2020-02-05 15:40:36.501 AskuLevelCollection: set base level (base)
+2020-02-05 15:40:36.502 Loading level file: /home/observer/levels/d7pg07b.xml
+2020-02-05 15:40:36.503 AskuLevelCollection: set zal level (zal)
+2020-02-05 15:40:36.506 Loading level file: /home/observer/levels/126pk01b.xml
+2020-02-05 15:40:36.512 Loading level file: /home/observer/levels/svkr-4.xml
+2020-02-05 15:40:36.520 Loading level file: /home/observer/levels/ups_snmp.xml
+2020-02-05 15:40:36.525 Loading level file: /home/observer/levels/poikoeff.xml
+2020-02-05 15:40:36.528 Loading level file: /home/observer/levels/cpu.xml
+2020-02-05 15:40:36.530 Loading level file: /home/observer/levels/voi.xml
+2020-02-05 15:40:36.531 Loading level file: /home/observer/levels/d7aa06.xml
+2020-02-05 15:40:36.540 Loading level file: /home/observer/levels/125yy03.xml
+2020-02-05 15:40:36.543 Loading level file: /home/observer/levels/124ee02.xml
+2020-02-05 15:40:36.544 Loading level file: /home/observer/levels/124yy08.xml
+2020-02-05 15:40:36.545 Loading level file: /home/observer/levels/prmsysb.xml
+2020-02-05 15:40:36.547 Loading level file: /home/observer/levels/124pp04b.xml
+2020-02-05 15:40:36.548 Loading level file: /home/observer/levels/sotr.xml
+2020-02-05 15:40:36.551 Loading level file: /home/observer/levels/ks-10.xml
+2020-02-05 15:40:36.552 Loading level file: /home/observer/levels/vector.xml
+2020-02-05 15:40:36.553 Loading level file: /home/observer/levels/rs485-asku.xml
+2020-02-05 15:40:36.555 Loading level file: /home/observer/levels/rs485-des.xml
+2020-02-05 15:40:36.559 Loading level file: /home/observer/levels/vospd_rs485.xml
+2020-02-05 15:40:36.561 Loading level file: /home/observer/levels/rs485-sotr.xml
+2020-02-05 15:40:36.563 Loading level file: /home/observer/levels/rs485-svo.xml
+2020-02-05 15:40:36.573 Loading level file: /home/observer/levels/rs485-drive.xml
+2020-02-05 15:40:36.574 Loading level file: /home/observer/levels/126gp02.xml
+2020-02-05 15:40:36.576 Loading level file: /home/observer/levels/mvrl-kn.xml
+2020-02-05 15:40:36.578 Loading level file: /home/observer/levels/126gp02-panel.xml
+2020-02-05 15:40:36.579 Loading level file: /home/observer/levels/svkr-5.xml
+2020-02-05 15:40:36.581 Loading level file: /home/observer/levels/ca648.xml
+2020-02-05 15:40:36.582 Loading level file: /home/observer/levels/126gp02-vum.xml
+2020-02-05 15:40:36.586 Loading level file: /home/observer/levels/126gp02-prm.xml
+2020-02-05 15:40:36.588 Loading level file: /home/observer/levels/126gp02-azn.xml
+2020-02-05 15:40:36.589 Loading level file: /home/observer/levels/prdsysb.xml
+2020-02-05 15:40:36.590 Loading level file: /home/observer/levels/125yy04.xml
+2020-02-05 15:40:36.592 Loading level file: /home/observer/levels/125yy04-panel.xml
+2020-02-05 15:40:36.593 Loading level file: /home/observer/levels/124yg02.xml
+2020-02-05 15:40:36.594 Loading level file: /home/observer/levels/126gg02b.xml
+2020-02-05 15:40:36.604 Loading level file: /home/observer/levels/126gg02b1.xml
+2020-02-05 15:40:36.606 Loading level file: /home/observer/levels/paramumi.xml
+2020-02-05 15:40:36.650 Loading level file: /home/observer/levels/ksb.xml
+2020-02-05 15:40:36.650 Loading level file: /home/observer/levels/des.xml
+2020-02-05 15:40:36.652 Loading level file: /home/observer/levels/des-mains.xml
+2020-02-05 15:40:36.655 Loading level file: /home/observer/levels/des-dg.xml
+2020-02-05 15:40:36.659 Loading level function: /home/observer/levels/function.xml
+2020-02-05 15:40:36.670 AskuLevelCollection: set top base(base)
+2020-02-05 15:40:36.677 AskuLevelCollection: do trip from () to (base)
+2020-02-05 15:40:36.678 AskuLevelCollection: invalidate
+2020-02-05 15:40:40.546 AskuLevelCollection: set down level (prmsys)
+2020-02-05 15:40:40.546 AskuLevelCollection: do trip from (base) to (prmsys)
+2020-02-05 15:40:40.547 AskuLevelCollection: invalidate
+2020-02-05 15:40:46.483 AskuLevelCollection: invalidate
+2020-02-05 15:40:46.486 AskuLevelCollection: invalidate
+2020-02-05 15:41:01.708 moduleConnected idConnection=1 (127.0.0.1:5555)
+2020-02-05 15:41:01.786 AskuLevelCollection: invalidate
+2020-02-05 15:41:02.480 AskuLevelCollection: invalidate
+2020-02-05 15:41:05.330 CommonDialogSet::Invoke action dialog "dialog_dasd" show
+2020-02-05 15:41:05.330 CommonDialogSet::show : "dialog_dasd" not found
+2020-02-05 15:41:05.330 rlsDialogSet_0::Invoke action dialog "dialog_dasd" show
+2020-02-05 15:41:09.311 AskuLevelCollection: invalidate
+2020-02-05 15:48:01.512 AskuLevelCollection: set down level (prm)
+2020-02-05 15:48:01.512 AskuLevelCollection: do trip from (prmsys) to (prm)
+2020-02-05 15:48:01.512 AskuLevelCollection: invalidate
+2020-02-05 15:48:03.623 AskuLevelCollection: set up level
+2020-02-05 15:48:03.624 AskuLevelCollection: do trip from (prm) to (prmsys)
+2020-02-05 15:48:03.624 AskuLevelCollection: invalidate
+2020-02-05 15:49:34.934 AskuLevelCollection: set up level
+2020-02-05 15:49:34.935 AskuLevelCollection: do trip from (prmsys) to (base)
+2020-02-05 15:49:34.935 AskuLevelCollection: invalidate
+2020-02-05 15:49:37.783 AskuLevelCollection: set down level (obr_base)
+2020-02-05 15:49:37.783 AskuLevelCollection: do trip from (base) to (obr_base)
+2020-02-05 15:49:37.783 AskuLevelCollection: invalidate
+2020-02-05 15:49:38.614 AskuLevelCollection: set down level (obr_svkr1)
+2020-02-05 15:49:38.614 AskuLevelCollection: do trip from (obr_base) to (obr_svkr1)
+2020-02-05 15:49:38.615 AskuLevelCollection: invalidate
+2020-02-05 15:49:39.783 AskuLevelCollection: set up level
+2020-02-05 15:49:39.783 AskuLevelCollection: do trip from (obr_svkr1) to (obr_base)
+2020-02-05 15:49:39.783 AskuLevelCollection: invalidate
+2020-02-05 15:49:40.335 AskuLevelCollection: set up level
+2020-02-05 15:49:40.335 AskuLevelCollection: do trip from (obr_base) to (base)
+2020-02-05 15:49:40.336 AskuLevelCollection: invalidate
+2020-02-05 15:49:43.269 moduleDisconnected idConnection=1
+2020-02-05 15:49:43.273 asku-gui: error write file /var/run/asku-gui.pid
+2020-02-05 15:49:43.273 --- Log stopped --------------------------------------
+2020-02-07 14:43:52.378 --- Log started --------------------------------------
+2020-02-07 14:43:52.391 LogLevel=F00000F000000F0F
+2020-02-07 14:43:52.391 Settings: RMO0
+2020-02-07 14:43:52.393 Loading asku config: /home/observer/config/asku-config.xml
+2020-02-07 14:43:52.425 AskuRlsControlConfig: no rls name
+2020-02-07 14:43:52.425 ASKU_config: make action (act_level_up)
+2020-02-07 14:43:52.425 ASKU_config: make action (act_level_base)
+2020-02-07 14:43:52.425 ASKU_config: make action group (group_base_zal) append (act_level_base)
+2020-02-07 14:43:52.425 ASKU_config: make action (act_level_zal)
+2020-02-07 14:43:52.425 ASKU_config: action group (group_base_zal) append (act_level_zal)
+2020-02-07 14:43:52.425 ASKU_config: make action (act_reload_scheme)
+2020-02-07 14:43:52.425 ASKU_config: make action (act_reload_config)
+2020-02-07 14:43:52.425 ASKU_config: make action (act_main_show)
+2020-02-07 14:43:52.425 ASKU_config: make action (act_main_hide)
+2020-02-07 14:43:52.425 ASKU_config: make action (act_quit)
+2020-02-07 14:43:52.426 ASKU_config: make action (act_dialog_about_exec)
+2020-02-07 14:43:52.426 ASKU_config: make action (act_dialog_settings_ui_exec)
+2020-02-07 14:43:52.426 ASKU_config: make action (act_dialog_dasd_show)
+2020-02-07 14:43:52.426 ASKU_config: make action (act_dialog_dasd_tables_show)
+2020-02-07 14:43:52.426 ASKU_config: make action (act_dialog_control_panel_show)
+2020-02-07 14:43:52.426 ASKU_config: make action (act_dialog_control_prd_show)
+2020-02-07 14:43:52.426 ASKU_config: make action (act_dialog_control_elk_show)
+2020-02-07 14:43:52.426 ASKU_config: make action (act_dialog_skrpilot_show)
+2020-02-07 14:43:52.426 ASKU_config: make action (act_dialog_setprm_show)
+2020-02-07 14:43:52.426 ASKU_config: make action (act_dialog_viewer_show)
+2020-02-07 14:43:52.426 ASKU_config: make action (act_dialog_phase_show)
+2020-02-07 14:43:52.426 ASKU_config: make action (act_dialog_coolers_show)
+2020-02-07 14:43:52.426 ASKU_config: make action (act_dialog_drives_show)
+2020-02-07 14:43:52.426 ASKU_config: make action (act_dialog_upses_show)
+2020-02-07 14:43:52.426 ASKU_config: make action (act_dialog_deses_show)
+2020-02-07 14:43:52.426 ASKU_config: make action (act_dialog_listrgdv_show)
+2020-02-07 14:43:52.426 ASKU_config: make action (act_dialog_logger_show)
+2020-02-07 14:43:52.426 ASKU_config: make action (act_dialog_powermeter_show)
+2020-02-07 14:43:52.426 ASKU_config: make action (act_dialog_avtomatica_show)
+2020-02-07 14:43:52.426 ASKU_config: make action (act_reset_avar_prd1)
+2020-02-07 14:43:52.426 ASKU_config: make action (act_reset_avar_prd2)
+2020-02-07 14:43:52.426 ASKU_config: make action (act_reset_avar_prm)
+2020-02-07 14:43:52.426 ASKU_config: make action (act_reset_avar_bep)
+2020-02-07 14:43:52.426 ASKU_config: make action (act_reset_avar_svo)
+2020-02-07 14:43:52.426 ASKU_config: make action (act_reset_avar_comm)
+2020-02-07 14:43:52.426 ASKU_config: make action (act_regime_test)
+2020-02-07 14:43:52.427 ASKU_config: make action (act_regime_rgdv)
+2020-02-07 14:43:52.427 ASKU_config: make action (act_regime_raf)
+2020-02-07 14:43:52.470 Loading RLS: 0-"" (lt='')
+2020-02-07 14:43:52.470 AskuLevelCollection: cleanup
+2020-02-07 14:43:52.470 AskuLevelCollection: invalidate
+2020-02-07 14:43:52.490 Loading level scheme: /home/observer/levels/scheme.xml
+2020-02-07 14:43:52.498 Loading level file: /home/observer/levels/base.xml
+2020-02-07 14:43:52.499 AskuLevelCollection: set base level (base)
+2020-02-07 14:43:52.500 Loading level file: /home/observer/levels/d7pg07b.xml
+2020-02-07 14:43:52.501 AskuLevelCollection: set zal level (zal)
+2020-02-07 14:43:52.504 Loading level file: /home/observer/levels/126pk01b.xml
+2020-02-07 14:43:52.511 Loading level file: /home/observer/levels/svkr-4.xml
+2020-02-07 14:43:52.519 Loading level file: /home/observer/levels/ups_snmp.xml
+2020-02-07 14:43:52.523 Loading level file: /home/observer/levels/poikoeff.xml
+2020-02-07 14:43:52.527 Loading level file: /home/observer/levels/cpu.xml
+2020-02-07 14:43:52.528 Loading level file: /home/observer/levels/voi.xml
+2020-02-07 14:43:52.530 Loading level file: /home/observer/levels/d7aa06.xml
+2020-02-07 14:43:52.538 Loading level file: /home/observer/levels/125yy03.xml
+2020-02-07 14:43:52.541 Loading level file: /home/observer/levels/124ee02.xml
+2020-02-07 14:43:52.543 Loading level file: /home/observer/levels/124yy08.xml
+2020-02-07 14:43:52.544 Loading level file: /home/observer/levels/prmsysb.xml
+2020-02-07 14:43:52.545 Loading level file: /home/observer/levels/124pp04b.xml
+2020-02-07 14:43:52.546 Loading level file: /home/observer/levels/sotr.xml
+2020-02-07 14:43:52.549 Loading level file: /home/observer/levels/ks-10.xml
+2020-02-07 14:43:52.550 Loading level file: /home/observer/levels/vector.xml
+2020-02-07 14:43:52.551 Loading level file: /home/observer/levels/rs485-asku.xml
+2020-02-07 14:43:52.553 Loading level file: /home/observer/levels/rs485-des.xml
+2020-02-07 14:43:52.558 Loading level file: /home/observer/levels/vospd_rs485.xml
+2020-02-07 14:43:52.560 Loading level file: /home/observer/levels/rs485-sotr.xml
+2020-02-07 14:43:52.562 Loading level file: /home/observer/levels/rs485-svo.xml
+2020-02-07 14:43:52.571 Loading level file: /home/observer/levels/rs485-drive.xml
+2020-02-07 14:43:52.573 Loading level file: /home/observer/levels/126gp02.xml
+2020-02-07 14:43:52.575 Loading level file: /home/observer/levels/mvrl-kn.xml
+2020-02-07 14:43:52.576 Loading level file: /home/observer/levels/126gp02-panel.xml
+2020-02-07 14:43:52.577 Loading level file: /home/observer/levels/svkr-5.xml
+2020-02-07 14:43:52.579 Loading level file: /home/observer/levels/ca648.xml
+2020-02-07 14:43:52.580 Loading level file: /home/observer/levels/126gp02-vum.xml
+2020-02-07 14:43:52.584 Loading level file: /home/observer/levels/126gp02-prm.xml
+2020-02-07 14:43:52.586 Loading level file: /home/observer/levels/126gp02-azn.xml
+2020-02-07 14:43:52.587 Loading level file: /home/observer/levels/prdsysb.xml
+2020-02-07 14:43:52.588 Loading level file: /home/observer/levels/125yy04.xml
+2020-02-07 14:43:52.589 Loading level file: /home/observer/levels/125yy04-panel.xml
+2020-02-07 14:43:52.591 Loading level file: /home/observer/levels/124yg02.xml
+2020-02-07 14:43:52.592 Loading level file: /home/observer/levels/126gg02b.xml
+2020-02-07 14:43:52.603 Loading level file: /home/observer/levels/126gg02b1.xml
+2020-02-07 14:43:52.605 Loading level file: /home/observer/levels/paramumi.xml
+2020-02-07 14:43:52.648 Loading level file: /home/observer/levels/ksb.xml
+2020-02-07 14:43:52.649 Loading level file: /home/observer/levels/des.xml
+2020-02-07 14:43:52.650 Loading level file: /home/observer/levels/des-mains.xml
+2020-02-07 14:43:52.667 Loading level file: /home/observer/levels/des-dg.xml
+2020-02-07 14:43:52.672 Loading level function: /home/observer/levels/function.xml
+2020-02-07 14:43:52.684 AskuLevelCollection: set top base(base)
+2020-02-07 14:43:52.691 AskuLevelCollection: do trip from () to (base)
+2020-02-07 14:43:52.691 AskuLevelCollection: invalidate
+2020-02-07 14:43:55.955 AskuLevelCollection: set down level (prmsys)
+2020-02-07 14:43:55.955 AskuLevelCollection: do trip from (base) to (prmsys)
+2020-02-07 14:43:55.956 AskuLevelCollection: invalidate
+2020-02-07 14:44:02.473 AskuLevelCollection: invalidate
+2020-02-07 14:44:02.476 AskuLevelCollection: invalidate
+2020-02-07 14:47:24.720 moduleConnected idConnection=1 (127.0.0.1:5555)
+2020-02-07 14:47:24.821 AskuLevelCollection: invalidate
+2020-02-07 14:47:25.470 AskuLevelCollection: invalidate
+2020-02-07 14:47:32.347 AskuLevelCollection: invalidate
+2020-02-07 14:47:36.098 CommonDialogSet::Invoke action dialog "dialog_dasd" show
+2020-02-07 14:47:36.098 CommonDialogSet::show : "dialog_dasd" not found
+2020-02-07 14:47:36.098 rlsDialogSet_0::Invoke action dialog "dialog_dasd" show
+2020-02-07 14:55:06.533 moduleDisconnected idConnection=1
+2020-02-07 14:55:06.537 asku-gui: error write file /var/run/asku-gui.pid
+2020-02-07 14:55:06.537 --- Log stopped --------------------------------------
+2020-02-07 14:55:09.254 --- Log started --------------------------------------
+2020-02-07 14:55:09.254 LogLevel=F00000F000000F0F
+2020-02-07 14:55:09.254 Settings: RMO0
+2020-02-07 14:55:09.255 Loading asku config: /home/observer/config/asku-config.xml
+2020-02-07 14:55:09.256 AskuRlsControlConfig: no rls name
+2020-02-07 14:55:09.256 ASKU_config: make action (act_level_up)
+2020-02-07 14:55:09.256 ASKU_config: make action (act_level_base)
+2020-02-07 14:55:09.256 ASKU_config: make action group (group_base_zal) append (act_level_base)
+2020-02-07 14:55:09.256 ASKU_config: make action (act_level_zal)
+2020-02-07 14:55:09.256 ASKU_config: action group (group_base_zal) append (act_level_zal)
+2020-02-07 14:55:09.256 ASKU_config: make action (act_reload_scheme)
+2020-02-07 14:55:09.256 ASKU_config: make action (act_reload_config)
+2020-02-07 14:55:09.256 ASKU_config: make action (act_main_show)
+2020-02-07 14:55:09.256 ASKU_config: make action (act_main_hide)
+2020-02-07 14:55:09.257 ASKU_config: make action (act_quit)
+2020-02-07 14:55:09.257 ASKU_config: make action (act_dialog_about_exec)
+2020-02-07 14:55:09.257 ASKU_config: make action (act_dialog_settings_ui_exec)
+2020-02-07 14:55:09.257 ASKU_config: make action (act_dialog_dasd_show)
+2020-02-07 14:55:09.257 ASKU_config: make action (act_dialog_dasd_tables_show)
+2020-02-07 14:55:09.257 ASKU_config: make action (act_dialog_control_panel_show)
+2020-02-07 14:55:09.257 ASKU_config: make action (act_dialog_control_prd_show)
+2020-02-07 14:55:09.257 ASKU_config: make action (act_dialog_control_elk_show)
+2020-02-07 14:55:09.257 ASKU_config: make action (act_dialog_skrpilot_show)
+2020-02-07 14:55:09.257 ASKU_config: make action (act_dialog_setprm_show)
+2020-02-07 14:55:09.257 ASKU_config: make action (act_dialog_viewer_show)
+2020-02-07 14:55:09.257 ASKU_config: make action (act_dialog_phase_show)
+2020-02-07 14:55:09.257 ASKU_config: make action (act_dialog_coolers_show)
+2020-02-07 14:55:09.257 ASKU_config: make action (act_dialog_drives_show)
+2020-02-07 14:55:09.257 ASKU_config: make action (act_dialog_upses_show)
+2020-02-07 14:55:09.257 ASKU_config: make action (act_dialog_deses_show)
+2020-02-07 14:55:09.257 ASKU_config: make action (act_dialog_listrgdv_show)
+2020-02-07 14:55:09.257 ASKU_config: make action (act_dialog_logger_show)
+2020-02-07 14:55:09.257 ASKU_config: make action (act_dialog_powermeter_show)
+2020-02-07 14:55:09.257 ASKU_config: make action (act_dialog_avtomatica_show)
+2020-02-07 14:55:09.257 ASKU_config: make action (act_reset_avar_prd1)
+2020-02-07 14:55:09.257 ASKU_config: make action (act_reset_avar_prd2)
+2020-02-07 14:55:09.257 ASKU_config: make action (act_reset_avar_prm)
+2020-02-07 14:55:09.257 ASKU_config: make action (act_reset_avar_bep)
+2020-02-07 14:55:09.257 ASKU_config: make action (act_reset_avar_svo)
+2020-02-07 14:55:09.257 ASKU_config: make action (act_reset_avar_comm)
+2020-02-07 14:55:09.257 ASKU_config: make action (act_regime_test)
+2020-02-07 14:55:09.257 ASKU_config: make action (act_regime_rgdv)
+2020-02-07 14:55:09.258 ASKU_config: make action (act_regime_raf)
+2020-02-07 14:55:09.285 Loading RLS: 0-"" (lt='')
+2020-02-07 14:55:09.285 AskuLevelCollection: cleanup
+2020-02-07 14:55:09.286 AskuLevelCollection: invalidate
+2020-02-07 14:55:09.286 Loading level scheme: /home/observer/levels/scheme.xml
+2020-02-07 14:55:09.288 Loading level file: /home/observer/levels/base.xml
+2020-02-07 14:55:09.289 AskuLevelCollection: set base level (base)
+2020-02-07 14:55:09.289 Loading level file: /home/observer/levels/d7pg07b.xml
+2020-02-07 14:55:09.290 AskuLevelCollection: set zal level (zal)
+2020-02-07 14:55:09.290 Loading level file: /home/observer/levels/126pk01b.xml
+2020-02-07 14:55:09.291 Loading level file: /home/observer/levels/svkr-4.xml
+2020-02-07 14:55:09.293 Loading level file: /home/observer/levels/ups_snmp.xml
+2020-02-07 14:55:09.296 Loading level file: /home/observer/levels/poikoeff.xml
+2020-02-07 14:55:09.300 Loading level file: /home/observer/levels/cpu.xml
+2020-02-07 14:55:09.301 Loading level file: /home/observer/levels/voi.xml
+2020-02-07 14:55:09.301 Loading level file: /home/observer/levels/d7aa06.xml
+2020-02-07 14:55:09.302 Loading level file: /home/observer/levels/125yy03.xml
+2020-02-07 14:55:09.304 Loading level file: /home/observer/levels/124ee02.xml
+2020-02-07 14:55:09.306 Loading level file: /home/observer/levels/124yy08.xml
+2020-02-07 14:55:09.306 Loading level file: /home/observer/levels/prmsysb.xml
+2020-02-07 14:55:09.306 Loading level file: /home/observer/levels/124pp04b.xml
+2020-02-07 14:55:09.307 Loading level file: /home/observer/levels/sotr.xml
+2020-02-07 14:55:09.308 Loading level file: /home/observer/levels/ks-10.xml
+2020-02-07 14:55:09.308 Loading level file: /home/observer/levels/vector.xml
+2020-02-07 14:55:09.309 Loading level file: /home/observer/levels/rs485-asku.xml
+2020-02-07 14:55:09.310 Loading level file: /home/observer/levels/rs485-des.xml
+2020-02-07 14:55:09.311 Loading level file: /home/observer/levels/vospd_rs485.xml
+2020-02-07 14:55:09.313 Loading level file: /home/observer/levels/rs485-sotr.xml
+2020-02-07 14:55:09.314 Loading level file: /home/observer/levels/rs485-svo.xml
+2020-02-07 14:55:09.315 Loading level file: /home/observer/levels/rs485-drive.xml
+2020-02-07 14:55:09.316 Loading level file: /home/observer/levels/126gp02.xml
+2020-02-07 14:55:09.318 Loading level file: /home/observer/levels/mvrl-kn.xml
+2020-02-07 14:55:09.319 Loading level file: /home/observer/levels/126gp02-panel.xml
+2020-02-07 14:55:09.319 Loading level file: /home/observer/levels/svkr-5.xml
+2020-02-07 14:55:09.320 Loading level file: /home/observer/levels/ca648.xml
+2020-02-07 14:55:09.321 Loading level file: /home/observer/levels/126gp02-vum.xml
+2020-02-07 14:55:09.324 Loading level file: /home/observer/levels/126gp02-prm.xml
+2020-02-07 14:55:09.326 Loading level file: /home/observer/levels/126gp02-azn.xml
+2020-02-07 14:55:09.326 Loading level file: /home/observer/levels/prdsysb.xml
+2020-02-07 14:55:09.327 Loading level file: /home/observer/levels/125yy04.xml
+2020-02-07 14:55:09.328 Loading level file: /home/observer/levels/125yy04-panel.xml
+2020-02-07 14:55:09.328 Loading level file: /home/observer/levels/124yg02.xml
+2020-02-07 14:55:09.329 Loading level file: /home/observer/levels/126gg02b.xml
+2020-02-07 14:55:09.331 Loading level file: /home/observer/levels/126gg02b1.xml
+2020-02-07 14:55:09.332 Loading level file: /home/observer/levels/paramumi.xml
+2020-02-07 14:55:09.377 Loading level file: /home/observer/levels/ksb.xml
+2020-02-07 14:55:09.377 Loading level file: /home/observer/levels/des.xml
+2020-02-07 14:55:09.378 Loading level file: /home/observer/levels/des-mains.xml
+2020-02-07 14:55:09.381 Loading level file: /home/observer/levels/des-dg.xml
+2020-02-07 14:55:09.385 Loading level function: /home/observer/levels/function.xml
+2020-02-07 14:55:09.397 AskuLevelCollection: set top base(base)
+2020-02-07 14:55:09.404 AskuLevelCollection: do trip from () to (base)
+2020-02-07 14:55:09.404 AskuLevelCollection: invalidate
+2020-02-07 14:55:10.433 moduleConnected idConnection=1 (127.0.0.1:5555)
+2020-02-07 14:55:10.501 AskuLevelCollection: invalidate
+2020-02-07 14:55:13.286 AskuLevelCollection: invalidate
+2020-02-07 14:55:19.285 AskuLevelCollection: invalidate
+2020-02-07 14:57:27.678 AskuLevelCollection: set down level (prmsys)
+2020-02-07 14:57:27.678 AskuLevelCollection: do trip from (base) to (prmsys)
+2020-02-07 14:57:27.678 AskuLevelCollection: invalidate
+2020-02-07 14:59:09.245 AskuLevelCollection: cleanup
+2020-02-07 14:59:09.245 AskuLevelCollection: invalidate
+2020-02-07 14:59:09.246 Loading level scheme: /home/observer/levels/scheme.xml
+2020-02-07 14:59:09.248 Loading level file: /home/observer/levels/base.xml
+2020-02-07 14:59:09.249 AskuLevelCollection: set base level (base)
+2020-02-07 14:59:09.250 Loading level file: /home/observer/levels/d7pg07b.xml
+2020-02-07 14:59:09.250 AskuLevelCollection: set zal level (zal)
+2020-02-07 14:59:09.250 Loading level file: /home/observer/levels/126pk01b.xml
+2020-02-07 14:59:09.251 Loading level file: /home/observer/levels/svkr-4.xml
+2020-02-07 14:59:09.252 Loading level file: /home/observer/levels/ups_snmp.xml
+2020-02-07 14:59:09.256 Loading level file: /home/observer/levels/poikoeff.xml
+2020-02-07 14:59:09.260 Loading level file: /home/observer/levels/cpu.xml
+2020-02-07 14:59:09.260 Loading level file: /home/observer/levels/voi.xml
+2020-02-07 14:59:09.261 Loading level file: /home/observer/levels/d7aa06.xml
+2020-02-07 14:59:09.262 Loading level file: /home/observer/levels/125yy03.xml
+2020-02-07 14:59:09.263 Loading level file: /home/observer/levels/124ee02.xml
+2020-02-07 14:59:09.265 Loading level file: /home/observer/levels/124yy08.xml
+2020-02-07 14:59:09.265 Loading level file: /home/observer/levels/prmsysb.xml
+2020-02-07 14:59:09.266 Loading level file: /home/observer/levels/124pp04b.xml
+2020-02-07 14:59:09.266 Loading level file: /home/observer/levels/d2ht502.xml
+2020-02-07 14:59:09.267 Loading level file: /home/observer/levels/sotr.xml
+2020-02-07 14:59:09.267 Loading level file: /home/observer/levels/ks-10.xml
+2020-02-07 14:59:09.268 Loading level file: /home/observer/levels/vector.xml
+2020-02-07 14:59:09.269 Loading level file: /home/observer/levels/rs485-asku.xml
+2020-02-07 14:59:09.270 Loading level file: /home/observer/levels/rs485-des.xml
+2020-02-07 14:59:09.270 Loading level file: /home/observer/levels/vospd_rs485.xml
+2020-02-07 14:59:09.272 Loading level file: /home/observer/levels/rs485-sotr.xml
+2020-02-07 14:59:09.274 Loading level file: /home/observer/levels/rs485-svo.xml
+2020-02-07 14:59:09.275 Loading level file: /home/observer/levels/rs485-drive.xml
+2020-02-07 14:59:09.276 Loading level file: /home/observer/levels/126gp02.xml
+2020-02-07 14:59:09.277 Loading level file: /home/observer/levels/mvrl-kn.xml
+2020-02-07 14:59:09.278 Loading level file: /home/observer/levels/126gp02-panel.xml
+2020-02-07 14:59:09.278 Loading level file: /home/observer/levels/svkr-5.xml
+2020-02-07 14:59:09.279 Loading level file: /home/observer/levels/ca648.xml
+2020-02-07 14:59:09.280 Loading level file: /home/observer/levels/126gp02-vum.xml
+2020-02-07 14:59:09.283 Loading level file: /home/observer/levels/126gp02-prm.xml
+2020-02-07 14:59:09.285 Loading level file: /home/observer/levels/126gp02-azn.xml
+2020-02-07 14:59:09.286 Loading level file: /home/observer/levels/prdsysb.xml
+2020-02-07 14:59:09.286 Loading level file: /home/observer/levels/125yy04.xml
+2020-02-07 14:59:09.287 Loading level file: /home/observer/levels/125yy04-panel.xml
+2020-02-07 14:59:09.288 Loading level file: /home/observer/levels/124yg02.xml
+2020-02-07 14:59:09.288 Loading level file: /home/observer/levels/126gg02b.xml
+2020-02-07 14:59:09.290 Loading level file: /home/observer/levels/126gg02b1.xml
+2020-02-07 14:59:09.291 Loading level file: /home/observer/levels/paramumi.xml
+2020-02-07 14:59:09.335 Loading level file: /home/observer/levels/ksb.xml
+2020-02-07 14:59:09.336 Loading level file: /home/observer/levels/des.xml
+2020-02-07 14:59:09.337 Loading level file: /home/observer/levels/des-mains.xml
+2020-02-07 14:59:09.339 Loading level file: /home/observer/levels/des-dg.xml
+2020-02-07 14:59:09.343 Loading level function: /home/observer/levels/function.xml
+2020-02-07 14:59:09.347 AskuLevelCollection: function (trip) for element (prm,d2ht502_1) which is not in level
+2020-02-07 14:59:09.348 AskuLevelCollection: function (trip) for element (prm,d2ht502_2) which is not in level
+2020-02-07 14:59:09.355 AskuLevelCollection: set top base(base)
+2020-02-07 14:59:09.360 AskuLevelCollection: do trip from () to (base)
+2020-02-07 14:59:09.360 AskuLevelCollection: invalidate
+2020-02-07 14:59:09.401 AskuLevelCollection: invalidate
+2020-02-07 14:59:22.677 AskuLevelCollection: set down level (prmsys)
+2020-02-07 14:59:22.677 AskuLevelCollection: do trip from (base) to (prmsys)
+2020-02-07 14:59:22.677 AskuLevelCollection: invalidate
+2020-02-07 15:00:16.893 AskuLevelCollection: cleanup
+2020-02-07 15:00:16.893 AskuLevelCollection: invalidate
+2020-02-07 15:00:16.894 Loading level scheme: /home/observer/levels/scheme.xml
+2020-02-07 15:00:16.896 Loading level file: /home/observer/levels/base.xml
+2020-02-07 15:00:16.897 AskuLevelCollection: set base level (base)
+2020-02-07 15:00:16.897 Loading level file: /home/observer/levels/d7pg07b.xml
+2020-02-07 15:00:16.898 AskuLevelCollection: set zal level (zal)
+2020-02-07 15:00:16.898 Loading level file: /home/observer/levels/126pk01b.xml
+2020-02-07 15:00:16.899 Loading level file: /home/observer/levels/svkr-4.xml
+2020-02-07 15:00:16.900 Loading level file: /home/observer/levels/ups_snmp.xml
+2020-02-07 15:00:16.904 Loading level file: /home/observer/levels/poikoeff.xml
+2020-02-07 15:00:16.907 Loading level file: /home/observer/levels/cpu.xml
+2020-02-07 15:00:16.908 Loading level file: /home/observer/levels/voi.xml
+2020-02-07 15:00:16.909 Loading level file: /home/observer/levels/d7aa06.xml
+2020-02-07 15:00:16.909 Loading level file: /home/observer/levels/125yy03.xml
+2020-02-07 15:00:16.911 Loading level file: /home/observer/levels/124ee02.xml
+2020-02-07 15:00:16.913 Loading level file: /home/observer/levels/124yy08.xml
+2020-02-07 15:00:16.913 Loading level file: /home/observer/levels/prmsysb.xml
+2020-02-07 15:00:16.913 Loading level file: /home/observer/levels/124pp04b.xml
+2020-02-07 15:00:16.914 Loading level file: /home/observer/levels/d2ht502.xml
+2020-02-07 15:00:16.914 Loading level file: /home/observer/levels/sotr.xml
+2020-02-07 15:00:16.915 Loading level file: /home/observer/levels/ks-10.xml
+2020-02-07 15:00:16.916 Loading level file: /home/observer/levels/vector.xml
+2020-02-07 15:00:16.917 Loading level file: /home/observer/levels/rs485-asku.xml
+2020-02-07 15:00:16.917 Loading level file: /home/observer/levels/rs485-des.xml
+2020-02-07 15:00:16.918 Loading level file: /home/observer/levels/vospd_rs485.xml
+2020-02-07 15:00:16.920 Loading level file: /home/observer/levels/rs485-sotr.xml
+2020-02-07 15:00:16.921 Loading level file: /home/observer/levels/rs485-svo.xml
+2020-02-07 15:00:16.922 Loading level file: /home/observer/levels/rs485-drive.xml
+2020-02-07 15:00:16.923 Loading level file: /home/observer/levels/126gp02.xml
+2020-02-07 15:00:16.925 Loading level file: /home/observer/levels/mvrl-kn.xml
+2020-02-07 15:00:16.925 Loading level file: /home/observer/levels/126gp02-panel.xml
+2020-02-07 15:00:16.926 Loading level file: /home/observer/levels/svkr-5.xml
+2020-02-07 15:00:16.927 Loading level file: /home/observer/levels/ca648.xml
+2020-02-07 15:00:16.927 Loading level file: /home/observer/levels/126gp02-vum.xml
+2020-02-07 15:00:16.931 Loading level file: /home/observer/levels/126gp02-prm.xml
+2020-02-07 15:00:16.932 Loading level file: /home/observer/levels/126gp02-azn.xml
+2020-02-07 15:00:16.933 Loading level file: /home/observer/levels/prdsysb.xml
+2020-02-07 15:00:16.933 Loading level file: /home/observer/levels/125yy04.xml
+2020-02-07 15:00:16.934 Loading level file: /home/observer/levels/125yy04-panel.xml
+2020-02-07 15:00:16.935 Loading level file: /home/observer/levels/124yg02.xml
+2020-02-07 15:00:16.936 Loading level file: /home/observer/levels/126gg02b.xml
+2020-02-07 15:00:16.937 Loading level file: /home/observer/levels/126gg02b1.xml
+2020-02-07 15:00:16.938 Loading level file: /home/observer/levels/paramumi.xml
+2020-02-07 15:00:16.982 Loading level file: /home/observer/levels/ksb.xml
+2020-02-07 15:00:16.983 Loading level file: /home/observer/levels/des.xml
+2020-02-07 15:00:16.984 Loading level file: /home/observer/levels/des-mains.xml
+2020-02-07 15:00:16.986 Loading level file: /home/observer/levels/des-dg.xml
+2020-02-07 15:00:16.991 Loading level function: /home/observer/levels/function.xml
+2020-02-07 15:00:17.003 AskuLevelCollection: set top base(base)
+2020-02-07 15:00:17.010 AskuLevelCollection: do trip from () to (base)
+2020-02-07 15:00:17.011 AskuLevelCollection: invalidate
+2020-02-07 15:00:17.051 AskuLevelCollection: invalidate
+2020-02-07 15:00:19.165 AskuLevelCollection: set down level (prmsys)
+2020-02-07 15:00:19.165 AskuLevelCollection: do trip from (base) to (prmsys)
+2020-02-07 15:00:19.165 AskuLevelCollection: invalidate
+2020-02-07 15:00:25.485 AskuLevelCollection: set down level (d2ht502_1)
+2020-02-07 15:00:25.485 AskuLevelCollection: do trip from (prmsys) to (d2ht502_1)
+2020-02-07 15:00:25.485 AskuLevelCollection: invalidate
+2020-02-07 15:00:28.428 AskuLevelCollection: set up level
+2020-02-07 15:00:28.428 AskuLevelCollection: do trip from (d2ht502_1) to (prmsys)
+2020-02-07 15:00:28.428 AskuLevelCollection: invalidate
+2020-02-07 15:00:29.197 AskuLevelCollection: set down level (d2ht502_2)
+2020-02-07 15:00:29.197 AskuLevelCollection: do trip from (prmsys) to (d2ht502_2)
+2020-02-07 15:00:29.197 AskuLevelCollection: invalidate
+2020-02-07 15:00:32.109 AskuLevelCollection: set up level
+2020-02-07 15:00:32.109 AskuLevelCollection: do trip from (d2ht502_2) to (prmsys)
+2020-02-07 15:00:32.109 AskuLevelCollection: invalidate
+2020-02-07 15:00:35.245 AskuLevelCollection: set down level (d2ht502_1)
+2020-02-07 15:00:35.245 AskuLevelCollection: do trip from (prmsys) to (d2ht502_1)
+2020-02-07 15:00:35.245 AskuLevelCollection: invalidate
+2020-02-07 15:00:36.485 AskuLevelCollection: set up level
+2020-02-07 15:00:36.485 AskuLevelCollection: do trip from (d2ht502_1) to (prmsys)
+2020-02-07 15:00:36.485 AskuLevelCollection: invalidate
+2020-02-07 15:00:37.324 AskuLevelCollection: set down level (d2ht502_1)
+2020-02-07 15:00:37.325 AskuLevelCollection: do trip from (prmsys) to (d2ht502_1)
+2020-02-07 15:00:37.325 AskuLevelCollection: invalidate
+2020-02-07 15:00:40.420 AskuLevelCollection: set up level
+2020-02-07 15:00:40.420 AskuLevelCollection: do trip from (d2ht502_1) to (prmsys)
+2020-02-07 15:00:40.420 AskuLevelCollection: invalidate
+2020-02-07 15:00:42.724 AskuLevelCollection: set down level (d2ht502_2)
+2020-02-07 15:00:42.724 AskuLevelCollection: do trip from (prmsys) to (d2ht502_2)
+2020-02-07 15:00:42.725 AskuLevelCollection: invalidate
+2020-02-07 15:00:44.564 AskuLevelCollection: set up level
+2020-02-07 15:00:44.564 AskuLevelCollection: do trip from (d2ht502_2) to (prmsys)
+2020-02-07 15:00:44.565 AskuLevelCollection: invalidate
+2020-02-07 15:00:50.812 AskuLevelCollection: set down level (d2ht502_1)
+2020-02-07 15:00:50.812 AskuLevelCollection: do trip from (prmsys) to (d2ht502_1)
+2020-02-07 15:00:50.813 AskuLevelCollection: invalidate
+2020-02-07 15:00:53.324 CommonDialogSet::Invoke action dialog "dialog_dasd" show
+2020-02-07 15:00:53.324 CommonDialogSet::show : "dialog_dasd" not found
+2020-02-07 15:00:53.325 rlsDialogSet_0::Invoke action dialog "dialog_dasd" show
+2020-02-07 15:03:57.290 moduleDisconnected idConnection=1
+2020-02-07 15:03:57.300 asku-gui: error write file /var/run/asku-gui.pid
+2020-02-07 15:03:57.308 --- Log stopped --------------------------------------
+2020-02-07 15:04:14.734 --- Log started --------------------------------------
+2020-02-07 15:04:14.734 LogLevel=F00000F000000F0F
+2020-02-07 15:04:14.734 Settings: RMO0
+2020-02-07 15:04:14.736 Loading asku config: /home/observer/config/asku-config.xml
+2020-02-07 15:04:14.736 AskuRlsControlConfig: no rls name
+2020-02-07 15:04:14.737 ASKU_config: make action (act_level_up)
+2020-02-07 15:04:14.737 ASKU_config: make action (act_level_base)
+2020-02-07 15:04:14.737 ASKU_config: make action group (group_base_zal) append (act_level_base)
+2020-02-07 15:04:14.737 ASKU_config: make action (act_level_zal)
+2020-02-07 15:04:14.737 ASKU_config: action group (group_base_zal) append (act_level_zal)
+2020-02-07 15:04:14.737 ASKU_config: make action (act_reload_scheme)
+2020-02-07 15:04:14.737 ASKU_config: make action (act_reload_config)
+2020-02-07 15:04:14.737 ASKU_config: make action (act_main_show)
+2020-02-07 15:04:14.737 ASKU_config: make action (act_main_hide)
+2020-02-07 15:04:14.737 ASKU_config: make action (act_quit)
+2020-02-07 15:04:14.737 ASKU_config: make action (act_dialog_about_exec)
+2020-02-07 15:04:14.737 ASKU_config: make action (act_dialog_settings_ui_exec)
+2020-02-07 15:04:14.737 ASKU_config: make action (act_dialog_dasd_show)
+2020-02-07 15:04:14.737 ASKU_config: make action (act_dialog_dasd_tables_show)
+2020-02-07 15:04:14.737 ASKU_config: make action (act_dialog_control_panel_show)
+2020-02-07 15:04:14.737 ASKU_config: make action (act_dialog_control_prd_show)
+2020-02-07 15:04:14.737 ASKU_config: make action (act_dialog_control_elk_show)
+2020-02-07 15:04:14.737 ASKU_config: make action (act_dialog_skrpilot_show)
+2020-02-07 15:04:14.737 ASKU_config: make action (act_dialog_setprm_show)
+2020-02-07 15:04:14.737 ASKU_config: make action (act_dialog_viewer_show)
+2020-02-07 15:04:14.737 ASKU_config: make action (act_dialog_phase_show)
+2020-02-07 15:04:14.737 ASKU_config: make action (act_dialog_coolers_show)
+2020-02-07 15:04:14.737 ASKU_config: make action (act_dialog_drives_show)
+2020-02-07 15:04:14.737 ASKU_config: make action (act_dialog_upses_show)
+2020-02-07 15:04:14.737 ASKU_config: make action (act_dialog_deses_show)
+2020-02-07 15:04:14.737 ASKU_config: make action (act_dialog_listrgdv_show)
+2020-02-07 15:04:14.737 ASKU_config: make action (act_dialog_logger_show)
+2020-02-07 15:04:14.737 ASKU_config: make action (act_dialog_powermeter_show)
+2020-02-07 15:04:14.737 ASKU_config: make action (act_dialog_avtomatica_show)
+2020-02-07 15:04:14.737 ASKU_config: make action (act_reset_avar_prd1)
+2020-02-07 15:04:14.737 ASKU_config: make action (act_reset_avar_prd2)
+2020-02-07 15:04:14.737 ASKU_config: make action (act_reset_avar_prm)
+2020-02-07 15:04:14.737 ASKU_config: make action (act_reset_avar_bep)
+2020-02-07 15:04:14.737 ASKU_config: make action (act_reset_avar_svo)
+2020-02-07 15:04:14.737 ASKU_config: make action (act_reset_avar_comm)
+2020-02-07 15:04:14.738 ASKU_config: make action (act_regime_test)
+2020-02-07 15:04:14.738 ASKU_config: make action (act_regime_rgdv)
+2020-02-07 15:04:14.738 ASKU_config: make action (act_regime_raf)
+2020-02-07 15:04:14.765 Loading RLS: 0-"" (lt='')
+2020-02-07 15:04:14.765 AskuLevelCollection: cleanup
+2020-02-07 15:04:14.765 AskuLevelCollection: invalidate
+2020-02-07 15:04:14.766 Loading level scheme: /home/observer/levels/scheme.xml
+2020-02-07 15:04:14.767 Loading level file: /home/observer/levels/base.xml
+2020-02-07 15:04:14.768 AskuLevelCollection: set base level (base)
+2020-02-07 15:04:14.769 Loading level file: /home/observer/levels/d7pg07b.xml
+2020-02-07 15:04:14.769 AskuLevelCollection: set zal level (zal)
+2020-02-07 15:04:14.770 Loading level file: /home/observer/levels/126pk01b.xml
+2020-02-07 15:04:14.771 Loading level file: /home/observer/levels/svkr-4.xml
+2020-02-07 15:04:14.772 Loading level file: /home/observer/levels/ups_snmp.xml
+2020-02-07 15:04:14.776 Loading level file: /home/observer/levels/poikoeff.xml
+2020-02-07 15:04:14.780 Loading level file: /home/observer/levels/cpu.xml
+2020-02-07 15:04:14.781 Loading level file: /home/observer/levels/voi.xml
+2020-02-07 15:04:14.782 Loading level file: /home/observer/levels/d7aa06.xml
+2020-02-07 15:04:14.782 Loading level file: /home/observer/levels/125yy03.xml
+2020-02-07 15:04:14.784 Loading level file: /home/observer/levels/124ee02.xml
+2020-02-07 15:04:14.786 Loading level file: /home/observer/levels/124yy08.xml
+2020-02-07 15:04:14.786 Loading level file: /home/observer/levels/prmsysb.xml
+2020-02-07 15:04:14.787 Loading level file: /home/observer/levels/124pp04b.xml
+2020-02-07 15:04:14.787 Loading level file: /home/observer/levels/d2ht502.xml
+2020-02-07 15:04:14.788 Loading level file: /home/observer/levels/sotr.xml
+2020-02-07 15:04:14.788 Loading level file: /home/observer/levels/ks-10.xml
+2020-02-07 15:04:14.789 Loading level file: /home/observer/levels/vector.xml
+2020-02-07 15:04:14.790 Loading level file: /home/observer/levels/rs485-asku.xml
+2020-02-07 15:04:14.791 Loading level file: /home/observer/levels/rs485-des.xml
+2020-02-07 15:04:14.792 Loading level file: /home/observer/levels/vospd_rs485.xml
+2020-02-07 15:04:14.793 Loading level file: /home/observer/levels/rs485-sotr.xml
+2020-02-07 15:04:14.795 Loading level file: /home/observer/levels/rs485-svo.xml
+2020-02-07 15:04:14.796 Loading level file: /home/observer/levels/rs485-drive.xml
+2020-02-07 15:04:14.797 Loading level file: /home/observer/levels/126gp02.xml
+2020-02-07 15:04:14.798 Loading level file: /home/observer/levels/mvrl-kn.xml
+2020-02-07 15:04:14.799 Loading level file: /home/observer/levels/126gp02-panel.xml
+2020-02-07 15:04:14.800 Loading level file: /home/observer/levels/svkr-5.xml
+2020-02-07 15:04:14.801 Loading level file: /home/observer/levels/ca648.xml
+2020-02-07 15:04:14.801 Loading level file: /home/observer/levels/126gp02-vum.xml
+2020-02-07 15:04:14.805 Loading level file: /home/observer/levels/126gp02-prm.xml
+2020-02-07 15:04:14.806 Loading level file: /home/observer/levels/126gp02-azn.xml
+2020-02-07 15:04:14.807 Loading level file: /home/observer/levels/prdsysb.xml
+2020-02-07 15:04:14.808 Loading level file: /home/observer/levels/125yy04.xml
+2020-02-07 15:04:14.809 Loading level file: /home/observer/levels/125yy04-panel.xml
+2020-02-07 15:04:14.809 Loading level file: /home/observer/levels/124yg02.xml
+2020-02-07 15:04:14.810 Loading level file: /home/observer/levels/126gg02b.xml
+2020-02-07 15:04:14.812 Loading level file: /home/observer/levels/126gg02b1.xml
+2020-02-07 15:04:14.813 Loading level file: /home/observer/levels/paramumi.xml
+2020-02-07 15:04:14.856 Loading level file: /home/observer/levels/ksb.xml
+2020-02-07 15:04:14.857 Loading level file: /home/observer/levels/des.xml
+2020-02-07 15:04:14.858 Loading level file: /home/observer/levels/des-mains.xml
+2020-02-07 15:04:14.861 Loading level file: /home/observer/levels/des-dg.xml
+2020-02-07 15:04:14.865 Loading level function: /home/observer/levels/function.xml
+2020-02-07 15:04:14.877 AskuLevelCollection: set top base(base)
+2020-02-07 15:04:14.884 AskuLevelCollection: do trip from () to (base)
+2020-02-07 15:04:14.884 AskuLevelCollection: invalidate
+2020-02-07 15:04:15.912 moduleConnected idConnection=1 (127.0.0.1:5555)
+2020-02-07 15:04:15.982 AskuLevelCollection: invalidate
+2020-02-07 15:04:16.773 AskuLevelCollection: invalidate
+2020-02-07 15:04:19.766 AskuLevelCollection: invalidate
+2020-02-07 15:04:24.765 AskuLevelCollection: invalidate
+2020-02-07 15:05:18.859 AskuLevelCollection: cleanup
+2020-02-07 15:05:18.859 AskuLevelCollection: invalidate
+2020-02-07 15:05:18.859 Loading level scheme: /home/observer/levels/scheme.xml
+2020-02-07 15:05:18.861 Loading level file: /home/observer/levels/base.xml
+2020-02-07 15:05:18.862 AskuLevelCollection: set base level (base)
+2020-02-07 15:05:18.863 Loading level file: /home/observer/levels/d7pg07b.xml
+2020-02-07 15:05:18.863 AskuLevelCollection: set zal level (zal)
+2020-02-07 15:05:18.864 Loading level file: /home/observer/levels/126pk01b.xml
+2020-02-07 15:05:18.864 Loading level file: /home/observer/levels/svkr-4.xml
+2020-02-07 15:05:18.866 Loading level file: /home/observer/levels/ups_snmp.xml
+2020-02-07 15:05:18.869 Loading level file: /home/observer/levels/poikoeff.xml
+2020-02-07 15:05:18.873 Loading level file: /home/observer/levels/cpu.xml
+2020-02-07 15:05:18.874 Loading level file: /home/observer/levels/voi.xml
+2020-02-07 15:05:18.874 Loading level file: /home/observer/levels/d7aa06.xml
+2020-02-07 15:05:18.875 Loading level file: /home/observer/levels/125yy03.xml
+2020-02-07 15:05:18.877 Loading level file: /home/observer/levels/124ee02.xml
+2020-02-07 15:05:18.878 Loading level file: /home/observer/levels/124yy08.xml
+2020-02-07 15:05:18.878 Loading level file: /home/observer/levels/prmsysb.xml
+2020-02-07 15:05:18.879 Loading level file: /home/observer/levels/124pp04b.xml
+2020-02-07 15:05:18.879 Loading level file: /home/observer/levels/d2ht502.xml
+2020-02-07 15:05:18.880 Loading level file: /home/observer/levels/sotr.xml
+2020-02-07 15:05:18.880 Loading level file: /home/observer/levels/ks-10.xml
+2020-02-07 15:05:18.881 Loading level file: /home/observer/levels/vector.xml
+2020-02-07 15:05:18.882 Loading level file: /home/observer/levels/rs485-asku.xml
+2020-02-07 15:05:18.883 Loading level file: /home/observer/levels/rs485-des.xml
+2020-02-07 15:05:18.883 Loading level file: /home/observer/levels/vospd_rs485.xml
+2020-02-07 15:05:18.885 Loading level file: /home/observer/levels/rs485-sotr.xml
+2020-02-07 15:05:18.887 Loading level file: /home/observer/levels/rs485-svo.xml
+2020-02-07 15:05:18.888 Loading level file: /home/observer/levels/rs485-drive.xml
+2020-02-07 15:05:18.888 Loading level file: /home/observer/levels/126gp02.xml
+2020-02-07 15:05:18.890 Loading level file: /home/observer/levels/mvrl-kn.xml
+2020-02-07 15:05:18.891 Loading level file: /home/observer/levels/126gp02-panel.xml
+2020-02-07 15:05:18.891 Loading level file: /home/observer/levels/svkr-5.xml
+2020-02-07 15:05:18.892 Loading level file: /home/observer/levels/ca648.xml
+2020-02-07 15:05:18.893 Loading level file: /home/observer/levels/126gp02-vum.xml
+2020-02-07 15:05:18.896 Loading level file: /home/observer/levels/126gp02-prm.xml
+2020-02-07 15:05:18.897 Loading level file: /home/observer/levels/126gp02-azn.xml
+2020-02-07 15:05:18.898 Loading level file: /home/observer/levels/prdsysb.xml
+2020-02-07 15:05:18.899 Loading level file: /home/observer/levels/125yy04.xml
+2020-02-07 15:05:18.900 Loading level file: /home/observer/levels/125yy04-panel.xml
+2020-02-07 15:05:18.900 Loading level file: /home/observer/levels/124yg02.xml
+2020-02-07 15:05:18.901 Loading level file: /home/observer/levels/126gg02b.xml
+2020-02-07 15:05:18.903 Loading level file: /home/observer/levels/126gg02b1.xml
+2020-02-07 15:05:18.904 Loading level file: /home/observer/levels/paramumi.xml
+2020-02-07 15:05:18.947 Loading level file: /home/observer/levels/ksb.xml
+2020-02-07 15:05:18.947 Loading level file: /home/observer/levels/des.xml
+2020-02-07 15:05:18.948 Loading level file: /home/observer/levels/des-mains.xml
+2020-02-07 15:05:18.951 Loading level file: /home/observer/levels/des-dg.xml
+2020-02-07 15:05:18.955 Loading level function: /home/observer/levels/function.xml
+2020-02-07 15:05:18.967 AskuLevelCollection: set top base(base)
+2020-02-07 15:05:18.974 AskuLevelCollection: do trip from () to (base)
+2020-02-07 15:05:18.974 AskuLevelCollection: invalidate
+2020-02-07 15:05:19.015 AskuLevelCollection: invalidate
+2020-02-07 15:05:21.459 AskuLevelCollection: set down level (obr_base)
+2020-02-07 15:05:21.459 AskuLevelCollection: do trip from (base) to (obr_base)
+2020-02-07 15:05:21.459 AskuLevelCollection: invalidate
+2020-02-07 15:05:22.379 AskuLevelCollection: set up level
+2020-02-07 15:05:22.379 AskuLevelCollection: do trip from (obr_base) to (base)
+2020-02-07 15:05:22.379 AskuLevelCollection: invalidate
+2020-02-07 15:05:23.011 AskuLevelCollection: set down level (prmsys)
+2020-02-07 15:05:23.011 AskuLevelCollection: do trip from (base) to (prmsys)
+2020-02-07 15:05:23.011 AskuLevelCollection: invalidate
+2020-02-07 15:05:23.898 AskuLevelCollection: set down level (d2ht502_1)
+2020-02-07 15:05:23.898 AskuLevelCollection: do trip from (prmsys) to (d2ht502_1)
+2020-02-07 15:05:23.899 AskuLevelCollection: invalidate
+2020-02-07 15:06:00.922 CommonDialogSet: Invoke action dialog "dialog_settings_ui" exec
+2020-02-07 15:06:10.766 rlsDialogSet_0: Invoke action dialog "dialog_settings_ui" exec
+2020-02-07 15:06:10.766 rlsDialogSet_0::exec : "dialog_settings_ui" not found
+2020-02-07 15:06:11.834 AskuLevelCollection: set up level
+2020-02-07 15:06:11.835 AskuLevelCollection: do trip from (d2ht502_1) to (prmsys)
+2020-02-07 15:06:11.835 AskuLevelCollection: invalidate
+2020-02-07 15:06:13.003 AskuLevelCollection: set down level (prm)
+2020-02-07 15:06:13.003 AskuLevelCollection: do trip from (prmsys) to (prm)
+2020-02-07 15:06:13.003 AskuLevelCollection: invalidate
+2020-02-07 15:06:13.770 AskuLevelCollection: set up level
+2020-02-07 15:06:13.770 AskuLevelCollection: do trip from (prm) to (prmsys)
+2020-02-07 15:06:13.770 AskuLevelCollection: invalidate
+2020-02-07 15:06:14.274 AskuLevelCollection: set up level
+2020-02-07 15:06:14.274 AskuLevelCollection: do trip from (prmsys) to (base)
+2020-02-07 15:06:14.274 AskuLevelCollection: invalidate
+2020-02-07 15:06:15.162 AskuLevelCollection: set down level (prmsys)
+2020-02-07 15:06:15.162 AskuLevelCollection: do trip from (base) to (prmsys)
+2020-02-07 15:06:15.162 AskuLevelCollection: invalidate
+2020-02-07 15:06:16.098 AskuLevelCollection: set down level (d2ht502_1)
+2020-02-07 15:06:16.098 AskuLevelCollection: do trip from (prmsys) to (d2ht502_1)
+2020-02-07 15:06:16.098 AskuLevelCollection: invalidate
+2020-02-07 15:06:41.578 CommonDialogSet: Invoke action dialog "dialog_settings_ui" exec
+2020-02-07 15:06:54.318 rlsDialogSet_0: Invoke action dialog "dialog_settings_ui" exec
+2020-02-07 15:06:54.318 rlsDialogSet_0::exec : "dialog_settings_ui" not found
+2020-02-07 15:13:34.447 AskuLevelCollection: set up level
+2020-02-07 15:13:34.447 AskuLevelCollection: do trip from (d2ht502_1) to (prmsys)
+2020-02-07 15:13:34.448 AskuLevelCollection: invalidate
+2020-02-07 15:13:41.407 AskuLevelCollection: set down level (d2ht502_1)
+2020-02-07 15:13:41.407 AskuLevelCollection: do trip from (prmsys) to (d2ht502_1)
+2020-02-07 15:13:41.407 AskuLevelCollection: invalidate
+2020-02-07 15:13:47.119 AskuLevelCollection: set up level
+2020-02-07 15:13:47.119 AskuLevelCollection: do trip from (d2ht502_1) to (prmsys)
+2020-02-07 15:13:47.119 AskuLevelCollection: invalidate
+2020-02-07 15:13:48.807 AskuLevelCollection: set up level
+2020-02-07 15:13:48.807 AskuLevelCollection: do trip from (prmsys) to (base)
+2020-02-07 15:13:48.807 AskuLevelCollection: invalidate
+2020-02-07 15:13:49.719 AskuLevelCollection: set down level (prmsys)
+2020-02-07 15:13:49.719 AskuLevelCollection: do trip from (base) to (prmsys)
+2020-02-07 15:13:49.719 AskuLevelCollection: invalidate
+2020-02-07 15:17:46.510 AskuLevelCollection: set down level (d2ht502_1)
+2020-02-07 15:17:46.510 AskuLevelCollection: do trip from (prmsys) to (d2ht502_1)
+2020-02-07 15:17:46.510 AskuLevelCollection: invalidate
+2020-02-07 15:17:51.550 AskuLevelCollection: set up level
+2020-02-07 15:17:51.550 AskuLevelCollection: do trip from (d2ht502_1) to (prmsys)
+2020-02-07 15:17:51.550 AskuLevelCollection: invalidate
+2020-02-07 15:17:55.054 AskuLevelCollection: set down level (d2ht502_2)
+2020-02-07 15:17:55.054 AskuLevelCollection: do trip from (prmsys) to (d2ht502_2)
+2020-02-07 15:17:55.054 AskuLevelCollection: invalidate
+2020-02-07 15:17:57.429 AskuLevelCollection: set up level
+2020-02-07 15:17:57.430 AskuLevelCollection: do trip from (d2ht502_2) to (prmsys)
+2020-02-07 15:17:57.430 AskuLevelCollection: invalidate
+2020-02-07 15:18:22.837 CommonDialogSet::Invoke action dialog "dialog_dasd" show
+2020-02-07 15:18:22.837 CommonDialogSet::show : "dialog_dasd" not found
+2020-02-07 15:18:22.838 rlsDialogSet_0::Invoke action dialog "dialog_dasd" show
+2020-02-07 15:18:27.005 AskuLevelCollection: set down level (d2ht502_1)
+2020-02-07 15:18:27.005 AskuLevelCollection: do trip from (prmsys) to (d2ht502_1)
+2020-02-07 15:18:27.005 AskuLevelCollection: invalidate
+2020-02-07 15:18:28.277 AskuLevelCollection: set up level
+2020-02-07 15:18:28.277 AskuLevelCollection: do trip from (d2ht502_1) to (prmsys)
+2020-02-07 15:18:28.278 AskuLevelCollection: invalidate
+2020-02-07 15:19:35.787 moduleDisconnected idConnection=1
+2020-02-07 15:19:35.794 asku-gui: error write file /var/run/asku-gui.pid
+2020-02-07 15:19:35.797 --- Log stopped --------------------------------------
+2020-02-07 15:21:24.315 --- Log started --------------------------------------
+2020-02-07 15:21:24.315 LogLevel=F00000F000000F0F
+2020-02-07 15:21:24.315 Settings: RMO0
+2020-02-07 15:21:24.316 Loading asku config: /home/observer/config/asku-config.xml
+2020-02-07 15:21:24.317 AskuRlsControlConfig: no rls name
+2020-02-07 15:21:24.317 ASKU_config: make action (act_level_up)
+2020-02-07 15:21:24.317 ASKU_config: make action (act_level_base)
+2020-02-07 15:21:24.317 ASKU_config: make action group (group_base_zal) append (act_level_base)
+2020-02-07 15:21:24.317 ASKU_config: make action (act_level_zal)
+2020-02-07 15:21:24.317 ASKU_config: action group (group_base_zal) append (act_level_zal)
+2020-02-07 15:21:24.317 ASKU_config: make action (act_reload_scheme)
+2020-02-07 15:21:24.317 ASKU_config: make action (act_reload_config)
+2020-02-07 15:21:24.317 ASKU_config: make action (act_main_show)
+2020-02-07 15:21:24.317 ASKU_config: make action (act_main_hide)
+2020-02-07 15:21:24.317 ASKU_config: make action (act_quit)
+2020-02-07 15:21:24.317 ASKU_config: make action (act_dialog_about_exec)
+2020-02-07 15:21:24.317 ASKU_config: make action (act_dialog_settings_ui_exec)
+2020-02-07 15:21:24.317 ASKU_config: make action (act_dialog_dasd_show)
+2020-02-07 15:21:24.317 ASKU_config: make action (act_dialog_dasd_tables_show)
+2020-02-07 15:21:24.318 ASKU_config: make action (act_dialog_control_panel_show)
+2020-02-07 15:21:24.318 ASKU_config: make action (act_dialog_control_prd_show)
+2020-02-07 15:21:24.318 ASKU_config: make action (act_dialog_control_elk_show)
+2020-02-07 15:21:24.318 ASKU_config: make action (act_dialog_skrpilot_show)
+2020-02-07 15:21:24.318 ASKU_config: make action (act_dialog_setprm_show)
+2020-02-07 15:21:24.318 ASKU_config: make action (act_dialog_viewer_show)
+2020-02-07 15:21:24.318 ASKU_config: make action (act_dialog_phase_show)
+2020-02-07 15:21:24.318 ASKU_config: make action (act_dialog_coolers_show)
+2020-02-07 15:21:24.318 ASKU_config: make action (act_dialog_drives_show)
+2020-02-07 15:21:24.318 ASKU_config: make action (act_dialog_upses_show)
+2020-02-07 15:21:24.318 ASKU_config: make action (act_dialog_deses_show)
+2020-02-07 15:21:24.318 ASKU_config: make action (act_dialog_listrgdv_show)
+2020-02-07 15:21:24.318 ASKU_config: make action (act_dialog_logger_show)
+2020-02-07 15:21:24.318 ASKU_config: make action (act_dialog_powermeter_show)
+2020-02-07 15:21:24.318 ASKU_config: make action (act_dialog_avtomatica_show)
+2020-02-07 15:21:24.318 ASKU_config: make action (act_reset_avar_prd1)
+2020-02-07 15:21:24.318 ASKU_config: make action (act_reset_avar_prd2)
+2020-02-07 15:21:24.318 ASKU_config: make action (act_reset_avar_prm)
+2020-02-07 15:21:24.318 ASKU_config: make action (act_reset_avar_bep)
+2020-02-07 15:21:24.318 ASKU_config: make action (act_reset_avar_svo)
+2020-02-07 15:21:24.318 ASKU_config: make action (act_reset_avar_comm)
+2020-02-07 15:21:24.318 ASKU_config: make action (act_regime_test)
+2020-02-07 15:21:24.318 ASKU_config: make action (act_regime_rgdv)
+2020-02-07 15:21:24.318 ASKU_config: make action (act_regime_raf)
+2020-02-07 15:21:24.346 Loading RLS: 0-"" (lt='')
+2020-02-07 15:21:24.346 AskuLevelCollection: cleanup
+2020-02-07 15:21:24.346 AskuLevelCollection: invalidate
+2020-02-07 15:21:24.346 Loading level scheme: /home/observer/levels/scheme.xml
+2020-02-07 15:21:24.348 Loading level file: /home/observer/levels/base.xml
+2020-02-07 15:21:24.349 AskuLevelCollection: set base level (base)
+2020-02-07 15:21:24.350 Loading level file: /home/observer/levels/d7pg07b.xml
+2020-02-07 15:21:24.350 AskuLevelCollection: set zal level (zal)
+2020-02-07 15:21:24.351 Loading level file: /home/observer/levels/126pk01b.xml
+2020-02-07 15:21:24.351 Loading level file: /home/observer/levels/svkr-4.xml
+2020-02-07 15:21:24.353 Loading level file: /home/observer/levels/ups_snmp.xml
+2020-02-07 15:21:24.357 Loading level file: /home/observer/levels/poikoeff.xml
+2020-02-07 15:21:24.360 Loading level file: /home/observer/levels/cpu.xml
+2020-02-07 15:21:24.361 Loading level file: /home/observer/levels/voi.xml
+2020-02-07 15:21:24.362 Loading level file: /home/observer/levels/d7aa06.xml
+2020-02-07 15:21:24.362 Loading level file: /home/observer/levels/125yy03.xml
+2020-02-07 15:21:24.364 Loading level file: /home/observer/levels/124ee02.xml
+2020-02-07 15:21:24.366 Loading level file: /home/observer/levels/124yy08.xml
+2020-02-07 15:21:24.366 Loading level file: /home/observer/levels/prmsysb.xml
+2020-02-07 15:21:24.367 Loading level file: /home/observer/levels/124pp04b.xml
+2020-02-07 15:21:24.367 Loading level file: /home/observer/levels/d1ht502.xml
+2020-02-07 15:21:24.368 Loading level file: /home/observer/levels/sotr.xml
+2020-02-07 15:21:24.369 Loading level file: /home/observer/levels/ks-10.xml
+2020-02-07 15:21:24.369 Loading level file: /home/observer/levels/vector.xml
+2020-02-07 15:21:24.370 Loading level file: /home/observer/levels/rs485-asku.xml
+2020-02-07 15:21:24.371 Loading level file: /home/observer/levels/rs485-des.xml
+2020-02-07 15:21:24.372 Loading level file: /home/observer/levels/vospd_rs485.xml
+2020-02-07 15:21:24.373 Loading level file: /home/observer/levels/rs485-sotr.xml
+2020-02-07 15:21:24.375 Loading level file: /home/observer/levels/rs485-svo.xml
+2020-02-07 15:21:24.376 Loading level file: /home/observer/levels/rs485-drive.xml
+2020-02-07 15:21:24.377 Loading level file: /home/observer/levels/126gp02.xml
+2020-02-07 15:21:24.379 Loading level file: /home/observer/levels/mvrl-kn.xml
+2020-02-07 15:21:24.380 Loading level file: /home/observer/levels/126gp02-panel.xml
+2020-02-07 15:21:24.380 Loading level file: /home/observer/levels/svkr-5.xml
+2020-02-07 15:21:24.381 Loading level file: /home/observer/levels/ca648.xml
+2020-02-07 15:21:24.382 Loading level file: /home/observer/levels/126gp02-vum.xml
+2020-02-07 15:21:24.385 Loading level file: /home/observer/levels/126gp02-prm.xml
+2020-02-07 15:21:24.388 Loading level file: /home/observer/levels/126gp02-azn.xml
+2020-02-07 15:21:24.389 Loading level file: /home/observer/levels/prdsysb.xml
+2020-02-07 15:21:24.391 Loading level file: /home/observer/levels/125yy04.xml
+2020-02-07 15:21:24.392 Loading level file: /home/observer/levels/125yy04-panel.xml
+2020-02-07 15:21:24.393 Loading level file: /home/observer/levels/124yg02.xml
+2020-02-07 15:21:24.395 Loading level file: /home/observer/levels/126gg02b.xml
+2020-02-07 15:21:24.397 Loading level file: /home/observer/levels/126gg02b1.xml
+2020-02-07 15:21:24.399 Loading level file: /home/observer/levels/paramumi.xml
+2020-02-07 15:21:24.442 Loading level file: /home/observer/levels/ksb.xml
+2020-02-07 15:21:24.443 Loading level file: /home/observer/levels/des.xml
+2020-02-07 15:21:24.444 Loading level file: /home/observer/levels/des-mains.xml
+2020-02-07 15:21:24.446 Loading level file: /home/observer/levels/des-dg.xml
+2020-02-07 15:21:24.450 Loading level function: /home/observer/levels/function.xml
+2020-02-07 15:21:24.454 AskuLevelCollection: function (trip) for element (prmsys,d1ht502_1) which is not in level
+2020-02-07 15:21:24.454 AskuLevelCollection: function (trip) for element (prmsys,d1ht502_2) which is not in level
+2020-02-07 15:21:24.461 AskuLevelCollection: set top base(base)
+2020-02-07 15:21:24.466 AskuLevelCollection: do trip from () to (base)
+2020-02-07 15:21:24.467 AskuLevelCollection: invalidate
+2020-02-07 15:21:25.495 moduleConnected idConnection=1 (127.0.0.1:5555)
+2020-02-07 15:21:25.562 AskuLevelCollection: invalidate
+2020-02-07 15:21:26.773 AskuLevelCollection: invalidate
+2020-02-07 15:21:31.346 AskuLevelCollection: invalidate
+2020-02-07 15:21:34.346 AskuLevelCollection: invalidate
+2020-02-07 15:21:35.299 user event
+2020-02-07 15:21:36.300 moduleDisconnected idConnection=1
+2020-02-07 15:21:36.304 asku-gui: error write file /var/run/asku-gui.pid
+2020-02-07 15:21:36.305 --- Log stopped --------------------------------------
+2020-02-07 15:22:09.484 --- Log started --------------------------------------
+2020-02-07 15:22:09.484 LogLevel=F00000F000000F0F
+2020-02-07 15:22:09.484 Settings: RMO0
+2020-02-07 15:22:09.485 Loading asku config: /home/observer/config/asku-config.xml
+2020-02-07 15:22:09.486 AskuRlsControlConfig: no rls name
+2020-02-07 15:22:09.486 ASKU_config: make action (act_level_up)
+2020-02-07 15:22:09.486 ASKU_config: make action (act_level_base)
+2020-02-07 15:22:09.486 ASKU_config: make action group (group_base_zal) append (act_level_base)
+2020-02-07 15:22:09.486 ASKU_config: make action (act_level_zal)
+2020-02-07 15:22:09.486 ASKU_config: action group (group_base_zal) append (act_level_zal)
+2020-02-07 15:22:09.486 ASKU_config: make action (act_reload_scheme)
+2020-02-07 15:22:09.486 ASKU_config: make action (act_reload_config)
+2020-02-07 15:22:09.486 ASKU_config: make action (act_main_show)
+2020-02-07 15:22:09.486 ASKU_config: make action (act_main_hide)
+2020-02-07 15:22:09.486 ASKU_config: make action (act_quit)
+2020-02-07 15:22:09.486 ASKU_config: make action (act_dialog_about_exec)
+2020-02-07 15:22:09.486 ASKU_config: make action (act_dialog_settings_ui_exec)
+2020-02-07 15:22:09.486 ASKU_config: make action (act_dialog_dasd_show)
+2020-02-07 15:22:09.486 ASKU_config: make action (act_dialog_dasd_tables_show)
+2020-02-07 15:22:09.486 ASKU_config: make action (act_dialog_control_panel_show)
+2020-02-07 15:22:09.486 ASKU_config: make action (act_dialog_control_prd_show)
+2020-02-07 15:22:09.487 ASKU_config: make action (act_dialog_control_elk_show)
+2020-02-07 15:22:09.487 ASKU_config: make action (act_dialog_skrpilot_show)
+2020-02-07 15:22:09.487 ASKU_config: make action (act_dialog_setprm_show)
+2020-02-07 15:22:09.487 ASKU_config: make action (act_dialog_viewer_show)
+2020-02-07 15:22:09.487 ASKU_config: make action (act_dialog_phase_show)
+2020-02-07 15:22:09.487 ASKU_config: make action (act_dialog_coolers_show)
+2020-02-07 15:22:09.487 ASKU_config: make action (act_dialog_drives_show)
+2020-02-07 15:22:09.487 ASKU_config: make action (act_dialog_upses_show)
+2020-02-07 15:22:09.487 ASKU_config: make action (act_dialog_deses_show)
+2020-02-07 15:22:09.487 ASKU_config: make action (act_dialog_listrgdv_show)
+2020-02-07 15:22:09.487 ASKU_config: make action (act_dialog_logger_show)
+2020-02-07 15:22:09.487 ASKU_config: make action (act_dialog_powermeter_show)
+2020-02-07 15:22:09.487 ASKU_config: make action (act_dialog_avtomatica_show)
+2020-02-07 15:22:09.487 ASKU_config: make action (act_reset_avar_prd1)
+2020-02-07 15:22:09.487 ASKU_config: make action (act_reset_avar_prd2)
+2020-02-07 15:22:09.487 ASKU_config: make action (act_reset_avar_prm)
+2020-02-07 15:22:09.487 ASKU_config: make action (act_reset_avar_bep)
+2020-02-07 15:22:09.487 ASKU_config: make action (act_reset_avar_svo)
+2020-02-07 15:22:09.487 ASKU_config: make action (act_reset_avar_comm)
+2020-02-07 15:22:09.487 ASKU_config: make action (act_regime_test)
+2020-02-07 15:22:09.487 ASKU_config: make action (act_regime_rgdv)
+2020-02-07 15:22:09.487 ASKU_config: make action (act_regime_raf)
+2020-02-07 15:22:09.515 Loading RLS: 0-"" (lt='')
+2020-02-07 15:22:09.515 AskuLevelCollection: cleanup
+2020-02-07 15:22:09.515 AskuLevelCollection: invalidate
+2020-02-07 15:22:09.516 Loading level scheme: /home/observer/levels/scheme.xml
+2020-02-07 15:22:09.517 Loading level file: /home/observer/levels/base.xml
+2020-02-07 15:22:09.518 AskuLevelCollection: set base level (base)
+2020-02-07 15:22:09.519 Loading level file: /home/observer/levels/d7pg07b.xml
+2020-02-07 15:22:09.519 AskuLevelCollection: set zal level (zal)
+2020-02-07 15:22:09.520 Loading level file: /home/observer/levels/126pk01b.xml
+2020-02-07 15:22:09.521 Loading level file: /home/observer/levels/svkr-4.xml
+2020-02-07 15:22:09.522 Loading level file: /home/observer/levels/ups_snmp.xml
+2020-02-07 15:22:09.526 Loading level file: /home/observer/levels/poikoeff.xml
+2020-02-07 15:22:09.529 Loading level file: /home/observer/levels/cpu.xml
+2020-02-07 15:22:09.530 Loading level file: /home/observer/levels/voi.xml
+2020-02-07 15:22:09.531 Loading level file: /home/observer/levels/d7aa06.xml
+2020-02-07 15:22:09.532 Loading level file: /home/observer/levels/125yy03.xml
+2020-02-07 15:22:09.534 Loading level file: /home/observer/levels/124ee02.xml
+2020-02-07 15:22:09.535 Loading level file: /home/observer/levels/124yy08.xml
+2020-02-07 15:22:09.535 Loading level file: /home/observer/levels/prmsysb.xml
+2020-02-07 15:22:09.536 Loading level file: /home/observer/levels/124pp04b.xml
+2020-02-07 15:22:09.536 Loading level file: /home/observer/levels/d1ht502.xml
+2020-02-07 15:22:09.537 Loading level file: /home/observer/levels/sotr.xml
+2020-02-07 15:22:09.538 Loading level file: /home/observer/levels/ks-10.xml
+2020-02-07 15:22:09.538 Loading level file: /home/observer/levels/vector.xml
+2020-02-07 15:22:09.539 Loading level file: /home/observer/levels/rs485-asku.xml
+2020-02-07 15:22:09.540 Loading level file: /home/observer/levels/rs485-des.xml
+2020-02-07 15:22:09.541 Loading level file: /home/observer/levels/vospd_rs485.xml
+2020-02-07 15:22:09.542 Loading level file: /home/observer/levels/rs485-sotr.xml
+2020-02-07 15:22:09.544 Loading level file: /home/observer/levels/rs485-svo.xml
+2020-02-07 15:22:09.545 Loading level file: /home/observer/levels/rs485-drive.xml
+2020-02-07 15:22:09.546 Loading level file: /home/observer/levels/126gp02.xml
+2020-02-07 15:22:09.548 Loading level file: /home/observer/levels/mvrl-kn.xml
+2020-02-07 15:22:09.549 Loading level file: /home/observer/levels/126gp02-panel.xml
+2020-02-07 15:22:09.549 Loading level file: /home/observer/levels/svkr-5.xml
+2020-02-07 15:22:09.550 Loading level file: /home/observer/levels/ca648.xml
+2020-02-07 15:22:09.551 Loading level file: /home/observer/levels/126gp02-vum.xml
+2020-02-07 15:22:09.554 Loading level file: /home/observer/levels/126gp02-prm.xml
+2020-02-07 15:22:09.555 Loading level file: /home/observer/levels/126gp02-azn.xml
+2020-02-07 15:22:09.556 Loading level file: /home/observer/levels/prdsysb.xml
+2020-02-07 15:22:09.557 Loading level file: /home/observer/levels/125yy04.xml
+2020-02-07 15:22:09.558 Loading level file: /home/observer/levels/125yy04-panel.xml
+2020-02-07 15:22:09.558 Loading level file: /home/observer/levels/124yg02.xml
+2020-02-07 15:22:09.559 Loading level file: /home/observer/levels/126gg02b.xml
+2020-02-07 15:22:09.561 Loading level file: /home/observer/levels/126gg02b1.xml
+2020-02-07 15:22:09.562 Loading level file: /home/observer/levels/paramumi.xml
+2020-02-07 15:22:09.605 Loading level file: /home/observer/levels/ksb.xml
+2020-02-07 15:22:09.606 Loading level file: /home/observer/levels/des.xml
+2020-02-07 15:22:09.607 Loading level file: /home/observer/levels/des-mains.xml
+2020-02-07 15:22:09.609 Loading level file: /home/observer/levels/des-dg.xml
+2020-02-07 15:22:09.613 Loading level function: /home/observer/levels/function.xml
+2020-02-07 15:22:09.617 AskuLevelCollection: function (trip) for element (prmsys,d1ht502_1) which is not in level
+2020-02-07 15:22:09.617 AskuLevelCollection: function (trip) for element (prmsys,d1ht502_2) which is not in level
+2020-02-07 15:22:09.624 AskuLevelCollection: set top base(base)
+2020-02-07 15:22:09.629 AskuLevelCollection: do trip from () to (base)
+2020-02-07 15:22:09.629 AskuLevelCollection: invalidate
+2020-02-07 15:22:10.658 moduleConnected idConnection=1 (127.0.0.1:5555)
+2020-02-07 15:22:10.725 AskuLevelCollection: invalidate
+2020-02-07 15:22:11.773 AskuLevelCollection: invalidate
+2020-02-07 15:22:13.515 AskuLevelCollection: invalidate
+2020-02-07 15:22:14.165 user event
+2020-02-07 15:22:15.166 moduleDisconnected idConnection=1
+2020-02-07 15:22:15.169 asku-gui: error write file /var/run/asku-gui.pid
+2020-02-07 15:22:15.171 --- Log stopped --------------------------------------
+2020-02-07 15:22:28.332 --- Log started --------------------------------------
+2020-02-07 15:22:28.332 LogLevel=F00000F000000F0F
+2020-02-07 15:22:28.332 Settings: RMO0
+2020-02-07 15:22:28.333 Loading asku config: /home/observer/config/asku-config.xml
+2020-02-07 15:22:28.334 AskuRlsControlConfig: no rls name
+2020-02-07 15:22:28.334 ASKU_config: make action (act_level_up)
+2020-02-07 15:22:28.334 ASKU_config: make action (act_level_base)
+2020-02-07 15:22:28.334 ASKU_config: make action group (group_base_zal) append (act_level_base)
+2020-02-07 15:22:28.334 ASKU_config: make action (act_level_zal)
+2020-02-07 15:22:28.334 ASKU_config: action group (group_base_zal) append (act_level_zal)
+2020-02-07 15:22:28.334 ASKU_config: make action (act_reload_scheme)
+2020-02-07 15:22:28.334 ASKU_config: make action (act_reload_config)
+2020-02-07 15:22:28.335 ASKU_config: make action (act_main_show)
+2020-02-07 15:22:28.335 ASKU_config: make action (act_main_hide)
+2020-02-07 15:22:28.335 ASKU_config: make action (act_quit)
+2020-02-07 15:22:28.335 ASKU_config: make action (act_dialog_about_exec)
+2020-02-07 15:22:28.335 ASKU_config: make action (act_dialog_settings_ui_exec)
+2020-02-07 15:22:28.335 ASKU_config: make action (act_dialog_dasd_show)
+2020-02-07 15:22:28.335 ASKU_config: make action (act_dialog_dasd_tables_show)
+2020-02-07 15:22:28.335 ASKU_config: make action (act_dialog_control_panel_show)
+2020-02-07 15:22:28.335 ASKU_config: make action (act_dialog_control_prd_show)
+2020-02-07 15:22:28.335 ASKU_config: make action (act_dialog_control_elk_show)
+2020-02-07 15:22:28.335 ASKU_config: make action (act_dialog_skrpilot_show)
+2020-02-07 15:22:28.335 ASKU_config: make action (act_dialog_setprm_show)
+2020-02-07 15:22:28.335 ASKU_config: make action (act_dialog_viewer_show)
+2020-02-07 15:22:28.335 ASKU_config: make action (act_dialog_phase_show)
+2020-02-07 15:22:28.335 ASKU_config: make action (act_dialog_coolers_show)
+2020-02-07 15:22:28.335 ASKU_config: make action (act_dialog_drives_show)
+2020-02-07 15:22:28.335 ASKU_config: make action (act_dialog_upses_show)
+2020-02-07 15:22:28.335 ASKU_config: make action (act_dialog_deses_show)
+2020-02-07 15:22:28.335 ASKU_config: make action (act_dialog_listrgdv_show)
+2020-02-07 15:22:28.335 ASKU_config: make action (act_dialog_logger_show)
+2020-02-07 15:22:28.335 ASKU_config: make action (act_dialog_powermeter_show)
+2020-02-07 15:22:28.335 ASKU_config: make action (act_dialog_avtomatica_show)
+2020-02-07 15:22:28.335 ASKU_config: make action (act_reset_avar_prd1)
+2020-02-07 15:22:28.335 ASKU_config: make action (act_reset_avar_prd2)
+2020-02-07 15:22:28.335 ASKU_config: make action (act_reset_avar_prm)
+2020-02-07 15:22:28.335 ASKU_config: make action (act_reset_avar_bep)
+2020-02-07 15:22:28.335 ASKU_config: make action (act_reset_avar_svo)
+2020-02-07 15:22:28.336 ASKU_config: make action (act_reset_avar_comm)
+2020-02-07 15:22:28.336 ASKU_config: make action (act_regime_test)
+2020-02-07 15:22:28.336 ASKU_config: make action (act_regime_rgdv)
+2020-02-07 15:22:28.336 ASKU_config: make action (act_regime_raf)
+2020-02-07 15:22:28.363 Loading RLS: 0-"" (lt='')
+2020-02-07 15:22:28.363 AskuLevelCollection: cleanup
+2020-02-07 15:22:28.363 AskuLevelCollection: invalidate
+2020-02-07 15:22:28.364 Loading level scheme: /home/observer/levels/scheme.xml
+2020-02-07 15:22:28.365 Loading level file: /home/observer/levels/base.xml
+2020-02-07 15:22:28.366 AskuLevelCollection: set base level (base)
+2020-02-07 15:22:28.367 Loading level file: /home/observer/levels/d7pg07b.xml
+2020-02-07 15:22:28.367 AskuLevelCollection: set zal level (zal)
+2020-02-07 15:22:28.368 Loading level file: /home/observer/levels/126pk01b.xml
+2020-02-07 15:22:28.368 Loading level file: /home/observer/levels/svkr-4.xml
+2020-02-07 15:22:28.370 Loading level file: /home/observer/levels/ups_snmp.xml
+2020-02-07 15:22:28.374 Loading level file: /home/observer/levels/poikoeff.xml
+2020-02-07 15:22:28.377 Loading level file: /home/observer/levels/cpu.xml
+2020-02-07 15:22:28.378 Loading level file: /home/observer/levels/voi.xml
+2020-02-07 15:22:28.379 Loading level file: /home/observer/levels/d7aa06.xml
+2020-02-07 15:22:28.379 Loading level file: /home/observer/levels/125yy03.xml
+2020-02-07 15:22:28.381 Loading level file: /home/observer/levels/124ee02.xml
+2020-02-07 15:22:28.383 Loading level file: /home/observer/levels/124yy08.xml
+2020-02-07 15:22:28.383 Loading level file: /home/observer/levels/prmsysb.xml
+2020-02-07 15:22:28.384 Loading level file: /home/observer/levels/124pp04b.xml
+2020-02-07 15:22:28.384 Loading level file: /home/observer/levels/d1ht502.xml
+2020-02-07 15:22:28.385 Loading level file: /home/observer/levels/sotr.xml
+2020-02-07 15:22:28.385 Loading level file: /home/observer/levels/ks-10.xml
+2020-02-07 15:22:28.386 Loading level file: /home/observer/levels/vector.xml
+2020-02-07 15:22:28.387 Loading level file: /home/observer/levels/rs485-asku.xml
+2020-02-07 15:22:28.388 Loading level file: /home/observer/levels/rs485-des.xml
+2020-02-07 15:22:28.389 Loading level file: /home/observer/levels/vospd_rs485.xml
+2020-02-07 15:22:28.390 Loading level file: /home/observer/levels/rs485-sotr.xml
+2020-02-07 15:22:28.392 Loading level file: /home/observer/levels/rs485-svo.xml
+2020-02-07 15:22:28.393 Loading level file: /home/observer/levels/rs485-drive.xml
+2020-02-07 15:22:28.394 Loading level file: /home/observer/levels/126gp02.xml
+2020-02-07 15:22:28.396 Loading level file: /home/observer/levels/mvrl-kn.xml
+2020-02-07 15:22:28.396 Loading level file: /home/observer/levels/126gp02-panel.xml
+2020-02-07 15:22:28.397 Loading level file: /home/observer/levels/svkr-5.xml
+2020-02-07 15:22:28.398 Loading level file: /home/observer/levels/ca648.xml
+2020-02-07 15:22:28.398 Loading level file: /home/observer/levels/126gp02-vum.xml
+2020-02-07 15:22:28.402 Loading level file: /home/observer/levels/126gp02-prm.xml
+2020-02-07 15:22:28.403 Loading level file: /home/observer/levels/126gp02-azn.xml
+2020-02-07 15:22:28.404 Loading level file: /home/observer/levels/prdsysb.xml
+2020-02-07 15:22:28.405 Loading level file: /home/observer/levels/125yy04.xml
+2020-02-07 15:22:28.405 Loading level file: /home/observer/levels/125yy04-panel.xml
+2020-02-07 15:22:28.406 Loading level file: /home/observer/levels/124yg02.xml
+2020-02-07 15:22:28.407 Loading level file: /home/observer/levels/126gg02b.xml
+2020-02-07 15:22:28.408 Loading level file: /home/observer/levels/126gg02b1.xml
+2020-02-07 15:22:28.410 Loading level file: /home/observer/levels/paramumi.xml
+2020-02-07 15:22:28.453 Loading level file: /home/observer/levels/ksb.xml
+2020-02-07 15:22:28.453 Loading level file: /home/observer/levels/des.xml
+2020-02-07 15:22:28.454 Loading level file: /home/observer/levels/des-mains.xml
+2020-02-07 15:22:28.457 Loading level file: /home/observer/levels/des-dg.xml
+2020-02-07 15:22:28.461 Loading level function: /home/observer/levels/function.xml
+2020-02-07 15:22:28.465 AskuLevelCollection: function (trip) for element (prmsys,d1ht502_1) which is not in level
+2020-02-07 15:22:28.465 AskuLevelCollection: function (trip) for element (prmsys,d1ht502_2) which is not in level
+2020-02-07 15:22:28.472 AskuLevelCollection: set top base(base)
+2020-02-07 15:22:28.476 AskuLevelCollection: do trip from () to (base)
+2020-02-07 15:22:28.477 AskuLevelCollection: invalidate
+2020-02-07 15:22:29.505 moduleConnected idConnection=1 (127.0.0.1:5555)
+2020-02-07 15:22:29.572 AskuLevelCollection: invalidate
+2020-02-07 15:22:30.773 AskuLevelCollection: invalidate
+2020-02-07 15:22:31.363 AskuLevelCollection: invalidate
+2020-02-07 15:22:34.030 user event
+2020-02-07 15:22:35.030 moduleDisconnected idConnection=1
+2020-02-07 15:22:35.034 asku-gui: error write file /var/run/asku-gui.pid
+2020-02-07 15:22:35.035 --- Log stopped --------------------------------------
+2020-02-07 15:22:48.808 --- Log started --------------------------------------
+2020-02-07 15:22:48.808 LogLevel=F00000F000000F0F
+2020-02-07 15:22:48.808 Settings: RMO0
+2020-02-07 15:22:48.810 Loading asku config: /home/observer/config/asku-config.xml
+2020-02-07 15:22:48.810 AskuRlsControlConfig: no rls name
+2020-02-07 15:22:48.811 ASKU_config: make action (act_level_up)
+2020-02-07 15:22:48.811 ASKU_config: make action (act_level_base)
+2020-02-07 15:22:48.811 ASKU_config: make action group (group_base_zal) append (act_level_base)
+2020-02-07 15:22:48.811 ASKU_config: make action (act_level_zal)
+2020-02-07 15:22:48.811 ASKU_config: action group (group_base_zal) append (act_level_zal)
+2020-02-07 15:22:48.811 ASKU_config: make action (act_reload_scheme)
+2020-02-07 15:22:48.811 ASKU_config: make action (act_reload_config)
+2020-02-07 15:22:48.811 ASKU_config: make action (act_main_show)
+2020-02-07 15:22:48.811 ASKU_config: make action (act_main_hide)
+2020-02-07 15:22:48.811 ASKU_config: make action (act_quit)
+2020-02-07 15:22:48.811 ASKU_config: make action (act_dialog_about_exec)
+2020-02-07 15:22:48.811 ASKU_config: make action (act_dialog_settings_ui_exec)
+2020-02-07 15:22:48.811 ASKU_config: make action (act_dialog_dasd_show)
+2020-02-07 15:22:48.811 ASKU_config: make action (act_dialog_dasd_tables_show)
+2020-02-07 15:22:48.811 ASKU_config: make action (act_dialog_control_panel_show)
+2020-02-07 15:22:48.811 ASKU_config: make action (act_dialog_control_prd_show)
+2020-02-07 15:22:48.811 ASKU_config: make action (act_dialog_control_elk_show)
+2020-02-07 15:22:48.811 ASKU_config: make action (act_dialog_skrpilot_show)
+2020-02-07 15:22:48.811 ASKU_config: make action (act_dialog_setprm_show)
+2020-02-07 15:22:48.811 ASKU_config: make action (act_dialog_viewer_show)
+2020-02-07 15:22:48.811 ASKU_config: make action (act_dialog_phase_show)
+2020-02-07 15:22:48.811 ASKU_config: make action (act_dialog_coolers_show)
+2020-02-07 15:22:48.811 ASKU_config: make action (act_dialog_drives_show)
+2020-02-07 15:22:48.811 ASKU_config: make action (act_dialog_upses_show)
+2020-02-07 15:22:48.812 ASKU_config: make action (act_dialog_deses_show)
+2020-02-07 15:22:48.812 ASKU_config: make action (act_dialog_listrgdv_show)
+2020-02-07 15:22:48.812 ASKU_config: make action (act_dialog_logger_show)
+2020-02-07 15:22:48.812 ASKU_config: make action (act_dialog_powermeter_show)
+2020-02-07 15:22:48.812 ASKU_config: make action (act_dialog_avtomatica_show)
+2020-02-07 15:22:48.812 ASKU_config: make action (act_reset_avar_prd1)
+2020-02-07 15:22:48.812 ASKU_config: make action (act_reset_avar_prd2)
+2020-02-07 15:22:48.812 ASKU_config: make action (act_reset_avar_prm)
+2020-02-07 15:22:48.812 ASKU_config: make action (act_reset_avar_bep)
+2020-02-07 15:22:48.812 ASKU_config: make action (act_reset_avar_svo)
+2020-02-07 15:22:48.812 ASKU_config: make action (act_reset_avar_comm)
+2020-02-07 15:22:48.812 ASKU_config: make action (act_regime_test)
+2020-02-07 15:22:48.812 ASKU_config: make action (act_regime_rgdv)
+2020-02-07 15:22:48.812 ASKU_config: make action (act_regime_raf)
+2020-02-07 15:22:48.839 Loading RLS: 0-"" (lt='')
+2020-02-07 15:22:48.839 AskuLevelCollection: cleanup
+2020-02-07 15:22:48.839 AskuLevelCollection: invalidate
+2020-02-07 15:22:48.840 Loading level scheme: /home/observer/levels/scheme.xml
+2020-02-07 15:22:48.841 Loading level file: /home/observer/levels/base.xml
+2020-02-07 15:22:48.843 AskuLevelCollection: set base level (base)
+2020-02-07 15:22:48.843 Loading level file: /home/observer/levels/d7pg07b.xml
+2020-02-07 15:22:48.844 AskuLevelCollection: set zal level (zal)
+2020-02-07 15:22:48.844 Loading level file: /home/observer/levels/126pk01b.xml
+2020-02-07 15:22:48.845 Loading level file: /home/observer/levels/svkr-4.xml
+2020-02-07 15:22:48.846 Loading level file: /home/observer/levels/ups_snmp.xml
+2020-02-07 15:22:48.850 Loading level file: /home/observer/levels/poikoeff.xml
+2020-02-07 15:22:48.854 Loading level file: /home/observer/levels/cpu.xml
+2020-02-07 15:22:48.855 Loading level file: /home/observer/levels/voi.xml
+2020-02-07 15:22:48.855 Loading level file: /home/observer/levels/d7aa06.xml
+2020-02-07 15:22:48.856 Loading level file: /home/observer/levels/125yy03.xml
+2020-02-07 15:22:48.858 Loading level file: /home/observer/levels/124ee02.xml
+2020-02-07 15:22:48.860 Loading level file: /home/observer/levels/124yy08.xml
+2020-02-07 15:22:48.860 Loading level file: /home/observer/levels/prmsysb.xml
+2020-02-07 15:22:48.860 Loading level file: /home/observer/levels/124pp04b.xml
+2020-02-07 15:22:48.861 Loading level file: /home/observer/levels/d1ht502.xml
+2020-02-07 15:22:48.861 Loading level file: /home/observer/levels/sotr.xml
+2020-02-07 15:22:48.862 Loading level file: /home/observer/levels/ks-10.xml
+2020-02-07 15:22:48.863 Loading level file: /home/observer/levels/vector.xml
+2020-02-07 15:22:48.864 Loading level file: /home/observer/levels/rs485-asku.xml
+2020-02-07 15:22:48.865 Loading level file: /home/observer/levels/rs485-des.xml
+2020-02-07 15:22:48.865 Loading level file: /home/observer/levels/vospd_rs485.xml
+2020-02-07 15:22:48.867 Loading level file: /home/observer/levels/rs485-sotr.xml
+2020-02-07 15:22:48.869 Loading level file: /home/observer/levels/rs485-svo.xml
+2020-02-07 15:22:48.870 Loading level file: /home/observer/levels/rs485-drive.xml
+2020-02-07 15:22:48.871 Loading level file: /home/observer/levels/126gp02.xml
+2020-02-07 15:22:48.872 Loading level file: /home/observer/levels/mvrl-kn.xml
+2020-02-07 15:22:48.873 Loading level file: /home/observer/levels/126gp02-panel.xml
+2020-02-07 15:22:48.874 Loading level file: /home/observer/levels/svkr-5.xml
+2020-02-07 15:22:48.874 Loading level file: /home/observer/levels/ca648.xml
+2020-02-07 15:22:48.875 Loading level file: /home/observer/levels/126gp02-vum.xml
+2020-02-07 15:22:48.879 Loading level file: /home/observer/levels/126gp02-prm.xml
+2020-02-07 15:22:48.880 Loading level file: /home/observer/levels/126gp02-azn.xml
+2020-02-07 15:22:48.881 Loading level file: /home/observer/levels/prdsysb.xml
+2020-02-07 15:22:48.882 Loading level file: /home/observer/levels/125yy04.xml
+2020-02-07 15:22:48.882 Loading level file: /home/observer/levels/125yy04-panel.xml
+2020-02-07 15:22:48.883 Loading level file: /home/observer/levels/124yg02.xml
+2020-02-07 15:22:48.884 Loading level file: /home/observer/levels/126gg02b.xml
+2020-02-07 15:22:48.885 Loading level file: /home/observer/levels/126gg02b1.xml
+2020-02-07 15:22:48.887 Loading level file: /home/observer/levels/paramumi.xml
+2020-02-07 15:22:48.930 Loading level file: /home/observer/levels/ksb.xml
+2020-02-07 15:22:48.931 Loading level file: /home/observer/levels/des.xml
+2020-02-07 15:22:48.932 Loading level file: /home/observer/levels/des-mains.xml
+2020-02-07 15:22:48.934 Loading level file: /home/observer/levels/des-dg.xml
+2020-02-07 15:22:48.938 Loading level function: /home/observer/levels/function.xml
+2020-02-07 15:22:48.950 AskuLevelCollection: set top base(base)
+2020-02-07 15:22:48.957 AskuLevelCollection: do trip from () to (base)
+2020-02-07 15:22:48.957 AskuLevelCollection: invalidate
+2020-02-07 15:22:49.985 moduleConnected idConnection=1 (127.0.0.1:5555)
+2020-02-07 15:22:50.051 AskuLevelCollection: element not found (prmsys@d2ht502_1)
+2020-02-07 15:22:50.051 AskuLevelCollection: element not found (prmsys@d2ht502_2)
+2020-02-07 15:22:50.052 AskuLevelCollection: invalidate
+2020-02-07 15:22:51.273 AskuLevelCollection: invalidate
+2020-02-07 15:22:51.995 AskuLevelCollection: set down level (prmsys)
+2020-02-07 15:22:51.995 AskuLevelCollection: do trip from (base) to (prmsys)
+2020-02-07 15:22:51.996 AskuLevelCollection: invalidate
+2020-02-07 15:22:53.843 AskuLevelCollection: set down level (d1ht502_1)
+2020-02-07 15:22:53.843 AskuLevelCollection: do trip from (prmsys) to (d1ht502_1)
+2020-02-07 15:22:53.843 AskuLevelCollection: invalidate
+2020-02-07 15:22:55.839 AskuLevelCollection: invalidate
+2020-02-07 15:22:58.839 AskuLevelCollection: invalidate
+2020-02-07 15:23:06.459 CommonDialogSet::Invoke action dialog "dialog_dasd" show
+2020-02-07 15:23:06.459 CommonDialogSet::show : "dialog_dasd" not found
+2020-02-07 15:23:06.459 rlsDialogSet_0::Invoke action dialog "dialog_dasd" show
+2020-02-07 15:23:46.723 AskuLevelCollection: set up level
+2020-02-07 15:23:46.723 AskuLevelCollection: do trip from (d1ht502_1) to (prmsys)
+2020-02-07 15:23:46.723 AskuLevelCollection: invalidate
+2020-02-07 15:23:48.179 AskuLevelCollection: set up level
+2020-02-07 15:23:48.179 AskuLevelCollection: do trip from (prmsys) to (base)
+2020-02-07 15:23:48.179 AskuLevelCollection: invalidate
+2020-02-07 15:24:05.307 AskuLevelCollection: set down level (prmsys)
+2020-02-07 15:24:05.307 AskuLevelCollection: do trip from (base) to (prmsys)
+2020-02-07 15:24:05.307 AskuLevelCollection: invalidate
+2020-02-07 15:24:17.515 AskuLevelCollection: set up level
+2020-02-07 15:24:17.515 AskuLevelCollection: do trip from (prmsys) to (base)
+2020-02-07 15:24:17.515 AskuLevelCollection: invalidate
+2020-02-07 15:25:44.227 AskuLevelCollection: set top zal(zal)
+2020-02-07 15:25:44.227 AskuLevelCollection: do trip from (base) to (zal)
+2020-02-07 15:25:44.227 AskuLevelCollection: invalidate
+2020-02-07 15:25:47.948 AskuLevelCollection: set top base(base)
+2020-02-07 15:25:47.948 AskuLevelCollection: do trip from (zal) to (base)
+2020-02-07 15:25:47.948 AskuLevelCollection: invalidate
+2020-02-07 15:26:25.114 AskuLevelCollection: set down level (prmsys)
+2020-02-07 15:26:25.114 AskuLevelCollection: do trip from (base) to (prmsys)
+2020-02-07 15:26:25.114 AskuLevelCollection: invalidate
+2020-02-07 15:26:38.770 AskuLevelCollection: set up level
+2020-02-07 15:26:38.770 AskuLevelCollection: do trip from (prmsys) to (base)
+2020-02-07 15:26:38.770 AskuLevelCollection: invalidate
+2020-02-07 15:27:53.898 AskuLevelCollection: set down level (obr_base)
+2020-02-07 15:27:53.898 AskuLevelCollection: do trip from (base) to (obr_base)
+2020-02-07 15:27:53.898 AskuLevelCollection: invalidate
+2020-02-07 15:27:55.594 AskuLevelCollection: set up level
+2020-02-07 15:27:55.594 AskuLevelCollection: do trip from (obr_base) to (base)
+2020-02-07 15:27:55.594 AskuLevelCollection: invalidate
+2020-02-07 15:27:56.594 AskuLevelCollection: set down level (prmsys)
+2020-02-07 15:27:56.594 AskuLevelCollection: do trip from (base) to (prmsys)
+2020-02-07 15:27:56.594 AskuLevelCollection: invalidate
+2020-02-07 15:27:58.794 AskuLevelCollection: set down level (d1ht502_1)
+2020-02-07 15:27:58.794 AskuLevelCollection: do trip from (prmsys) to (d1ht502_1)
+2020-02-07 15:27:58.794 AskuLevelCollection: invalidate
+2020-02-07 15:28:31.145 AskuLevelCollection: set up level
+2020-02-07 15:28:31.145 AskuLevelCollection: do trip from (d1ht502_1) to (prmsys)
+2020-02-07 15:28:31.146 AskuLevelCollection: invalidate
+2020-02-07 15:29:26.625 CommonDialogSet::Invoke action dialog "dialog_viewer" show
+2020-02-07 15:29:26.625 CommonDialogSet::show : "dialog_viewer" not found
+2020-02-07 15:29:26.625 rlsDialogSet_0::Invoke action dialog "dialog_viewer" show
+2020-02-07 15:30:26.192 AskuLevelCollection: set down level (d1ht502_1)
+2020-02-07 15:30:26.193 AskuLevelCollection: do trip from (prmsys) to (d1ht502_1)
+2020-02-07 15:30:26.193 AskuLevelCollection: invalidate
+2020-02-07 15:30:39.984 AskuLevelCollection: set up level
+2020-02-07 15:30:39.984 AskuLevelCollection: do trip from (d1ht502_1) to (prmsys)
+2020-02-07 15:30:39.985 AskuLevelCollection: invalidate
+2020-02-07 15:31:21.352 AskuLevelCollection: set down level (prm)
+2020-02-07 15:31:21.352 AskuLevelCollection: do trip from (prmsys) to (prm)
+2020-02-07 15:31:21.352 AskuLevelCollection: invalidate
+2020-02-07 15:31:25.520 AskuLevelCollection: set up level
+2020-02-07 15:31:25.520 AskuLevelCollection: do trip from (prm) to (prmsys)
+2020-02-07 15:31:25.521 AskuLevelCollection: invalidate
+2020-02-07 15:31:26.224 AskuLevelCollection: set down level (prm)
+2020-02-07 15:31:26.224 AskuLevelCollection: do trip from (prmsys) to (prm)
+2020-02-07 15:31:26.224 AskuLevelCollection: invalidate
+2020-02-07 15:31:31.288 AskuLevelCollection: set up level
+2020-02-07 15:31:31.288 AskuLevelCollection: do trip from (prm) to (prmsys)
+2020-02-07 15:31:31.288 AskuLevelCollection: invalidate
+2020-02-07 15:31:44.648 AskuLevelCollection: set down level (prm)
+2020-02-07 15:31:44.648 AskuLevelCollection: do trip from (prmsys) to (prm)
+2020-02-07 15:31:44.648 AskuLevelCollection: invalidate
+2020-02-07 15:31:49.208 AskuLevelCollection: set up level
+2020-02-07 15:31:49.208 AskuLevelCollection: do trip from (prm) to (prmsys)
+2020-02-07 15:31:49.208 AskuLevelCollection: invalidate
+2020-02-07 15:32:24.840 AskuLevelCollection: set down level (prm)
+2020-02-07 15:32:24.840 AskuLevelCollection: do trip from (prmsys) to (prm)
+2020-02-07 15:32:24.840 AskuLevelCollection: invalidate
+2020-02-07 15:32:37.480 AskuLevelCollection: set up level
+2020-02-07 15:32:37.480 AskuLevelCollection: do trip from (prm) to (prmsys)
+2020-02-07 15:32:37.480 AskuLevelCollection: invalidate
+2020-02-07 15:33:06.087 AskuLevelCollection: set up level
+2020-02-07 15:33:06.088 AskuLevelCollection: do trip from (prmsys) to (base)
+2020-02-07 15:33:06.088 AskuLevelCollection: invalidate
+2020-02-07 15:33:24.279 AskuLevelCollection: set down level (prmsys)
+2020-02-07 15:33:24.280 AskuLevelCollection: do trip from (base) to (prmsys)
+2020-02-07 15:33:24.280 AskuLevelCollection: invalidate
+2020-02-07 15:33:28.879 AskuLevelCollection: set up level
+2020-02-07 15:33:28.879 AskuLevelCollection: do trip from (prmsys) to (base)
+2020-02-07 15:33:28.880 AskuLevelCollection: invalidate
+2020-02-07 15:33:51.543 AskuLevelCollection: set down level (prmsys)
+2020-02-07 15:33:51.543 AskuLevelCollection: do trip from (base) to (prmsys)
+2020-02-07 15:33:51.543 AskuLevelCollection: invalidate
+2020-02-07 15:34:20.391 AskuLevelCollection: set down level (d1ht502_1)
+2020-02-07 15:34:20.391 AskuLevelCollection: do trip from (prmsys) to (d1ht502_1)
+2020-02-07 15:34:20.391 AskuLevelCollection: invalidate
+2020-02-07 15:35:33.526 CommonDialogSet: Invoke action dialog "dialog_settings_ui" exec
+2020-02-07 15:35:47.065 AskuLevelCollection: invalidate
+2020-02-07 15:35:47.221 rlsDialogSet_0: Invoke action dialog "dialog_settings_ui" exec
+2020-02-07 15:35:47.221 rlsDialogSet_0::exec : "dialog_settings_ui" not found
+2020-02-07 15:37:03.062 AskuLevelCollection: set up level
+2020-02-07 15:37:03.062 AskuLevelCollection: do trip from (d1ht502_1) to (prmsys)
+2020-02-07 15:37:03.062 AskuLevelCollection: invalidate
+2020-02-07 15:37:29.628 moduleDisconnected idConnection=1
+2020-02-07 15:37:29.631 asku-gui: error write file /var/run/asku-gui.pid
+2020-02-07 15:37:29.632 --- Log stopped --------------------------------------
+2020-02-07 15:37:53.420 --- Log started --------------------------------------
+2020-02-07 15:37:53.420 LogLevel=F00000F000000F0F
+2020-02-07 15:37:53.420 Settings: RMO0
+2020-02-07 15:37:53.421 Loading asku config: /home/observer/config/asku-config.xml
+2020-02-07 15:37:53.422 AskuRlsControlConfig: no rls name
+2020-02-07 15:37:53.422 ASKU_config: make action (act_level_up)
+2020-02-07 15:37:53.422 ASKU_config: make action (act_level_base)
+2020-02-07 15:37:53.422 ASKU_config: make action group (group_base_zal) append (act_level_base)
+2020-02-07 15:37:53.422 ASKU_config: make action (act_level_zal)
+2020-02-07 15:37:53.422 ASKU_config: action group (group_base_zal) append (act_level_zal)
+2020-02-07 15:37:53.422 ASKU_config: make action (act_reload_scheme)
+2020-02-07 15:37:53.422 ASKU_config: make action (act_reload_config)
+2020-02-07 15:37:53.422 ASKU_config: make action (act_main_show)
+2020-02-07 15:37:53.422 ASKU_config: make action (act_main_hide)
+2020-02-07 15:37:53.422 ASKU_config: make action (act_quit)
+2020-02-07 15:37:53.422 ASKU_config: make action (act_dialog_about_exec)
+2020-02-07 15:37:53.422 ASKU_config: make action (act_dialog_settings_ui_exec)
+2020-02-07 15:37:53.422 ASKU_config: make action (act_dialog_dasd_show)
+2020-02-07 15:37:53.422 ASKU_config: make action (act_dialog_dasd_tables_show)
+2020-02-07 15:37:53.422 ASKU_config: make action (act_dialog_control_panel_show)
+2020-02-07 15:37:53.422 ASKU_config: make action (act_dialog_control_prd_show)
+2020-02-07 15:37:53.422 ASKU_config: make action (act_dialog_control_elk_show)
+2020-02-07 15:37:53.422 ASKU_config: make action (act_dialog_skrpilot_show)
+2020-02-07 15:37:53.422 ASKU_config: make action (act_dialog_setprm_show)
+2020-02-07 15:37:53.422 ASKU_config: make action (act_dialog_viewer_show)
+2020-02-07 15:37:53.422 ASKU_config: make action (act_dialog_phase_show)
+2020-02-07 15:37:53.422 ASKU_config: make action (act_dialog_coolers_show)
+2020-02-07 15:37:53.422 ASKU_config: make action (act_dialog_drives_show)
+2020-02-07 15:37:53.423 ASKU_config: make action (act_dialog_upses_show)
+2020-02-07 15:37:53.423 ASKU_config: make action (act_dialog_deses_show)
+2020-02-07 15:37:53.423 ASKU_config: make action (act_dialog_listrgdv_show)
+2020-02-07 15:37:53.423 ASKU_config: make action (act_dialog_logger_show)
+2020-02-07 15:37:53.423 ASKU_config: make action (act_dialog_powermeter_show)
+2020-02-07 15:37:53.423 ASKU_config: make action (act_dialog_avtomatica_show)
+2020-02-07 15:37:53.423 ASKU_config: make action (act_reset_avar_prd1)
+2020-02-07 15:37:53.423 ASKU_config: make action (act_reset_avar_prd2)
+2020-02-07 15:37:53.423 ASKU_config: make action (act_reset_avar_prm)
+2020-02-07 15:37:53.423 ASKU_config: make action (act_reset_avar_bep)
+2020-02-07 15:37:53.423 ASKU_config: make action (act_reset_avar_svo)
+2020-02-07 15:37:53.423 ASKU_config: make action (act_reset_avar_comm)
+2020-02-07 15:37:53.423 ASKU_config: make action (act_regime_test)
+2020-02-07 15:37:53.423 ASKU_config: make action (act_regime_rgdv)
+2020-02-07 15:37:53.423 ASKU_config: make action (act_regime_raf)
+2020-02-07 15:37:53.451 Loading RLS: 0-"" (lt='')
+2020-02-07 15:37:53.451 AskuLevelCollection: cleanup
+2020-02-07 15:37:53.451 AskuLevelCollection: invalidate
+2020-02-07 15:37:53.452 Loading level scheme: /home/observer/levels/scheme.xml
+2020-02-07 15:37:53.453 Loading level file: /home/observer/levels/base.xml
+2020-02-07 15:37:53.455 AskuLevelCollection: set base level (base)
+2020-02-07 15:37:53.455 Loading level file: /home/observer/levels/d7pg07b.xml
+2020-02-07 15:37:53.455 AskuLevelCollection: set zal level (zal)
+2020-02-07 15:37:53.456 Loading level file: /home/observer/levels/126pk01b.xml
+2020-02-07 15:37:53.456 Loading level file: /home/observer/levels/svkr-4.xml
+2020-02-07 15:37:53.458 Loading level file: /home/observer/levels/ups_snmp.xml
+2020-02-07 15:37:53.462 Loading level file: /home/observer/levels/poikoeff.xml
+2020-02-07 15:37:53.466 Loading level file: /home/observer/levels/cpu.xml
+2020-02-07 15:37:53.467 Loading level file: /home/observer/levels/voi.xml
+2020-02-07 15:37:53.467 Loading level file: /home/observer/levels/d7aa06.xml
+2020-02-07 15:37:53.468 Loading level file: /home/observer/levels/125yy03.xml
+2020-02-07 15:37:53.470 Loading level file: /home/observer/levels/124ee02.xml
+2020-02-07 15:37:53.472 Loading level file: /home/observer/levels/124yy08.xml
+2020-02-07 15:37:53.472 Loading level file: /home/observer/levels/prmsysb.xml
+2020-02-07 15:37:53.473 Loading level file: /home/observer/levels/124pp04b.xml
+2020-02-07 15:37:53.473 Loading level file: /home/observer/levels/d1ht502.xml
+2020-02-07 15:37:53.474 Loading level file: /home/observer/levels/sotr.xml
+2020-02-07 15:37:53.475 Loading level file: /home/observer/levels/ks-10.xml
+2020-02-07 15:37:53.475 Loading level file: /home/observer/levels/vector.xml
+2020-02-07 15:37:53.476 Loading level file: /home/observer/levels/rs485-asku.xml
+2020-02-07 15:37:53.477 Loading level file: /home/observer/levels/rs485-des.xml
+2020-02-07 15:37:53.478 Loading level file: /home/observer/levels/vospd_rs485.xml
+2020-02-07 15:37:53.480 Loading level file: /home/observer/levels/rs485-sotr.xml
+2020-02-07 15:37:53.482 Loading level file: /home/observer/levels/rs485-svo.xml
+2020-02-07 15:37:53.483 Loading level file: /home/observer/levels/rs485-drive.xml
+2020-02-07 15:37:53.484 Loading level file: /home/observer/levels/126gp02.xml
+2020-02-07 15:37:53.485 Loading level file: /home/observer/levels/mvrl-kn.xml
+2020-02-07 15:37:53.486 Loading level file: /home/observer/levels/126gp02-panel.xml
+2020-02-07 15:37:53.486 Loading level file: /home/observer/levels/svkr-5.xml
+2020-02-07 15:37:53.487 Loading level file: /home/observer/levels/ca648.xml
+2020-02-07 15:37:53.488 Loading level file: /home/observer/levels/126gp02-vum.xml
+2020-02-07 15:37:53.492 Loading level file: /home/observer/levels/126gp02-prm.xml
+2020-02-07 15:37:53.493 Loading level file: /home/observer/levels/126gp02-azn.xml
+2020-02-07 15:37:53.494 Loading level file: /home/observer/levels/prdsysb.xml
+2020-02-07 15:37:53.495 Loading level file: /home/observer/levels/125yy04.xml
+2020-02-07 15:37:53.496 Loading level file: /home/observer/levels/125yy04-panel.xml
+2020-02-07 15:37:53.496 Loading level file: /home/observer/levels/124yg02.xml
+2020-02-07 15:37:53.497 Loading level file: /home/observer/levels/126gg02b.xml
+2020-02-07 15:37:53.499 Loading level file: /home/observer/levels/126gg02b1.xml
+2020-02-07 15:37:53.500 Loading level file: /home/observer/levels/paramumi.xml
+2020-02-07 15:37:53.546 Loading level file: /home/observer/levels/ksb.xml
+2020-02-07 15:37:53.546 Loading level file: /home/observer/levels/des.xml
+2020-02-07 15:37:53.548 Loading level file: /home/observer/levels/des-mains.xml
+2020-02-07 15:37:53.551 Loading level file: /home/observer/levels/des-dg.xml
+2020-02-07 15:37:53.555 Loading level function: /home/observer/levels/function.xml
+2020-02-07 15:37:53.566 AskuLevelCollection: set top base(base)
+2020-02-07 15:37:53.574 AskuLevelCollection: do trip from () to (base)
+2020-02-07 15:37:53.574 AskuLevelCollection: invalidate
+2020-02-07 15:37:54.603 moduleConnected idConnection=1 (127.0.0.1:5555)
+2020-02-07 15:37:54.667 AskuLevelCollection: element not found (prmsys@d2ht502_1)
+2020-02-07 15:37:54.667 AskuLevelCollection: element not found (prmsys@d2ht502_2)
+2020-02-07 15:37:54.668 AskuLevelCollection: invalidate
+2020-02-07 15:37:55.451 AskuLevelCollection: invalidate
+2020-02-07 15:37:55.773 AskuLevelCollection: invalidate
+2020-02-07 15:38:03.451 AskuLevelCollection: invalidate
+2020-02-07 15:38:40.050 moduleDisconnected idConnection=1
+2020-02-07 15:38:40.053 asku-gui: error write file /var/run/asku-gui.pid
+2020-02-07 15:38:40.054 --- Log stopped --------------------------------------
+2020-02-07 15:39:58.781 --- Log started --------------------------------------
+2020-02-07 15:39:58.781 LogLevel=F00000F000000F0F
+2020-02-07 15:39:58.781 Settings: RMO0
+2020-02-07 15:39:58.782 Loading asku config: /home/observer/config/asku-config.xml
+2020-02-07 15:39:58.783 AskuRlsControlConfig: no rls name
+2020-02-07 15:39:58.783 ASKU_config: make action (act_level_up)
+2020-02-07 15:39:58.783 ASKU_config: make action (act_level_base)
+2020-02-07 15:39:58.783 ASKU_config: make action group (group_base_zal) append (act_level_base)
+2020-02-07 15:39:58.783 ASKU_config: make action (act_level_zal)
+2020-02-07 15:39:58.783 ASKU_config: action group (group_base_zal) append (act_level_zal)
+2020-02-07 15:39:58.783 ASKU_config: make action (act_reload_scheme)
+2020-02-07 15:39:58.783 ASKU_config: make action (act_reload_config)
+2020-02-07 15:39:58.783 ASKU_config: make action (act_main_show)
+2020-02-07 15:39:58.783 ASKU_config: make action (act_main_hide)
+2020-02-07 15:39:58.783 ASKU_config: make action (act_quit)
+2020-02-07 15:39:58.783 ASKU_config: make action (act_dialog_about_exec)
+2020-02-07 15:39:58.783 ASKU_config: make action (act_dialog_settings_ui_exec)
+2020-02-07 15:39:58.783 ASKU_config: make action (act_dialog_dasd_show)
+2020-02-07 15:39:58.783 ASKU_config: make action (act_dialog_dasd_tables_show)
+2020-02-07 15:39:58.784 ASKU_config: make action (act_dialog_control_panel_show)
+2020-02-07 15:39:58.784 ASKU_config: make action (act_dialog_control_prd_show)
+2020-02-07 15:39:58.784 ASKU_config: make action (act_dialog_control_elk_show)
+2020-02-07 15:39:58.784 ASKU_config: make action (act_dialog_skrpilot_show)
+2020-02-07 15:39:58.784 ASKU_config: make action (act_dialog_setprm_show)
+2020-02-07 15:39:58.784 ASKU_config: make action (act_dialog_viewer_show)
+2020-02-07 15:39:58.784 ASKU_config: make action (act_dialog_phase_show)
+2020-02-07 15:39:58.784 ASKU_config: make action (act_dialog_coolers_show)
+2020-02-07 15:39:58.784 ASKU_config: make action (act_dialog_drives_show)
+2020-02-07 15:39:58.784 ASKU_config: make action (act_dialog_upses_show)
+2020-02-07 15:39:58.784 ASKU_config: make action (act_dialog_deses_show)
+2020-02-07 15:39:58.784 ASKU_config: make action (act_dialog_listrgdv_show)
+2020-02-07 15:39:58.784 ASKU_config: make action (act_dialog_logger_show)
+2020-02-07 15:39:58.784 ASKU_config: make action (act_dialog_powermeter_show)
+2020-02-07 15:39:58.784 ASKU_config: make action (act_dialog_avtomatica_show)
+2020-02-07 15:39:58.784 ASKU_config: make action (act_reset_avar_prd1)
+2020-02-07 15:39:58.784 ASKU_config: make action (act_reset_avar_prd2)
+2020-02-07 15:39:58.784 ASKU_config: make action (act_reset_avar_prm)
+2020-02-07 15:39:58.784 ASKU_config: make action (act_reset_avar_bep)
+2020-02-07 15:39:58.784 ASKU_config: make action (act_reset_avar_svo)
+2020-02-07 15:39:58.784 ASKU_config: make action (act_reset_avar_comm)
+2020-02-07 15:39:58.784 ASKU_config: make action (act_regime_test)
+2020-02-07 15:39:58.784 ASKU_config: make action (act_regime_rgdv)
+2020-02-07 15:39:58.784 ASKU_config: make action (act_regime_raf)
+2020-02-07 15:39:58.812 Loading RLS: 0-"" (lt='')
+2020-02-07 15:39:58.812 AskuLevelCollection: cleanup
+2020-02-07 15:39:58.812 AskuLevelCollection: invalidate
+2020-02-07 15:39:58.813 Loading level scheme: /home/observer/levels/scheme.xml
+2020-02-07 15:39:58.815 Loading level file: /home/observer/levels/base.xml
+2020-02-07 15:39:58.816 AskuLevelCollection: set base level (base)
+2020-02-07 15:39:58.816 Loading level file: /home/observer/levels/d7pg07b.xml
+2020-02-07 15:39:58.817 AskuLevelCollection: set zal level (zal)
+2020-02-07 15:39:58.817 Loading level file: /home/observer/levels/126pk01b.xml
+2020-02-07 15:39:58.818 Loading level file: /home/observer/levels/svkr-4.xml
+2020-02-07 15:39:58.819 Loading level file: /home/observer/levels/ups_snmp.xml
+2020-02-07 15:39:58.823 Loading level file: /home/observer/levels/poikoeff.xml
+2020-02-07 15:39:58.827 Loading level file: /home/observer/levels/cpu.xml
+2020-02-07 15:39:58.827 Loading level file: /home/observer/levels/voi.xml
+2020-02-07 15:39:58.828 Loading level file: /home/observer/levels/d7aa06.xml
+2020-02-07 15:39:58.829 Loading level file: /home/observer/levels/125yy03.xml
+2020-02-07 15:39:58.831 Loading level file: /home/observer/levels/124ee02.xml
+2020-02-07 15:39:58.832 Loading level file: /home/observer/levels/124yy08.xml
+2020-02-07 15:39:58.833 Loading level file: /home/observer/levels/prmsysb.xml
+2020-02-07 15:39:58.833 Loading level file: /home/observer/levels/124pp04b.xml
+2020-02-07 15:39:58.833 Loading level file: /home/observer/levels/d1ht502.xml
+2020-02-07 15:39:58.834 Loading level file: /home/observer/levels/sotr.xml
+2020-02-07 15:39:58.835 Loading level file: /home/observer/levels/ks-10.xml
+2020-02-07 15:39:58.835 Loading level file: /home/observer/levels/vector.xml
+2020-02-07 15:39:58.836 Loading level file: /home/observer/levels/rs485-asku.xml
+2020-02-07 15:39:58.837 Loading level file: /home/observer/levels/rs485-des.xml
+2020-02-07 15:39:58.838 Loading level file: /home/observer/levels/vospd_rs485.xml
+2020-02-07 15:39:58.840 Loading level file: /home/observer/levels/rs485-sotr.xml
+2020-02-07 15:39:58.841 Loading level file: /home/observer/levels/rs485-svo.xml
+2020-02-07 15:39:58.842 Loading level file: /home/observer/levels/rs485-drive.xml
+2020-02-07 15:39:58.843 Loading level file: /home/observer/levels/126gp02.xml
+2020-02-07 15:39:58.845 Loading level file: /home/observer/levels/mvrl-kn.xml
+2020-02-07 15:39:58.846 Loading level file: /home/observer/levels/126gp02-panel.xml
+2020-02-07 15:39:58.846 Loading level file: /home/observer/levels/svkr-5.xml
+2020-02-07 15:39:58.847 Loading level file: /home/observer/levels/ca648.xml
+2020-02-07 15:39:58.848 Loading level file: /home/observer/levels/126gp02-vum.xml
+2020-02-07 15:39:58.851 Loading level file: /home/observer/levels/126gp02-prm.xml
+2020-02-07 15:39:58.852 Loading level file: /home/observer/levels/126gp02-azn.xml
+2020-02-07 15:39:58.853 Loading level file: /home/observer/levels/prdsysb.xml
+2020-02-07 15:39:58.854 Loading level file: /home/observer/levels/125yy04.xml
+2020-02-07 15:39:58.855 Loading level file: /home/observer/levels/125yy04-panel.xml
+2020-02-07 15:39:58.855 Loading level file: /home/observer/levels/124yg02.xml
+2020-02-07 15:39:58.856 Loading level file: /home/observer/levels/126gg02b.xml
+2020-02-07 15:39:58.858 Loading level file: /home/observer/levels/126gg02b1.xml
+2020-02-07 15:39:58.859 Loading level file: /home/observer/levels/paramumi.xml
+2020-02-07 15:39:58.903 Loading level file: /home/observer/levels/ksb.xml
+2020-02-07 15:39:58.904 Loading level file: /home/observer/levels/des.xml
+2020-02-07 15:39:58.905 Loading level file: /home/observer/levels/des-mains.xml
+2020-02-07 15:39:58.907 Loading level file: /home/observer/levels/des-dg.xml
+2020-02-07 15:39:58.911 Loading level function: /home/observer/levels/function.xml
+2020-02-07 15:39:58.923 AskuLevelCollection: set top base(base)
+2020-02-07 15:39:58.930 AskuLevelCollection: do trip from () to (base)
+2020-02-07 15:39:58.930 AskuLevelCollection: invalidate
+2020-02-07 15:39:59.964 moduleConnected idConnection=1 (127.0.0.1:5555)
+2020-02-07 15:40:00.031 AskuLevelCollection: element not found (prmsys@d2ht502_1)
+2020-02-07 15:40:00.031 AskuLevelCollection: element not found (prmsys@d2ht502_2)
+2020-02-07 15:40:00.033 AskuLevelCollection: invalidate
+2020-02-07 15:40:01.273 AskuLevelCollection: invalidate
+2020-02-07 15:40:01.813 AskuLevelCollection: invalidate
+2020-02-07 15:40:03.861 CommonDialogSet::Invoke action dialog "dialog_control_panel" show
+2020-02-07 15:40:03.861 CommonDialogSet::show : "dialog_control_panel" not found
+2020-02-07 15:40:03.861 rlsDialogSet_0::Invoke action dialog "dialog_control_panel" show
+2020-02-07 15:40:08.812 AskuLevelCollection: invalidate
+2020-02-07 18:10:07.792 CommonDialogSet: Invoke action dialog "dialog_settings_ui" exec
+2020-02-07 18:10:14.147 AskuLevelCollection: invalidate
+2020-02-07 18:11:04.778 AskuLevelCollection: invalidate
+2020-02-07 18:11:05.506 AskuLevelCollection: invalidate
+2020-02-07 18:11:05.663 rlsDialogSet_0: Invoke action dialog "dialog_settings_ui" exec
+2020-02-07 18:11:05.663 rlsDialogSet_0::exec : "dialog_settings_ui" not found
+2020-02-07 18:11:09.592 CommonDialogSet: Invoke action dialog "dialog_settings_ui" exec
+2020-02-07 18:11:11.562 AskuLevelCollection: invalidate
+2020-02-07 18:11:11.718 rlsDialogSet_0: Invoke action dialog "dialog_settings_ui" exec
+2020-02-07 18:11:11.718 rlsDialogSet_0::exec : "dialog_settings_ui" not found
+2020-02-07 18:11:15.486 moduleDisconnected idConnection=1
+2020-02-07 18:11:15.490 asku-gui: error write file /var/run/asku-gui.pid
+2020-02-07 18:11:15.491 --- Log stopped --------------------------------------
+2020-02-07 18:11:20.890 --- Log started --------------------------------------
+2020-02-07 18:11:20.890 LogLevel=F00000F000000F0F
+2020-02-07 18:11:20.890 Settings: RMO0
+2020-02-07 18:11:20.892 Loading asku config: /home/observer/config/asku-config.xml
+2020-02-07 18:11:20.892 AskuRlsControlConfig: no rls name
+2020-02-07 18:11:20.892 ASKU_config: make action (act_level_up)
+2020-02-07 18:11:20.893 ASKU_config: make action (act_level_base)
+2020-02-07 18:11:20.893 ASKU_config: make action group (group_base_zal) append (act_level_base)
+2020-02-07 18:11:20.893 ASKU_config: make action (act_level_zal)
+2020-02-07 18:11:20.893 ASKU_config: action group (group_base_zal) append (act_level_zal)
+2020-02-07 18:11:20.893 ASKU_config: make action (act_reload_scheme)
+2020-02-07 18:11:20.893 ASKU_config: make action (act_reload_config)
+2020-02-07 18:11:20.893 ASKU_config: make action (act_main_show)
+2020-02-07 18:11:20.893 ASKU_config: make action (act_main_hide)
+2020-02-07 18:11:20.893 ASKU_config: make action (act_quit)
+2020-02-07 18:11:20.893 ASKU_config: make action (act_dialog_about_exec)
+2020-02-07 18:11:20.893 ASKU_config: make action (act_dialog_settings_ui_exec)
+2020-02-07 18:11:20.893 ASKU_config: make action (act_dialog_dasd_show)
+2020-02-07 18:11:20.893 ASKU_config: make action (act_dialog_dasd_tables_show)
+2020-02-07 18:11:20.893 ASKU_config: make action (act_dialog_control_panel_show)
+2020-02-07 18:11:20.893 ASKU_config: make action (act_dialog_control_prd_show)
+2020-02-07 18:11:20.893 ASKU_config: make action (act_dialog_control_elk_show)
+2020-02-07 18:11:20.893 ASKU_config: make action (act_dialog_skrpilot_show)
+2020-02-07 18:11:20.893 ASKU_config: make action (act_dialog_setprm_show)
+2020-02-07 18:11:20.893 ASKU_config: make action (act_dialog_viewer_show)
+2020-02-07 18:11:20.893 ASKU_config: make action (act_dialog_phase_show)
+2020-02-07 18:11:20.893 ASKU_config: make action (act_dialog_coolers_show)
+2020-02-07 18:11:20.893 ASKU_config: make action (act_dialog_drives_show)
+2020-02-07 18:11:20.893 ASKU_config: make action (act_dialog_upses_show)
+2020-02-07 18:11:20.893 ASKU_config: make action (act_dialog_deses_show)
+2020-02-07 18:11:20.893 ASKU_config: make action (act_dialog_listrgdv_show)
+2020-02-07 18:11:20.893 ASKU_config: make action (act_dialog_logger_show)
+2020-02-07 18:11:20.893 ASKU_config: make action (act_dialog_powermeter_show)
+2020-02-07 18:11:20.893 ASKU_config: make action (act_dialog_avtomatica_show)
+2020-02-07 18:11:20.893 ASKU_config: make action (act_reset_avar_prd1)
+2020-02-07 18:11:20.893 ASKU_config: make action (act_reset_avar_prd2)
+2020-02-07 18:11:20.893 ASKU_config: make action (act_reset_avar_prm)
+2020-02-07 18:11:20.893 ASKU_config: make action (act_reset_avar_bep)
+2020-02-07 18:11:20.894 ASKU_config: make action (act_reset_avar_svo)
+2020-02-07 18:11:20.894 ASKU_config: make action (act_reset_avar_comm)
+2020-02-07 18:11:20.894 ASKU_config: make action (act_regime_test)
+2020-02-07 18:11:20.894 ASKU_config: make action (act_regime_rgdv)
+2020-02-07 18:11:20.894 ASKU_config: make action (act_regime_raf)
+2020-02-07 18:11:20.921 Loading RLS: 0-"" (lt='')
+2020-02-07 18:11:20.921 AskuLevelCollection: cleanup
+2020-02-07 18:11:20.921 AskuLevelCollection: invalidate
+2020-02-07 18:11:20.922 Loading level scheme: /home/observer/levels/scheme.xml
+2020-02-07 18:11:20.923 Loading level file: /home/observer/levels/base.xml
+2020-02-07 18:11:20.924 AskuLevelCollection: set base level (base)
+2020-02-07 18:11:20.925 Loading level file: /home/observer/levels/d7pg07b.xml
+2020-02-07 18:11:20.926 AskuLevelCollection: set zal level (zal)
+2020-02-07 18:11:20.926 Loading level file: /home/observer/levels/126pk01b.xml
+2020-02-07 18:11:20.927 Loading level file: /home/observer/levels/svkr-4.xml
+2020-02-07 18:11:20.928 Loading level file: /home/observer/levels/ups_snmp.xml
+2020-02-07 18:11:20.932 Loading level file: /home/observer/levels/poikoeff.xml
+2020-02-07 18:11:20.936 Loading level file: /home/observer/levels/cpu.xml
+2020-02-07 18:11:20.937 Loading level file: /home/observer/levels/voi.xml
+2020-02-07 18:11:20.937 Loading level file: /home/observer/levels/d7aa06.xml
+2020-02-07 18:11:20.938 Loading level file: /home/observer/levels/125yy03.xml
+2020-02-07 18:11:20.940 Loading level file: /home/observer/levels/124ee02.xml
+2020-02-07 18:11:20.942 Loading level file: /home/observer/levels/124yy08.xml
+2020-02-07 18:11:20.942 Loading level file: /home/observer/levels/prmsysb.xml
+2020-02-07 18:11:20.942 Loading level file: /home/observer/levels/124pp04b.xml
+2020-02-07 18:11:20.943 Loading level file: /home/observer/levels/d1ht502.xml
+2020-02-07 18:11:20.943 Loading level file: /home/observer/levels/sotr.xml
+2020-02-07 18:11:20.944 Loading level file: /home/observer/levels/ks-10.xml
+2020-02-07 18:11:20.945 Loading level file: /home/observer/levels/vector.xml
+2020-02-07 18:11:20.946 Loading level file: /home/observer/levels/rs485-asku.xml
+2020-02-07 18:11:20.947 Loading level file: /home/observer/levels/rs485-des.xml
+2020-02-07 18:11:20.947 Loading level file: /home/observer/levels/vospd_rs485.xml
+2020-02-07 18:11:20.949 Loading level file: /home/observer/levels/rs485-sotr.xml
+2020-02-07 18:11:20.951 Loading level file: /home/observer/levels/rs485-svo.xml
+2020-02-07 18:11:20.952 Loading level file: /home/observer/levels/rs485-drive.xml
+2020-02-07 18:11:20.953 Loading level file: /home/observer/levels/126gp02.xml
+2020-02-07 18:11:20.954 Loading level file: /home/observer/levels/mvrl-kn.xml
+2020-02-07 18:11:20.955 Loading level file: /home/observer/levels/126gp02-panel.xml
+2020-02-07 18:11:20.956 Loading level file: /home/observer/levels/svkr-5.xml
+2020-02-07 18:11:20.956 Loading level file: /home/observer/levels/ca648.xml
+2020-02-07 18:11:20.957 Loading level file: /home/observer/levels/126gp02-vum.xml
+2020-02-07 18:11:20.961 Loading level file: /home/observer/levels/126gp02-prm.xml
+2020-02-07 18:11:20.962 Loading level file: /home/observer/levels/126gp02-azn.xml
+2020-02-07 18:11:20.963 Loading level file: /home/observer/levels/prdsysb.xml
+2020-02-07 18:11:20.964 Loading level file: /home/observer/levels/125yy04.xml
+2020-02-07 18:11:20.964 Loading level file: /home/observer/levels/125yy04-panel.xml
+2020-02-07 18:11:20.965 Loading level file: /home/observer/levels/124yg02.xml
+2020-02-07 18:11:20.966 Loading level file: /home/observer/levels/126gg02b.xml
+2020-02-07 18:11:20.967 Loading level file: /home/observer/levels/126gg02b1.xml
+2020-02-07 18:11:20.969 Loading level file: /home/observer/levels/paramumi.xml
+2020-02-07 18:11:21.014 Loading level file: /home/observer/levels/ksb.xml
+2020-02-07 18:11:21.015 Loading level file: /home/observer/levels/des.xml
+2020-02-07 18:11:21.016 Loading level file: /home/observer/levels/des-mains.xml
+2020-02-07 18:11:21.018 Loading level file: /home/observer/levels/des-dg.xml
+2020-02-07 18:11:21.022 Loading level function: /home/observer/levels/function.xml
+2020-02-07 18:11:21.034 AskuLevelCollection: set top base(base)
+2020-02-07 18:11:21.041 AskuLevelCollection: do trip from () to (base)
+2020-02-07 18:11:21.041 AskuLevelCollection: invalidate
+2020-02-07 18:11:22.070 moduleConnected idConnection=1 (127.0.0.1:5555)
+2020-02-07 18:11:22.135 AskuLevelCollection: element not found (prmsys@d2ht502_1)
+2020-02-07 18:11:22.135 AskuLevelCollection: element not found (prmsys@d2ht502_2)
+2020-02-07 18:11:22.137 AskuLevelCollection: invalidate
+2020-02-07 18:11:25.922 AskuLevelCollection: invalidate
+2020-02-07 18:11:30.921 AskuLevelCollection: invalidate
+2020-02-07 18:13:46.893 moduleDisconnected idConnection=1
+2020-02-07 18:13:46.896 asku-gui: error write file /var/run/asku-gui.pid
+2020-02-07 18:13:46.897 --- Log stopped --------------------------------------
+2020-03-04 15:08:57.501 --- Log started --------------------------------------
+2020-03-04 15:08:57.558 LogLevel=F00000F000000F0F
+2020-03-04 15:08:57.558 Settings: RMO0
+2020-03-04 15:08:57.560 Loading asku config: /home/observer/config/asku-config.xml
+2020-03-04 15:08:57.576 AskuRlsControlConfig: no rls name
+2020-03-04 15:08:57.578 ASKU_config: make action (act_level_up)
+2020-03-04 15:08:57.578 ASKU_config: make action (act_level_base)
+2020-03-04 15:08:57.578 ASKU_config: make action group (group_base_zal) append (act_level_base)
+2020-03-04 15:08:57.578 ASKU_config: make action (act_level_zal)
+2020-03-04 15:08:57.578 ASKU_config: action group (group_base_zal) append (act_level_zal)
+2020-03-04 15:08:57.578 ASKU_config: make action (act_reload_scheme)
+2020-03-04 15:08:57.578 ASKU_config: make action (act_reload_config)
+2020-03-04 15:08:57.578 ASKU_config: make action (act_main_show)
+2020-03-04 15:08:57.578 ASKU_config: make action (act_main_hide)
+2020-03-04 15:08:57.578 ASKU_config: make action (act_quit)
+2020-03-04 15:08:57.578 ASKU_config: make action (act_dialog_about_exec)
+2020-03-04 15:08:57.578 ASKU_config: make action (act_dialog_settings_ui_exec)
+2020-03-04 15:08:57.578 ASKU_config: make action (act_dialog_dasd_show)
+2020-03-04 15:08:57.578 ASKU_config: make action (act_dialog_dasd_tables_show)
+2020-03-04 15:08:57.578 ASKU_config: make action (act_dialog_control_panel_show)
+2020-03-04 15:08:57.578 ASKU_config: make action (act_dialog_control_prd_show)
+2020-03-04 15:08:57.578 ASKU_config: make action (act_dialog_control_elk_show)
+2020-03-04 15:08:57.578 ASKU_config: make action (act_dialog_skrpilot_show)
+2020-03-04 15:08:57.578 ASKU_config: make action (act_dialog_setprm_show)
+2020-03-04 15:08:57.578 ASKU_config: make action (act_dialog_viewer_show)
+2020-03-04 15:08:57.578 ASKU_config: make action (act_dialog_phase_show)
+2020-03-04 15:08:57.579 ASKU_config: make action (act_dialog_coolers_show)
+2020-03-04 15:08:57.579 ASKU_config: make action (act_dialog_drives_show)
+2020-03-04 15:08:57.579 ASKU_config: make action (act_dialog_upses_show)
+2020-03-04 15:08:57.579 ASKU_config: make action (act_dialog_deses_show)
+2020-03-04 15:08:57.579 ASKU_config: make action (act_dialog_listrgdv_show)
+2020-03-04 15:08:57.579 ASKU_config: make action (act_dialog_logger_show)
+2020-03-04 15:08:57.579 ASKU_config: make action (act_dialog_powermeter_show)
+2020-03-04 15:08:57.579 ASKU_config: make action (act_dialog_avtomatica_show)
+2020-03-04 15:08:57.579 ASKU_config: make action (act_reset_avar_prd1)
+2020-03-04 15:08:57.579 ASKU_config: make action (act_reset_avar_prd2)
+2020-03-04 15:08:57.579 ASKU_config: make action (act_reset_avar_prm)
+2020-03-04 15:08:57.579 ASKU_config: make action (act_reset_avar_bep)
+2020-03-04 15:08:57.579 ASKU_config: make action (act_reset_avar_svo)
+2020-03-04 15:08:57.579 ASKU_config: make action (act_reset_avar_comm)
+2020-03-04 15:08:57.579 ASKU_config: make action (act_regime_test)
+2020-03-04 15:08:57.579 ASKU_config: make action (act_regime_rgdv)
+2020-03-04 15:08:57.579 ASKU_config: make action (act_regime_raf)
+2020-03-04 15:08:57.639 Loading RLS: 0-"" (lt='')
+2020-03-04 15:08:57.639 AskuLevelCollection: cleanup
+2020-03-04 15:08:57.639 AskuLevelCollection: invalidate
+2020-03-04 15:08:57.663 Loading level scheme: /home/observer/levels/scheme.xml
+2020-03-04 15:08:57.675 Loading level file: /home/observer/levels/base.xml
+2020-03-04 15:08:57.676 AskuLevelCollection: set base level (base)
+2020-03-04 15:08:57.677 Loading level file: /home/observer/levels/d7pg07b.xml
+2020-03-04 15:08:57.678 AskuLevelCollection: set zal level (zal)
+2020-03-04 15:08:57.681 Loading level file: /home/observer/levels/126pk01b.xml
+2020-03-04 15:08:57.688 Loading level file: /home/observer/levels/svkr-4.xml
+2020-03-04 15:08:57.695 Loading level file: /home/observer/levels/ups_snmp.xml
+2020-03-04 15:08:57.700 Loading level file: /home/observer/levels/poikoeff.xml
+2020-03-04 15:08:57.704 Loading level file: /home/observer/levels/cpu.xml
+2020-03-04 15:08:57.705 Loading level file: /home/observer/levels/voi.xml
+2020-03-04 15:08:57.706 Loading level file: /home/observer/levels/d7aa06.xml
+2020-03-04 15:08:57.715 Loading level file: /home/observer/levels/125yy03.xml
+2020-03-04 15:08:57.718 Loading level file: /home/observer/levels/124ee02.xml
+2020-03-04 15:08:57.725 Loading level file: /home/observer/levels/124yy08.xml
+2020-03-04 15:08:57.770 Loading level file: /home/observer/levels/prmsysb.xml
+2020-03-04 15:08:57.771 Loading level file: /home/observer/levels/124pp04b.xml
+2020-03-04 15:08:57.774 Loading level file: /home/observer/levels/d1ht502.xml
+2020-03-04 15:08:57.775 Loading level file: /home/observer/levels/sotr.xml
+2020-03-04 15:08:57.784 Loading level file: /home/observer/levels/ks-10.xml
+2020-03-04 15:08:57.785 Loading level file: /home/observer/levels/vector.xml
+2020-03-04 15:08:57.787 Loading level file: /home/observer/levels/rs485-asku.xml
+2020-03-04 15:08:57.788 Loading level file: /home/observer/levels/rs485-des.xml
+2020-03-04 15:08:57.793 Loading level file: /home/observer/levels/vospd_rs485.xml
+2020-03-04 15:08:57.795 Loading level file: /home/observer/levels/rs485-sotr.xml
+2020-03-04 15:08:57.797 Loading level file: /home/observer/levels/rs485-svo.xml
+2020-03-04 15:08:57.807 Loading level file: /home/observer/levels/rs485-drive.xml
+2020-03-04 15:08:57.808 Loading level file: /home/observer/levels/126gp02.xml
+2020-03-04 15:08:57.810 Loading level file: /home/observer/levels/mvrl-kn.xml
+2020-03-04 15:08:57.811 Loading level file: /home/observer/levels/126gp02-panel.xml
+2020-03-04 15:08:57.812 Loading level file: /home/observer/levels/svkr-5.xml
+2020-03-04 15:08:57.815 Loading level file: /home/observer/levels/ca648.xml
+2020-03-04 15:08:57.816 Loading level file: /home/observer/levels/126gp02-vum.xml
+2020-03-04 15:08:57.821 Loading level file: /home/observer/levels/126gp02-prm.xml
+2020-03-04 15:08:57.823 Loading level file: /home/observer/levels/126gp02-azn.xml
+2020-03-04 15:08:57.824 Loading level file: /home/observer/levels/prdsysb.xml
+2020-03-04 15:08:57.825 Loading level file: /home/observer/levels/125yy04.xml
+2020-03-04 15:08:57.827 Loading level file: /home/observer/levels/125yy04-panel.xml
+2020-03-04 15:08:57.828 Loading level file: /home/observer/levels/124yg02.xml
+2020-03-04 15:08:57.829 Loading level file: /home/observer/levels/126gg02b.xml
+2020-03-04 15:08:57.838 Loading level file: /home/observer/levels/126gg02b1.xml
+2020-03-04 15:08:57.840 Loading level file: /home/observer/levels/paramumi.xml
+2020-03-04 15:08:57.884 Loading level file: /home/observer/levels/ksb.xml
+2020-03-04 15:08:57.885 Loading level file: /home/observer/levels/des.xml
+2020-03-04 15:08:57.886 Loading level file: /home/observer/levels/des-mains.xml
+2020-03-04 15:08:57.889 Loading level file: /home/observer/levels/des-dg.xml
+2020-03-04 15:08:57.902 Loading level function: /home/observer/levels/function.xml
+2020-03-04 15:08:57.914 AskuLevelCollection: set top base(base)
+2020-03-04 15:08:57.921 AskuLevelCollection: do trip from () to (base)
+2020-03-04 15:08:57.922 AskuLevelCollection: invalidate
+2020-03-04 15:08:58.962 moduleConnected idConnection=1 (127.0.0.1:5555)
+2020-03-04 15:08:59.027 AskuLevelCollection: element not found (prmsys@d2ht502_1)
+2020-03-04 15:08:59.027 AskuLevelCollection: element not found (prmsys@d2ht502_2)
+2020-03-04 15:08:59.029 AskuLevelCollection: invalidate
+2020-03-04 15:08:59.996 AskuLevelCollection: invalidate
+2020-03-04 15:09:02.639 AskuLevelCollection: invalidate
+2020-03-04 15:09:04.255 CommonDialogSet::Invoke action dialog "dialog_avtomatica" show
+2020-03-04 15:09:04.255 CommonDialogSet::show : "dialog_avtomatica" not found
+2020-03-04 15:09:04.255 rlsDialogSet_0::Invoke action dialog "dialog_avtomatica" show
+2020-03-04 15:09:07.639 AskuLevelCollection: invalidate
+2020-03-04 15:09:15.379 AskuLevelCollection: set down level (vrl_struct)
+2020-03-04 15:09:15.379 AskuLevelCollection: do trip from (base) to (vrl_struct)
+2020-03-04 15:09:15.379 AskuLevelCollection: invalidate
+2020-03-04 15:09:21.047 AskuLevelCollection: set top zal(zal)
+2020-03-04 15:09:21.047 AskuLevelCollection: do trip from (vrl_struct) to (zal)
+2020-03-04 15:09:21.047 AskuLevelCollection: invalidate
+2020-03-04 15:09:26.850 AskuLevelCollection: set down level (vrl)
+2020-03-04 15:09:26.850 AskuLevelCollection: do trip from (zal) to (vrl)
+2020-03-04 15:09:26.850 AskuLevelCollection: invalidate
+2020-03-04 15:09:28.327 AskuLevelCollection: set down level (vrl_zao)
+2020-03-04 15:09:28.327 AskuLevelCollection: do trip from (vrl) to (vrl_zao)
+2020-03-04 15:09:28.328 AskuLevelCollection: invalidate
+2020-03-04 15:20:29.340 moduleDisconnected idConnection=1
+2020-03-04 15:20:29.343 asku-gui: error write file /var/run/asku-gui.pid
+2020-03-04 15:20:29.344 --- Log stopped --------------------------------------
+2020-03-04 15:21:16.172 --- Log started --------------------------------------
+2020-03-04 15:21:16.172 LogLevel=F00000F000000F0F
+2020-03-04 15:21:16.172 Settings: RMO0
+2020-03-04 15:21:16.173 Loading asku config: /home/observer/config/asku-config.xml
+2020-03-04 15:21:16.174 ASKU_config: make action (rls1_act_level_up)
+2020-03-04 15:21:16.174 ASKU_config: make action (rls2_act_level_up)
+2020-03-04 15:21:16.174 ASKU_config: make action (rls1_act_level_base)
+2020-03-04 15:21:16.174 ASKU_config: make action group (rls1_group_base_zal) append (rls1_act_level_base)
+2020-03-04 15:21:16.174 ASKU_config: make action (rls2_act_level_base)
+2020-03-04 15:21:16.174 ASKU_config: make action group (rls2_group_base_zal) append (rls2_act_level_base)
+2020-03-04 15:21:16.174 ASKU_config: make action (rls1_act_level_zal)
+2020-03-04 15:21:16.174 ASKU_config: action group (rls1_group_base_zal) append (rls1_act_level_zal)
+2020-03-04 15:21:16.175 ASKU_config: make action (rls2_act_level_zal)
+2020-03-04 15:21:16.175 ASKU_config: action group (rls2_group_base_zal) append (rls2_act_level_zal)
+2020-03-04 15:21:16.175 ASKU_config: make action (rls1_act_reload_scheme)
+2020-03-04 15:21:16.175 ASKU_config: make action (rls2_act_reload_scheme)
+2020-03-04 15:21:16.175 ASKU_config: make action (act_reload_config)
+2020-03-04 15:21:16.175 ASKU_config: make action (rls1_act_main_show)
+2020-03-04 15:21:16.175 ASKU_config: make action (rls2_act_main_show)
+2020-03-04 15:21:16.175 ASKU_config: make action (rls1_act_main_hide)
+2020-03-04 15:21:16.175 ASKU_config: make action (rls2_act_main_hide)
+2020-03-04 15:21:16.175 ASKU_config: make action (act_quit)
+2020-03-04 15:21:16.175 ASKU_config: make action (rls1_act_dialog_about_exec)
+2020-03-04 15:21:16.175 ASKU_config: make action (rls2_act_dialog_about_exec)
+2020-03-04 15:21:16.175 ASKU_config: make action (act_dialog_settings_ui_exec)
+2020-03-04 15:21:16.175 ASKU_config: make action (rls1_act_dialog_dasd_show)
+2020-03-04 15:21:16.175 ASKU_config: make action (rls2_act_dialog_dasd_show)
+2020-03-04 15:21:16.175 ASKU_config: make action (rls1_act_dialog_dasd_tables_show)
+2020-03-04 15:21:16.175 ASKU_config: make action (rls2_act_dialog_dasd_tables_show)
+2020-03-04 15:21:16.175 ASKU_config: make action (rls1_act_dialog_control_panel_show)
+2020-03-04 15:21:16.175 ASKU_config: make action (rls2_act_dialog_control_panel_show)
+2020-03-04 15:21:16.175 ASKU_config: make action (rls1_act_dialog_control_prd_show)
+2020-03-04 15:21:16.175 ASKU_config: make action (rls2_act_dialog_control_prd_show)
+2020-03-04 15:21:16.175 ASKU_config: make action (rls1_act_dialog_control_elk_show)
+2020-03-04 15:21:16.175 ASKU_config: make action (rls2_act_dialog_control_elk_show)
+2020-03-04 15:21:16.175 ASKU_config: make action (rls1_act_dialog_skrpilot_show)
+2020-03-04 15:21:16.175 ASKU_config: make action (rls2_act_dialog_skrpilot_show)
+2020-03-04 15:21:16.175 ASKU_config: make action (rls1_act_dialog_setprm_show)
+2020-03-04 15:21:16.175 ASKU_config: make action (rls2_act_dialog_setprm_show)
+2020-03-04 15:21:16.175 ASKU_config: make action (rls1_act_dialog_viewer_show)
+2020-03-04 15:21:16.175 ASKU_config: make action (rls2_act_dialog_viewer_show)
+2020-03-04 15:21:16.175 ASKU_config: make action (rls1_act_dialog_phase_show)
+2020-03-04 15:21:16.175 ASKU_config: make action (rls2_act_dialog_phase_show)
+2020-03-04 15:21:16.175 ASKU_config: make action (rls1_act_dialog_coolers_show)
+2020-03-04 15:21:16.175 ASKU_config: make action (rls2_act_dialog_coolers_show)
+2020-03-04 15:21:16.176 ASKU_config: make action (rls1_act_dialog_drives_show)
+2020-03-04 15:21:16.176 ASKU_config: make action (rls2_act_dialog_drives_show)
+2020-03-04 15:21:16.176 ASKU_config: make action (rls1_act_dialog_upses_show)
+2020-03-04 15:21:16.176 ASKU_config: make action (rls2_act_dialog_upses_show)
+2020-03-04 15:21:16.176 ASKU_config: make action (rls1_act_dialog_deses_show)
+2020-03-04 15:21:16.176 ASKU_config: make action (rls2_act_dialog_deses_show)
+2020-03-04 15:21:16.176 ASKU_config: make action (rls1_act_dialog_listrgdv_show)
+2020-03-04 15:21:16.176 ASKU_config: make action (rls2_act_dialog_listrgdv_show)
+2020-03-04 15:21:16.176 ASKU_config: make action (rls1_act_dialog_logger_show)
+2020-03-04 15:21:16.176 ASKU_config: make action (rls2_act_dialog_logger_show)
+2020-03-04 15:21:16.176 ASKU_config: make action (rls1_act_dialog_powermeter_show)
+2020-03-04 15:21:16.176 ASKU_config: make action (rls2_act_dialog_powermeter_show)
+2020-03-04 15:21:16.176 ASKU_config: make action (rls1_act_dialog_avtomatica_show)
+2020-03-04 15:21:16.176 ASKU_config: make action (rls2_act_dialog_avtomatica_show)
+2020-03-04 15:21:16.176 ASKU_config: make action (rls1_act_reset_avar_prd1)
+2020-03-04 15:21:16.176 ASKU_config: make action (rls2_act_reset_avar_prd1)
+2020-03-04 15:21:16.176 ASKU_config: make action (rls1_act_reset_avar_prd2)
+2020-03-04 15:21:16.176 ASKU_config: make action (rls2_act_reset_avar_prd2)
+2020-03-04 15:21:16.176 ASKU_config: make action (rls1_act_reset_avar_prm)
+2020-03-04 15:21:16.176 ASKU_config: make action (rls2_act_reset_avar_prm)
+2020-03-04 15:21:16.176 ASKU_config: make action (rls1_act_reset_avar_bep)
+2020-03-04 15:21:16.176 ASKU_config: make action (rls2_act_reset_avar_bep)
+2020-03-04 15:21:16.176 ASKU_config: make action (rls1_act_reset_avar_svo)
+2020-03-04 15:21:16.176 ASKU_config: make action (rls2_act_reset_avar_svo)
+2020-03-04 15:21:16.176 ASKU_config: make action (rls1_act_reset_avar_comm)
+2020-03-04 15:21:16.176 ASKU_config: make action (rls2_act_reset_avar_comm)
+2020-03-04 15:21:16.176 ASKU_config: make action (rls1_act_regime_test)
+2020-03-04 15:21:16.176 ASKU_config: make action (rls2_act_regime_test)
+2020-03-04 15:21:16.176 ASKU_config: make action (rls1_act_regime_rgdv)
+2020-03-04 15:21:16.176 ASKU_config: make action (rls2_act_regime_rgdv)
+2020-03-04 15:21:16.176 ASKU_config: make action (rls1_act_regime_raf)
+2020-03-04 15:21:16.176 ASKU_config: make action (rls2_act_regime_raf)
+2020-03-04 15:21:16.204 Loading RLS: 1-"РЛП Сиверский" (lt='')
+2020-03-04 15:21:16.204 AskuLevelCollection: cleanup
+2020-03-04 15:21:16.204 AskuLevelCollection: invalidate
+2020-03-04 15:21:16.205 Loading level scheme: /home/observer/levels-siverskoe/scheme.xml
+2020-03-04 15:21:16.205 Error loading level scheme: Ошибка открытия файла /home/observer/levels-siverskoe/scheme.xml
+2020-03-04 15:21:16.205 AskuLevelCollection: set top zal()
+2020-03-04 15:21:16.232 Loading RLS: 2-"РЛП Капорское" (lt='')
+2020-03-04 15:21:16.232 AskuLevelCollection: cleanup
+2020-03-04 15:21:16.232 AskuLevelCollection: invalidate
+2020-03-04 15:21:16.232 Loading level scheme: /home/observer/levels-kaporskoe/scheme.xml
+2020-03-04 15:21:16.232 Error loading level scheme: Ошибка открытия файла /home/observer/levels-kaporskoe/scheme.xml
+2020-03-04 15:21:16.233 AskuLevelCollection: set top zal()
+2020-03-04 15:21:26.205 AskuLevelCollection: invalidate
+2020-03-04 15:21:26.205 AskuLevelCollection: invalidate
+2020-03-04 15:21:26.233 AskuLevelCollection: invalidate
+2020-03-04 15:21:26.233 AskuLevelCollection: invalidate
+2020-03-04 15:43:37.536 asku-gui: error write file /var/run/asku-gui.pid
+2020-03-04 15:43:37.536 --- Log stopped --------------------------------------
+2020-03-04 15:44:04.549 --- Log started --------------------------------------
+2020-03-04 15:44:04.549 LogLevel=F00000F000000F0F
+2020-03-04 15:44:04.549 Settings: RMO0
+2020-03-04 15:44:04.551 Loading asku config: /home/observer/config/asku-config.xml
+2020-03-04 15:44:04.552 ASKU_config: make action (rls1_act_level_up)
+2020-03-04 15:44:04.552 ASKU_config: make action (rls2_act_level_up)
+2020-03-04 15:44:04.552 ASKU_config: make action (rls1_act_level_base)
+2020-03-04 15:44:04.552 ASKU_config: make action group (rls1_group_base_zal) append (rls1_act_level_base)
+2020-03-04 15:44:04.552 ASKU_config: make action (rls2_act_level_base)
+2020-03-04 15:44:04.552 ASKU_config: make action group (rls2_group_base_zal) append (rls2_act_level_base)
+2020-03-04 15:44:04.552 ASKU_config: make action (rls1_act_level_zal)
+2020-03-04 15:44:04.552 ASKU_config: action group (rls1_group_base_zal) append (rls1_act_level_zal)
+2020-03-04 15:44:04.552 ASKU_config: make action (rls2_act_level_zal)
+2020-03-04 15:44:04.552 ASKU_config: action group (rls2_group_base_zal) append (rls2_act_level_zal)
+2020-03-04 15:44:04.552 ASKU_config: make action (rls1_act_reload_scheme)
+2020-03-04 15:44:04.552 ASKU_config: make action (rls2_act_reload_scheme)
+2020-03-04 15:44:04.552 ASKU_config: make action (act_reload_config)
+2020-03-04 15:44:04.552 ASKU_config: make action (rls1_act_main_show)
+2020-03-04 15:44:04.552 ASKU_config: make action (rls2_act_main_show)
+2020-03-04 15:44:04.552 ASKU_config: make action (rls1_act_main_hide)
+2020-03-04 15:44:04.552 ASKU_config: make action (rls2_act_main_hide)
+2020-03-04 15:44:04.552 ASKU_config: make action (act_quit)
+2020-03-04 15:44:04.552 ASKU_config: make action (rls1_act_dialog_about_exec)
+2020-03-04 15:44:04.552 ASKU_config: make action (rls2_act_dialog_about_exec)
+2020-03-04 15:44:04.552 ASKU_config: make action (act_dialog_settings_ui_exec)
+2020-03-04 15:44:04.553 ASKU_config: make action (rls1_act_dialog_dasd_show)
+2020-03-04 15:44:04.553 ASKU_config: make action (rls2_act_dialog_dasd_show)
+2020-03-04 15:44:04.553 ASKU_config: make action (rls1_act_dialog_dasd_tables_show)
+2020-03-04 15:44:04.553 ASKU_config: make action (rls2_act_dialog_dasd_tables_show)
+2020-03-04 15:44:04.553 ASKU_config: make action (rls1_act_dialog_control_panel_show)
+2020-03-04 15:44:04.553 ASKU_config: make action (rls2_act_dialog_control_panel_show)
+2020-03-04 15:44:04.553 ASKU_config: make action (rls1_act_dialog_control_prd_show)
+2020-03-04 15:44:04.553 ASKU_config: make action (rls2_act_dialog_control_prd_show)
+2020-03-04 15:44:04.553 ASKU_config: make action (rls1_act_dialog_control_elk_show)
+2020-03-04 15:44:04.553 ASKU_config: make action (rls2_act_dialog_control_elk_show)
+2020-03-04 15:44:04.553 ASKU_config: make action (rls1_act_dialog_skrpilot_show)
+2020-03-04 15:44:04.553 ASKU_config: make action (rls2_act_dialog_skrpilot_show)
+2020-03-04 15:44:04.553 ASKU_config: make action (rls1_act_dialog_setprm_show)
+2020-03-04 15:44:04.553 ASKU_config: make action (rls2_act_dialog_setprm_show)
+2020-03-04 15:44:04.553 ASKU_config: make action (rls1_act_dialog_viewer_show)
+2020-03-04 15:44:04.553 ASKU_config: make action (rls2_act_dialog_viewer_show)
+2020-03-04 15:44:04.553 ASKU_config: make action (rls1_act_dialog_phase_show)
+2020-03-04 15:44:04.553 ASKU_config: make action (rls2_act_dialog_phase_show)
+2020-03-04 15:44:04.553 ASKU_config: make action (rls1_act_dialog_coolers_show)
+2020-03-04 15:44:04.553 ASKU_config: make action (rls2_act_dialog_coolers_show)
+2020-03-04 15:44:04.553 ASKU_config: make action (rls1_act_dialog_drives_show)
+2020-03-04 15:44:04.553 ASKU_config: make action (rls2_act_dialog_drives_show)
+2020-03-04 15:44:04.553 ASKU_config: make action (rls1_act_dialog_upses_show)
+2020-03-04 15:44:04.553 ASKU_config: make action (rls2_act_dialog_upses_show)
+2020-03-04 15:44:04.553 ASKU_config: make action (rls1_act_dialog_deses_show)
+2020-03-04 15:44:04.553 ASKU_config: make action (rls2_act_dialog_deses_show)
+2020-03-04 15:44:04.553 ASKU_config: make action (rls1_act_dialog_listrgdv_show)
+2020-03-04 15:44:04.554 ASKU_config: make action (rls2_act_dialog_listrgdv_show)
+2020-03-04 15:44:04.554 ASKU_config: make action (rls1_act_dialog_logger_show)
+2020-03-04 15:44:04.554 ASKU_config: make action (rls2_act_dialog_logger_show)
+2020-03-04 15:44:04.554 ASKU_config: make action (rls1_act_dialog_powermeter_show)
+2020-03-04 15:44:04.554 ASKU_config: make action (rls2_act_dialog_powermeter_show)
+2020-03-04 15:44:04.554 ASKU_config: make action (rls1_act_dialog_avtomatica_show)
+2020-03-04 15:44:04.554 ASKU_config: make action (rls2_act_dialog_avtomatica_show)
+2020-03-04 15:44:04.554 ASKU_config: make action (rls1_act_reset_avar_prd1)
+2020-03-04 15:44:04.554 ASKU_config: make action (rls2_act_reset_avar_prd1)
+2020-03-04 15:44:04.554 ASKU_config: make action (rls1_act_reset_avar_prd2)
+2020-03-04 15:44:04.554 ASKU_config: make action (rls2_act_reset_avar_prd2)
+2020-03-04 15:44:04.554 ASKU_config: make action (rls1_act_reset_avar_prm)
+2020-03-04 15:44:04.554 ASKU_config: make action (rls2_act_reset_avar_prm)
+2020-03-04 15:44:04.554 ASKU_config: make action (rls1_act_reset_avar_bep)
+2020-03-04 15:44:04.554 ASKU_config: make action (rls2_act_reset_avar_bep)
+2020-03-04 15:44:04.554 ASKU_config: make action (rls1_act_reset_avar_svo)
+2020-03-04 15:44:04.554 ASKU_config: make action (rls2_act_reset_avar_svo)
+2020-03-04 15:44:04.554 ASKU_config: make action (rls1_act_reset_avar_comm)
+2020-03-04 15:44:04.554 ASKU_config: make action (rls2_act_reset_avar_comm)
+2020-03-04 15:44:04.554 ASKU_config: make action (rls1_act_regime_test)
+2020-03-04 15:44:04.554 ASKU_config: make action (rls2_act_regime_test)
+2020-03-04 15:44:04.554 ASKU_config: make action (rls1_act_regime_rgdv)
+2020-03-04 15:44:04.554 ASKU_config: make action (rls2_act_regime_rgdv)
+2020-03-04 15:44:04.554 ASKU_config: make action (rls1_act_regime_raf)
+2020-03-04 15:44:04.554 ASKU_config: make action (rls2_act_regime_raf)
+2020-03-04 15:44:04.582 Loading RLS: 1-"РЛП Сиверский" (lt='')
+2020-03-04 15:44:04.583 AskuLevelCollection: cleanup
+2020-03-04 15:44:04.583 AskuLevelCollection: invalidate
+2020-03-04 15:44:04.583 Loading level scheme: /home/observer/levels-siverskoe/scheme.xml
+2020-03-04 15:44:04.583 Error loading level scheme: Ошибка открытия файла /home/observer/levels-siverskoe/scheme.xml
+2020-03-04 15:44:04.583 AskuLevelCollection: set top zal()
+2020-03-04 15:44:04.617 Loading RLS: 2-"РЛП Капорское" (lt='')
+2020-03-04 15:44:04.617 AskuLevelCollection: cleanup
+2020-03-04 15:44:04.617 AskuLevelCollection: invalidate
+2020-03-04 15:44:04.617 Loading level scheme: /home/observer/levels-kaporskoe/scheme.xml
+2020-03-04 15:44:04.617 Error loading level scheme: Ошибка открытия файла /home/observer/levels-kaporskoe/scheme.xml
+2020-03-04 15:44:04.617 AskuLevelCollection: set top zal()
+2020-03-04 15:44:08.388 user event
+2020-03-04 15:44:09.390 asku-gui: error write file /var/run/asku-gui.pid
+2020-03-04 15:44:09.390 --- Log stopped --------------------------------------
+2020-03-04 15:44:21.349 --- Log started --------------------------------------
+2020-03-04 15:44:21.349 LogLevel=F00000F000000F0F
+2020-03-04 15:44:21.349 Settings: RMO0
+2020-03-04 15:44:21.352 Loading asku config: /home/observer/config/asku-config.xml
+2020-03-04 15:44:21.353 ASKU_config: make action (rls1_act_level_up)
+2020-03-04 15:44:21.353 ASKU_config: make action (rls2_act_level_up)
+2020-03-04 15:44:21.353 ASKU_config: make action (rls1_act_level_base)
+2020-03-04 15:44:21.353 ASKU_config: make action group (rls1_group_base_zal) append (rls1_act_level_base)
+2020-03-04 15:44:21.353 ASKU_config: make action (rls2_act_level_base)
+2020-03-04 15:44:21.353 ASKU_config: make action group (rls2_group_base_zal) append (rls2_act_level_base)
+2020-03-04 15:44:21.353 ASKU_config: make action (rls1_act_level_zal)
+2020-03-04 15:44:21.353 ASKU_config: action group (rls1_group_base_zal) append (rls1_act_level_zal)
+2020-03-04 15:44:21.353 ASKU_config: make action (rls2_act_level_zal)
+2020-03-04 15:44:21.353 ASKU_config: action group (rls2_group_base_zal) append (rls2_act_level_zal)
+2020-03-04 15:44:21.353 ASKU_config: make action (rls1_act_reload_scheme)
+2020-03-04 15:44:21.353 ASKU_config: make action (rls2_act_reload_scheme)
+2020-03-04 15:44:21.353 ASKU_config: make action (act_reload_config)
+2020-03-04 15:44:21.353 ASKU_config: make action (rls1_act_main_show)
+2020-03-04 15:44:21.353 ASKU_config: make action (rls2_act_main_show)
+2020-03-04 15:44:21.353 ASKU_config: make action (rls1_act_main_hide)
+2020-03-04 15:44:21.353 ASKU_config: make action (rls2_act_main_hide)
+2020-03-04 15:44:21.353 ASKU_config: make action (act_quit)
+2020-03-04 15:44:21.353 ASKU_config: make action (rls1_act_dialog_about_exec)
+2020-03-04 15:44:21.353 ASKU_config: make action (rls2_act_dialog_about_exec)
+2020-03-04 15:44:21.354 ASKU_config: make action (act_dialog_settings_ui_exec)
+2020-03-04 15:44:21.354 ASKU_config: make action (rls1_act_dialog_dasd_show)
+2020-03-04 15:44:21.354 ASKU_config: make action (rls2_act_dialog_dasd_show)
+2020-03-04 15:44:21.354 ASKU_config: make action (rls1_act_dialog_dasd_tables_show)
+2020-03-04 15:44:21.354 ASKU_config: make action (rls2_act_dialog_dasd_tables_show)
+2020-03-04 15:44:21.354 ASKU_config: make action (rls1_act_dialog_control_panel_show)
+2020-03-04 15:44:21.354 ASKU_config: make action (rls2_act_dialog_control_panel_show)
+2020-03-04 15:44:21.354 ASKU_config: make action (rls1_act_dialog_control_prd_show)
+2020-03-04 15:44:21.354 ASKU_config: make action (rls2_act_dialog_control_prd_show)
+2020-03-04 15:44:21.354 ASKU_config: make action (rls1_act_dialog_control_elk_show)
+2020-03-04 15:44:21.354 ASKU_config: make action (rls2_act_dialog_control_elk_show)
+2020-03-04 15:44:21.354 ASKU_config: make action (rls1_act_dialog_skrpilot_show)
+2020-03-04 15:44:21.354 ASKU_config: make action (rls2_act_dialog_skrpilot_show)
+2020-03-04 15:44:21.354 ASKU_config: make action (rls1_act_dialog_setprm_show)
+2020-03-04 15:44:21.354 ASKU_config: make action (rls2_act_dialog_setprm_show)
+2020-03-04 15:44:21.354 ASKU_config: make action (rls1_act_dialog_viewer_show)
+2020-03-04 15:44:21.354 ASKU_config: make action (rls2_act_dialog_viewer_show)
+2020-03-04 15:44:21.354 ASKU_config: make action (rls1_act_dialog_phase_show)
+2020-03-04 15:44:21.354 ASKU_config: make action (rls2_act_dialog_phase_show)
+2020-03-04 15:44:21.354 ASKU_config: make action (rls1_act_dialog_coolers_show)
+2020-03-04 15:44:21.354 ASKU_config: make action (rls2_act_dialog_coolers_show)
+2020-03-04 15:44:21.354 ASKU_config: make action (rls1_act_dialog_drives_show)
+2020-03-04 15:44:21.354 ASKU_config: make action (rls2_act_dialog_drives_show)
+2020-03-04 15:44:21.354 ASKU_config: make action (rls1_act_dialog_upses_show)
+2020-03-04 15:44:21.354 ASKU_config: make action (rls2_act_dialog_upses_show)
+2020-03-04 15:44:21.354 ASKU_config: make action (rls1_act_dialog_deses_show)
+2020-03-04 15:44:21.354 ASKU_config: make action (rls2_act_dialog_deses_show)
+2020-03-04 15:44:21.354 ASKU_config: make action (rls1_act_dialog_listrgdv_show)
+2020-03-04 15:44:21.354 ASKU_config: make action (rls2_act_dialog_listrgdv_show)
+2020-03-04 15:44:21.355 ASKU_config: make action (rls1_act_dialog_logger_show)
+2020-03-04 15:44:21.355 ASKU_config: make action (rls2_act_dialog_logger_show)
+2020-03-04 15:44:21.355 ASKU_config: make action (rls1_act_dialog_powermeter_show)
+2020-03-04 15:44:21.355 ASKU_config: make action (rls2_act_dialog_powermeter_show)
+2020-03-04 15:44:21.355 ASKU_config: make action (rls1_act_dialog_avtomatica_show)
+2020-03-04 15:44:21.355 ASKU_config: make action (rls2_act_dialog_avtomatica_show)
+2020-03-04 15:44:21.355 ASKU_config: make action (rls1_act_reset_avar_prd1)
+2020-03-04 15:44:21.355 ASKU_config: make action (rls2_act_reset_avar_prd1)
+2020-03-04 15:44:21.355 ASKU_config: make action (rls1_act_reset_avar_prd2)
+2020-03-04 15:44:21.355 ASKU_config: make action (rls2_act_reset_avar_prd2)
+2020-03-04 15:44:21.355 ASKU_config: make action (rls1_act_reset_avar_prm)
+2020-03-04 15:44:21.355 ASKU_config: make action (rls2_act_reset_avar_prm)
+2020-03-04 15:44:21.355 ASKU_config: make action (rls1_act_reset_avar_bep)
+2020-03-04 15:44:21.355 ASKU_config: make action (rls2_act_reset_avar_bep)
+2020-03-04 15:44:21.355 ASKU_config: make action (rls1_act_reset_avar_svo)
+2020-03-04 15:44:21.355 ASKU_config: make action (rls2_act_reset_avar_svo)
+2020-03-04 15:44:21.355 ASKU_config: make action (rls1_act_reset_avar_comm)
+2020-03-04 15:44:21.355 ASKU_config: make action (rls2_act_reset_avar_comm)
+2020-03-04 15:44:21.355 ASKU_config: make action (rls1_act_regime_test)
+2020-03-04 15:44:21.355 ASKU_config: make action (rls2_act_regime_test)
+2020-03-04 15:44:21.355 ASKU_config: make action (rls1_act_regime_rgdv)
+2020-03-04 15:44:21.355 ASKU_config: make action (rls2_act_regime_rgdv)
+2020-03-04 15:44:21.355 ASKU_config: make action (rls1_act_regime_raf)
+2020-03-04 15:44:21.355 ASKU_config: make action (rls2_act_regime_raf)
+2020-03-04 15:44:21.382 Loading RLS: 1-"РЛП Сиверский" (lt='')
+2020-03-04 15:44:21.382 AskuLevelCollection: cleanup
+2020-03-04 15:44:21.383 AskuLevelCollection: invalidate
+2020-03-04 15:44:21.383 Loading level scheme: /home/observer/levels/scheme.xml
+2020-03-04 15:44:21.385 Loading level file: /home/observer/levels/base.xml
+2020-03-04 15:44:21.386 AskuLevelCollection: set base level (base)
+2020-03-04 15:44:21.386 Loading level file: /home/observer/levels/d7pg07b.xml
+2020-03-04 15:44:21.387 AskuLevelCollection: set zal level (zal)
+2020-03-04 15:44:21.387 Loading level file: /home/observer/levels/126pk01b.xml
+2020-03-04 15:44:21.388 Loading level file: /home/observer/levels/svkr-4.xml
+2020-03-04 15:44:21.390 Loading level file: /home/observer/levels/ups_snmp.xml
+2020-03-04 15:44:21.393 Loading level file: /home/observer/levels/poikoeff.xml
+2020-03-04 15:44:21.397 Loading level file: /home/observer/levels/cpu.xml
+2020-03-04 15:44:21.398 Loading level file: /home/observer/levels/voi.xml
+2020-03-04 15:44:21.398 Loading level file: /home/observer/levels/d7aa06.xml
+2020-03-04 15:44:21.399 Loading level file: /home/observer/levels/125yy03.xml
+2020-03-04 15:44:21.401 Loading level file: /home/observer/levels/124ee02.xml
+2020-03-04 15:44:21.403 Loading level file: /home/observer/levels/124yy08.xml
+2020-03-04 15:44:21.403 Loading level file: /home/observer/levels/prmsysb.xml
+2020-03-04 15:44:21.403 Loading level file: /home/observer/levels/124pp04b.xml
+2020-03-04 15:44:21.404 Loading level file: /home/observer/levels/d1ht502.xml
+2020-03-04 15:44:21.404 Loading level file: /home/observer/levels/sotr.xml
+2020-03-04 15:44:21.405 Loading level file: /home/observer/levels/ks-10.xml
+2020-03-04 15:44:21.406 Loading level file: /home/observer/levels/vector.xml
+2020-03-04 15:44:21.407 Loading level file: /home/observer/levels/rs485-asku.xml
+2020-03-04 15:44:21.408 Loading level file: /home/observer/levels/rs485-des.xml
+2020-03-04 15:44:21.408 Loading level file: /home/observer/levels/vospd_rs485.xml
+2020-03-04 15:44:21.410 Loading level file: /home/observer/levels/rs485-sotr.xml
+2020-03-04 15:44:21.412 Loading level file: /home/observer/levels/rs485-svo.xml
+2020-03-04 15:44:21.413 Loading level file: /home/observer/levels/rs485-drive.xml
+2020-03-04 15:44:21.414 Loading level file: /home/observer/levels/126gp02.xml
+2020-03-04 15:44:21.415 Loading level file: /home/observer/levels/mvrl-kn.xml
+2020-03-04 15:44:21.416 Loading level file: /home/observer/levels/126gp02-panel.xml
+2020-03-04 15:44:21.417 Loading level file: /home/observer/levels/svkr-5.xml
+2020-03-04 15:44:21.417 Loading level file: /home/observer/levels/ca648.xml
+2020-03-04 15:44:21.418 Loading level file: /home/observer/levels/126gp02-vum.xml
+2020-03-04 15:44:21.421 Loading level file: /home/observer/levels/126gp02-prm.xml
+2020-03-04 15:44:21.423 Loading level file: /home/observer/levels/126gp02-azn.xml
+2020-03-04 15:44:21.424 Loading level file: /home/observer/levels/prdsysb.xml
+2020-03-04 15:44:21.424 Loading level file: /home/observer/levels/125yy04.xml
+2020-03-04 15:44:21.425 Loading level file: /home/observer/levels/125yy04-panel.xml
+2020-03-04 15:44:21.426 Loading level file: /home/observer/levels/124yg02.xml
+2020-03-04 15:44:21.427 Loading level file: /home/observer/levels/126gg02b.xml
+2020-03-04 15:44:21.428 Loading level file: /home/observer/levels/126gg02b1.xml
+2020-03-04 15:44:21.430 Loading level file: /home/observer/levels/paramumi.xml
+2020-03-04 15:44:21.472 Loading level file: /home/observer/levels/ksb.xml
+2020-03-04 15:44:21.473 Loading level file: /home/observer/levels/des.xml
+2020-03-04 15:44:21.474 Loading level file: /home/observer/levels/des-mains.xml
+2020-03-04 15:44:21.476 Loading level file: /home/observer/levels/des-dg.xml
+2020-03-04 15:44:21.480 Loading level function: /home/observer/levels/function.xml
+2020-03-04 15:44:21.491 AskuLevelCollection: set top zal(zal)
+2020-03-04 15:44:21.500 AskuLevelCollection: do trip from () to (zal)
+2020-03-04 15:44:21.500 AskuLevelCollection: invalidate
+2020-03-04 15:44:21.528 Loading RLS: 2-"РЛП Капорское" (lt='')
+2020-03-04 15:44:21.528 AskuLevelCollection: cleanup
+2020-03-04 15:44:21.528 AskuLevelCollection: invalidate
+2020-03-04 15:44:21.529 Loading level scheme: /home/observer/levels/scheme.xml
+2020-03-04 15:44:21.531 Loading level file: /home/observer/levels/base.xml
+2020-03-04 15:44:21.532 AskuLevelCollection: set base level (base)
+2020-03-04 15:44:21.532 Loading level file: /home/observer/levels/d7pg07b.xml
+2020-03-04 15:44:21.533 AskuLevelCollection: set zal level (zal)
+2020-03-04 15:44:21.533 Loading level file: /home/observer/levels/126pk01b.xml
+2020-03-04 15:44:21.534 Loading level file: /home/observer/levels/svkr-4.xml
+2020-03-04 15:44:21.535 Loading level file: /home/observer/levels/ups_snmp.xml
+2020-03-04 15:44:21.539 Loading level file: /home/observer/levels/poikoeff.xml
+2020-03-04 15:44:21.542 Loading level file: /home/observer/levels/cpu.xml
+2020-03-04 15:44:21.543 Loading level file: /home/observer/levels/voi.xml
+2020-03-04 15:44:21.544 Loading level file: /home/observer/levels/d7aa06.xml
+2020-03-04 15:44:21.544 Loading level file: /home/observer/levels/125yy03.xml
+2020-03-04 15:44:21.546 Loading level file: /home/observer/levels/124ee02.xml
+2020-03-04 15:44:21.548 Loading level file: /home/observer/levels/124yy08.xml
+2020-03-04 15:44:21.548 Loading level file: /home/observer/levels/prmsysb.xml
+2020-03-04 15:44:21.548 Loading level file: /home/observer/levels/124pp04b.xml
+2020-03-04 15:44:21.549 Loading level file: /home/observer/levels/d1ht502.xml
+2020-03-04 15:44:21.549 Loading level file: /home/observer/levels/sotr.xml
+2020-03-04 15:44:21.550 Loading level file: /home/observer/levels/ks-10.xml
+2020-03-04 15:44:21.551 Loading level file: /home/observer/levels/vector.xml
+2020-03-04 15:44:21.552 Loading level file: /home/observer/levels/rs485-asku.xml
+2020-03-04 15:44:21.552 Loading level file: /home/observer/levels/rs485-des.xml
+2020-03-04 15:44:21.553 Loading level file: /home/observer/levels/vospd_rs485.xml
+2020-03-04 15:44:21.555 Loading level file: /home/observer/levels/rs485-sotr.xml
+2020-03-04 15:44:21.556 Loading level file: /home/observer/levels/rs485-svo.xml
+2020-03-04 15:44:21.557 Loading level file: /home/observer/levels/rs485-drive.xml
+2020-03-04 15:44:21.558 Loading level file: /home/observer/levels/126gp02.xml
+2020-03-04 15:44:21.559 Loading level file: /home/observer/levels/mvrl-kn.xml
+2020-03-04 15:44:21.560 Loading level file: /home/observer/levels/126gp02-panel.xml
+2020-03-04 15:44:21.561 Loading level file: /home/observer/levels/svkr-5.xml
+2020-03-04 15:44:21.561 Loading level file: /home/observer/levels/ca648.xml
+2020-03-04 15:44:21.562 Loading level file: /home/observer/levels/126gp02-vum.xml
+2020-03-04 15:44:21.566 Loading level file: /home/observer/levels/126gp02-prm.xml
+2020-03-04 15:44:21.567 Loading level file: /home/observer/levels/126gp02-azn.xml
+2020-03-04 15:44:21.568 Loading level file: /home/observer/levels/prdsysb.xml
+2020-03-04 15:44:21.569 Loading level file: /home/observer/levels/125yy04.xml
+2020-03-04 15:44:21.570 Loading level file: /home/observer/levels/125yy04-panel.xml
+2020-03-04 15:44:21.570 Loading level file: /home/observer/levels/124yg02.xml
+2020-03-04 15:44:21.571 Loading level file: /home/observer/levels/126gg02b.xml
+2020-03-04 15:44:21.572 Loading level file: /home/observer/levels/126gg02b1.xml
+2020-03-04 15:44:21.574 Loading level file: /home/observer/levels/paramumi.xml
+2020-03-04 15:44:21.616 Loading level file: /home/observer/levels/ksb.xml
+2020-03-04 15:44:21.617 Loading level file: /home/observer/levels/des.xml
+2020-03-04 15:44:21.618 Loading level file: /home/observer/levels/des-mains.xml
+2020-03-04 15:44:21.621 Loading level file: /home/observer/levels/des-dg.xml
+2020-03-04 15:44:21.625 Loading level function: /home/observer/levels/function.xml
+2020-03-04 15:44:21.636 AskuLevelCollection: set top zal(zal)
+2020-03-04 15:44:21.644 AskuLevelCollection: do trip from () to (zal)
+2020-03-04 15:44:21.644 AskuLevelCollection: invalidate
+2020-03-04 15:44:31.385 AskuLevelCollection: invalidate
+2020-03-04 15:44:31.388 AskuLevelCollection: invalidate
+2020-03-04 15:44:31.532 AskuLevelCollection: invalidate
+2020-03-04 15:44:31.534 AskuLevelCollection: invalidate
+2020-03-04 15:44:33.486 asku-gui: error write file /var/run/asku-gui.pid
+2020-03-04 15:44:33.487 --- Log stopped --------------------------------------
+2020-03-04 15:44:56.623 --- Log started --------------------------------------
+2020-03-04 15:44:56.623 LogLevel=F00000F000000F0F
+2020-03-04 15:44:56.623 Settings: RMO0
+2020-03-04 15:44:56.625 Loading asku config: /home/observer/config/asku-config.xml
+2020-03-04 15:44:56.626 ASKU_config: make action (rls1_act_level_up)
+2020-03-04 15:44:56.627 ASKU_config: make action (rls2_act_level_up)
+2020-03-04 15:44:56.627 ASKU_config: make action (rls1_act_level_base)
+2020-03-04 15:44:56.627 ASKU_config: make action group (rls1_group_base_zal) append (rls1_act_level_base)
+2020-03-04 15:44:56.627 ASKU_config: make action (rls2_act_level_base)
+2020-03-04 15:44:56.627 ASKU_config: make action group (rls2_group_base_zal) append (rls2_act_level_base)
+2020-03-04 15:44:56.627 ASKU_config: make action (rls1_act_level_zal)
+2020-03-04 15:44:56.627 ASKU_config: action group (rls1_group_base_zal) append (rls1_act_level_zal)
+2020-03-04 15:44:56.627 ASKU_config: make action (rls2_act_level_zal)
+2020-03-04 15:44:56.627 ASKU_config: action group (rls2_group_base_zal) append (rls2_act_level_zal)
+2020-03-04 15:44:56.627 ASKU_config: make action (rls1_act_reload_scheme)
+2020-03-04 15:44:56.627 ASKU_config: make action (rls2_act_reload_scheme)
+2020-03-04 15:44:56.627 ASKU_config: make action (act_reload_config)
+2020-03-04 15:44:56.627 ASKU_config: make action (rls1_act_main_show)
+2020-03-04 15:44:56.627 ASKU_config: make action (rls2_act_main_show)
+2020-03-04 15:44:56.627 ASKU_config: make action (rls1_act_main_hide)
+2020-03-04 15:44:56.627 ASKU_config: make action (rls2_act_main_hide)
+2020-03-04 15:44:56.627 ASKU_config: make action (act_quit)
+2020-03-04 15:44:56.627 ASKU_config: make action (rls1_act_dialog_about_exec)
+2020-03-04 15:44:56.627 ASKU_config: make action (rls2_act_dialog_about_exec)
+2020-03-04 15:44:56.627 ASKU_config: make action (act_dialog_settings_ui_exec)
+2020-03-04 15:44:56.627 ASKU_config: make action (rls1_act_dialog_dasd_show)
+2020-03-04 15:44:56.627 ASKU_config: make action (rls2_act_dialog_dasd_show)
+2020-03-04 15:44:56.628 ASKU_config: make action (rls1_act_dialog_dasd_tables_show)
+2020-03-04 15:44:56.628 ASKU_config: make action (rls2_act_dialog_dasd_tables_show)
+2020-03-04 15:44:56.628 ASKU_config: make action (rls1_act_dialog_control_panel_show)
+2020-03-04 15:44:56.628 ASKU_config: make action (rls2_act_dialog_control_panel_show)
+2020-03-04 15:44:56.628 ASKU_config: make action (rls1_act_dialog_control_prd_show)
+2020-03-04 15:44:56.628 ASKU_config: make action (rls2_act_dialog_control_prd_show)
+2020-03-04 15:44:56.628 ASKU_config: make action (rls1_act_dialog_control_elk_show)
+2020-03-04 15:44:56.628 ASKU_config: make action (rls2_act_dialog_control_elk_show)
+2020-03-04 15:44:56.628 ASKU_config: make action (rls1_act_dialog_skrpilot_show)
+2020-03-04 15:44:56.628 ASKU_config: make action (rls2_act_dialog_skrpilot_show)
+2020-03-04 15:44:56.628 ASKU_config: make action (rls1_act_dialog_setprm_show)
+2020-03-04 15:44:56.628 ASKU_config: make action (rls2_act_dialog_setprm_show)
+2020-03-04 15:44:56.628 ASKU_config: make action (rls1_act_dialog_viewer_show)
+2020-03-04 15:44:56.628 ASKU_config: make action (rls2_act_dialog_viewer_show)
+2020-03-04 15:44:56.628 ASKU_config: make action (rls1_act_dialog_phase_show)
+2020-03-04 15:44:56.628 ASKU_config: make action (rls2_act_dialog_phase_show)
+2020-03-04 15:44:56.628 ASKU_config: make action (rls1_act_dialog_coolers_show)
+2020-03-04 15:44:56.628 ASKU_config: make action (rls2_act_dialog_coolers_show)
+2020-03-04 15:44:56.628 ASKU_config: make action (rls1_act_dialog_drives_show)
+2020-03-04 15:44:56.628 ASKU_config: make action (rls2_act_dialog_drives_show)
+2020-03-04 15:44:56.628 ASKU_config: make action (rls1_act_dialog_upses_show)
+2020-03-04 15:44:56.628 ASKU_config: make action (rls2_act_dialog_upses_show)
+2020-03-04 15:44:56.628 ASKU_config: make action (rls1_act_dialog_deses_show)
+2020-03-04 15:44:56.628 ASKU_config: make action (rls2_act_dialog_deses_show)
+2020-03-04 15:44:56.629 ASKU_config: make action (rls1_act_dialog_listrgdv_show)
+2020-03-04 15:44:56.629 ASKU_config: make action (rls2_act_dialog_listrgdv_show)
+2020-03-04 15:44:56.629 ASKU_config: make action (rls1_act_dialog_logger_show)
+2020-03-04 15:44:56.629 ASKU_config: make action (rls2_act_dialog_logger_show)
+2020-03-04 15:44:56.629 ASKU_config: make action (rls1_act_dialog_powermeter_show)
+2020-03-04 15:44:56.629 ASKU_config: make action (rls2_act_dialog_powermeter_show)
+2020-03-04 15:44:56.629 ASKU_config: make action (rls1_act_dialog_avtomatica_show)
+2020-03-04 15:44:56.629 ASKU_config: make action (rls2_act_dialog_avtomatica_show)
+2020-03-04 15:44:56.629 ASKU_config: make action (rls1_act_reset_avar_prd1)
+2020-03-04 15:44:56.629 ASKU_config: make action (rls2_act_reset_avar_prd1)
+2020-03-04 15:44:56.629 ASKU_config: make action (rls1_act_reset_avar_prd2)
+2020-03-04 15:44:56.629 ASKU_config: make action (rls2_act_reset_avar_prd2)
+2020-03-04 15:44:56.629 ASKU_config: make action (rls1_act_reset_avar_prm)
+2020-03-04 15:44:56.629 ASKU_config: make action (rls2_act_reset_avar_prm)
+2020-03-04 15:44:56.629 ASKU_config: make action (rls1_act_reset_avar_bep)
+2020-03-04 15:44:56.629 ASKU_config: make action (rls2_act_reset_avar_bep)
+2020-03-04 15:44:56.629 ASKU_config: make action (rls1_act_reset_avar_svo)
+2020-03-04 15:44:56.629 ASKU_config: make action (rls2_act_reset_avar_svo)
+2020-03-04 15:44:56.629 ASKU_config: make action (rls1_act_reset_avar_comm)
+2020-03-04 15:44:56.629 ASKU_config: make action (rls2_act_reset_avar_comm)
+2020-03-04 15:44:56.629 ASKU_config: make action (rls1_act_regime_test)
+2020-03-04 15:44:56.630 ASKU_config: make action (rls2_act_regime_test)
+2020-03-04 15:44:56.630 ASKU_config: make action (rls1_act_regime_rgdv)
+2020-03-04 15:44:56.630 ASKU_config: make action (rls2_act_regime_rgdv)
+2020-03-04 15:44:56.630 ASKU_config: make action (rls1_act_regime_raf)
+2020-03-04 15:44:56.630 ASKU_config: make action (rls2_act_regime_raf)
+2020-03-04 15:44:56.664 Loading RLS: 1-"РЛП Сиверский" (lt='')
+2020-03-04 15:44:56.664 AskuLevelCollection: cleanup
+2020-03-04 15:44:56.664 AskuLevelCollection: invalidate
+2020-03-04 15:44:56.665 Loading level scheme: /home/observer/levels/scheme.xml
+2020-03-04 15:44:56.666 Loading level file: /home/observer/levels/base.xml
+2020-03-04 15:44:56.668 AskuLevelCollection: set base level (base)
+2020-03-04 15:44:56.668 Loading level file: /home/observer/levels/d7pg07b.xml
+2020-03-04 15:44:56.669 AskuLevelCollection: set zal level (zal)
+2020-03-04 15:44:56.669 Loading level file: /home/observer/levels/126pk01b.xml
+2020-03-04 15:44:56.670 Loading level file: /home/observer/levels/svkr-4.xml
+2020-03-04 15:44:56.671 Loading level file: /home/observer/levels/ups_snmp.xml
+2020-03-04 15:44:56.675 Loading level file: /home/observer/levels/poikoeff.xml
+2020-03-04 15:44:56.679 Loading level file: /home/observer/levels/cpu.xml
+2020-03-04 15:44:56.680 Loading level file: /home/observer/levels/voi.xml
+2020-03-04 15:44:56.681 Loading level file: /home/observer/levels/d7aa06.xml
+2020-03-04 15:44:56.681 Loading level file: /home/observer/levels/125yy03.xml
+2020-03-04 15:44:56.683 Loading level file: /home/observer/levels/124ee02.xml
+2020-03-04 15:44:56.685 Loading level file: /home/observer/levels/124yy08.xml
+2020-03-04 15:44:56.685 Loading level file: /home/observer/levels/prmsysb.xml
+2020-03-04 15:44:56.686 Loading level file: /home/observer/levels/124pp04b.xml
+2020-03-04 15:44:56.686 Loading level file: /home/observer/levels/d1ht502.xml
+2020-03-04 15:44:56.687 Loading level file: /home/observer/levels/sotr.xml
+2020-03-04 15:44:56.687 Loading level file: /home/observer/levels/ks-10.xml
+2020-03-04 15:44:56.688 Loading level file: /home/observer/levels/vector.xml
+2020-03-04 15:44:56.689 Loading level file: /home/observer/levels/rs485-asku.xml
+2020-03-04 15:44:56.690 Loading level file: /home/observer/levels/rs485-des.xml
+2020-03-04 15:44:56.691 Loading level file: /home/observer/levels/vospd_rs485.xml
+2020-03-04 15:44:56.692 Loading level file: /home/observer/levels/rs485-sotr.xml
+2020-03-04 15:44:56.694 Loading level file: /home/observer/levels/rs485-svo.xml
+2020-03-04 15:44:56.695 Loading level file: /home/observer/levels/rs485-drive.xml
+2020-03-04 15:44:56.696 Loading level file: /home/observer/levels/126gp02.xml
+2020-03-04 15:44:56.698 Loading level file: /home/observer/levels/mvrl-kn.xml
+2020-03-04 15:44:56.699 Loading level file: /home/observer/levels/126gp02-panel.xml
+2020-03-04 15:44:56.699 Loading level file: /home/observer/levels/svkr-5.xml
+2020-03-04 15:44:56.700 Loading level file: /home/observer/levels/ca648.xml
+2020-03-04 15:44:56.701 Loading level file: /home/observer/levels/126gp02-vum.xml
+2020-03-04 15:44:56.704 Loading level file: /home/observer/levels/126gp02-prm.xml
+2020-03-04 15:44:56.706 Loading level file: /home/observer/levels/126gp02-azn.xml
+2020-03-04 15:44:56.706 Loading level file: /home/observer/levels/prdsysb.xml
+2020-03-04 15:44:56.707 Loading level file: /home/observer/levels/125yy04.xml
+2020-03-04 15:44:56.708 Loading level file: /home/observer/levels/125yy04-panel.xml
+2020-03-04 15:44:56.708 Loading level file: /home/observer/levels/124yg02.xml
+2020-03-04 15:44:56.710 Loading level file: /home/observer/levels/126gg02b.xml
+2020-03-04 15:44:56.712 Loading level file: /home/observer/levels/126gg02b1.xml
+2020-03-04 15:44:56.714 Loading level file: /home/observer/levels/paramumi.xml
+2020-03-04 15:44:56.757 Loading level file: /home/observer/levels/ksb.xml
+2020-03-04 15:44:56.758 Loading level file: /home/observer/levels/des.xml
+2020-03-04 15:44:56.759 Loading level file: /home/observer/levels/des-mains.xml
+2020-03-04 15:44:56.762 Loading level file: /home/observer/levels/des-dg.xml
+2020-03-04 15:44:56.766 Loading level function: /home/observer/levels/function.xml
+2020-03-04 15:44:56.776 AskuLevelCollection: set top zal(zal)
+2020-03-04 15:44:56.784 AskuLevelCollection: do trip from () to (zal)
+2020-03-04 15:44:56.785 AskuLevelCollection: invalidate
+2020-03-04 15:44:56.812 Loading RLS: 2-"РЛП Капорское" (lt='')
+2020-03-04 15:44:56.813 AskuLevelCollection: cleanup
+2020-03-04 15:44:56.813 AskuLevelCollection: invalidate
+2020-03-04 15:44:56.813 Loading level scheme: /home/observer/levels/scheme.xml
+2020-03-04 15:44:56.815 Loading level file: /home/observer/levels/base.xml
+2020-03-04 15:44:56.816 AskuLevelCollection: set base level (base)
+2020-03-04 15:44:56.816 Loading level file: /home/observer/levels/d7pg07b.xml
+2020-03-04 15:44:56.817 AskuLevelCollection: set zal level (zal)
+2020-03-04 15:44:56.817 Loading level file: /home/observer/levels/126pk01b.xml
+2020-03-04 15:44:56.818 Loading level file: /home/observer/levels/svkr-4.xml
+2020-03-04 15:44:56.819 Loading level file: /home/observer/levels/ups_snmp.xml
+2020-03-04 15:44:56.823 Loading level file: /home/observer/levels/poikoeff.xml
+2020-03-04 15:44:56.826 Loading level file: /home/observer/levels/cpu.xml
+2020-03-04 15:44:56.827 Loading level file: /home/observer/levels/voi.xml
+2020-03-04 15:44:56.828 Loading level file: /home/observer/levels/d7aa06.xml
+2020-03-04 15:44:56.828 Loading level file: /home/observer/levels/125yy03.xml
+2020-03-04 15:44:56.830 Loading level file: /home/observer/levels/124ee02.xml
+2020-03-04 15:44:56.832 Loading level file: /home/observer/levels/124yy08.xml
+2020-03-04 15:44:56.832 Loading level file: /home/observer/levels/prmsysb.xml
+2020-03-04 15:44:56.832 Loading level file: /home/observer/levels/124pp04b.xml
+2020-03-04 15:44:56.833 Loading level file: /home/observer/levels/d1ht502.xml
+2020-03-04 15:44:56.833 Loading level file: /home/observer/levels/sotr.xml
+2020-03-04 15:44:56.834 Loading level file: /home/observer/levels/ks-10.xml
+2020-03-04 15:44:56.835 Loading level file: /home/observer/levels/vector.xml
+2020-03-04 15:44:56.836 Loading level file: /home/observer/levels/rs485-asku.xml
+2020-03-04 15:44:56.837 Loading level file: /home/observer/levels/rs485-des.xml
+2020-03-04 15:44:56.837 Loading level file: /home/observer/levels/vospd_rs485.xml
+2020-03-04 15:44:56.839 Loading level file: /home/observer/levels/rs485-sotr.xml
+2020-03-04 15:44:56.840 Loading level file: /home/observer/levels/rs485-svo.xml
+2020-03-04 15:44:56.841 Loading level file: /home/observer/levels/rs485-drive.xml
+2020-03-04 15:44:56.842 Loading level file: /home/observer/levels/126gp02.xml
+2020-03-04 15:44:56.844 Loading level file: /home/observer/levels/mvrl-kn.xml
+2020-03-04 15:44:56.845 Loading level file: /home/observer/levels/126gp02-panel.xml
+2020-03-04 15:44:56.845 Loading level file: /home/observer/levels/svkr-5.xml
+2020-03-04 15:44:56.846 Loading level file: /home/observer/levels/ca648.xml
+2020-03-04 15:44:56.847 Loading level file: /home/observer/levels/126gp02-vum.xml
+2020-03-04 15:44:56.850 Loading level file: /home/observer/levels/126gp02-prm.xml
+2020-03-04 15:44:56.851 Loading level file: /home/observer/levels/126gp02-azn.xml
+2020-03-04 15:44:56.852 Loading level file: /home/observer/levels/prdsysb.xml
+2020-03-04 15:44:56.853 Loading level file: /home/observer/levels/125yy04.xml
+2020-03-04 15:44:56.854 Loading level file: /home/observer/levels/125yy04-panel.xml
+2020-03-04 15:44:56.854 Loading level file: /home/observer/levels/124yg02.xml
+2020-03-04 15:44:56.855 Loading level file: /home/observer/levels/126gg02b.xml
+2020-03-04 15:44:56.857 Loading level file: /home/observer/levels/126gg02b1.xml
+2020-03-04 15:44:56.858 Loading level file: /home/observer/levels/paramumi.xml
+2020-03-04 15:44:56.901 Loading level file: /home/observer/levels/ksb.xml
+2020-03-04 15:44:56.902 Loading level file: /home/observer/levels/des.xml
+2020-03-04 15:44:56.903 Loading level file: /home/observer/levels/des-mains.xml
+2020-03-04 15:44:56.905 Loading level file: /home/observer/levels/des-dg.xml
+2020-03-04 15:44:56.909 Loading level function: /home/observer/levels/function.xml
+2020-03-04 15:44:56.920 AskuLevelCollection: set top zal(zal)
+2020-03-04 15:44:56.929 AskuLevelCollection: do trip from () to (zal)
+2020-03-04 15:44:56.929 AskuLevelCollection: invalidate
+2020-03-04 15:45:06.667 AskuLevelCollection: invalidate
+2020-03-04 15:45:06.670 AskuLevelCollection: invalidate
+2020-03-04 15:45:06.816 AskuLevelCollection: invalidate
+2020-03-04 15:45:06.819 AskuLevelCollection: invalidate
+2020-03-04 15:45:06.921 AskuLevelCollection: set top base(base)
+2020-03-04 15:45:06.921 AskuLevelCollection: do trip from (zal) to (base)
+2020-03-04 15:45:06.921 AskuLevelCollection: invalidate
+2020-03-04 15:45:15.496 AskuLevelCollection: set top zal(zal)
+2020-03-04 15:45:15.497 AskuLevelCollection: do trip from (base) to (zal)
+2020-03-04 15:45:15.497 AskuLevelCollection: invalidate
+2020-03-04 15:45:16.584 AskuLevelCollection: set top base(base)
+2020-03-04 15:45:16.585 AskuLevelCollection: do trip from (zal) to (base)
+2020-03-04 15:45:16.585 AskuLevelCollection: invalidate
+2020-03-04 15:48:32.349 asku-gui: error write file /var/run/asku-gui.pid
+2020-03-04 15:48:32.349 --- Log stopped --------------------------------------
+2020-03-04 15:48:57.343 --- Log started --------------------------------------
+2020-03-04 15:48:57.343 LogLevel=F00000F000000F0F
+2020-03-04 15:48:57.343 Settings: RMO0
+2020-03-04 15:48:57.344 Loading asku config: /home/observer/config/asku-config.xml
+2020-03-04 15:48:57.345 AskuRlsControlConfig: no rls name
+2020-03-04 15:48:57.345 ASKU_config: make action (act_level_up)
+2020-03-04 15:48:57.345 ASKU_config: make action (act_level_base)
+2020-03-04 15:48:57.345 ASKU_config: make action group (group_base_zal) append (act_level_base)
+2020-03-04 15:48:57.345 ASKU_config: make action (act_level_zal)
+2020-03-04 15:48:57.345 ASKU_config: action group (group_base_zal) append (act_level_zal)
+2020-03-04 15:48:57.345 ASKU_config: make action (act_reload_scheme)
+2020-03-04 15:48:57.345 ASKU_config: make action (act_reload_config)
+2020-03-04 15:48:57.345 ASKU_config: make action (act_main_show)
+2020-03-04 15:48:57.345 ASKU_config: make action (act_main_hide)
+2020-03-04 15:48:57.345 ASKU_config: make action (act_quit)
+2020-03-04 15:48:57.345 ASKU_config: make action (act_dialog_about_exec)
+2020-03-04 15:48:57.345 ASKU_config: make action (act_dialog_settings_ui_exec)
+2020-03-04 15:48:57.345 ASKU_config: make action (act_dialog_dasd_show)
+2020-03-04 15:48:57.345 ASKU_config: make action (act_dialog_dasd_tables_show)
+2020-03-04 15:48:57.345 ASKU_config: make action (act_dialog_control_panel_show)
+2020-03-04 15:48:57.345 ASKU_config: make action (act_dialog_control_prd_show)
+2020-03-04 15:48:57.345 ASKU_config: make action (act_dialog_control_elk_show)
+2020-03-04 15:48:57.345 ASKU_config: make action (act_dialog_skrpilot_show)
+2020-03-04 15:48:57.346 ASKU_config: make action (act_dialog_setprm_show)
+2020-03-04 15:48:57.346 ASKU_config: make action (act_dialog_viewer_show)
+2020-03-04 15:48:57.346 ASKU_config: make action (act_dialog_phase_show)
+2020-03-04 15:48:57.346 ASKU_config: make action (act_dialog_coolers_show)
+2020-03-04 15:48:57.346 ASKU_config: make action (act_dialog_drives_show)
+2020-03-04 15:48:57.346 ASKU_config: make action (act_dialog_upses_show)
+2020-03-04 15:48:57.346 ASKU_config: make action (act_dialog_deses_show)
+2020-03-04 15:48:57.346 ASKU_config: make action (act_dialog_listrgdv_show)
+2020-03-04 15:48:57.346 ASKU_config: make action (act_dialog_logger_show)
+2020-03-04 15:48:57.346 ASKU_config: make action (act_dialog_powermeter_show)
+2020-03-04 15:48:57.346 ASKU_config: make action (act_dialog_avtomatica_show)
+2020-03-04 15:48:57.346 ASKU_config: make action (act_reset_avar_prd1)
+2020-03-04 15:48:57.346 ASKU_config: make action (act_reset_avar_prd2)
+2020-03-04 15:48:57.346 ASKU_config: make action (act_reset_avar_prm)
+2020-03-04 15:48:57.346 ASKU_config: make action (act_reset_avar_bep)
+2020-03-04 15:48:57.346 ASKU_config: make action (act_reset_avar_svo)
+2020-03-04 15:48:57.346 ASKU_config: make action (act_reset_avar_comm)
+2020-03-04 15:48:57.346 ASKU_config: make action (act_regime_test)
+2020-03-04 15:48:57.346 ASKU_config: make action (act_regime_rgdv)
+2020-03-04 15:48:57.346 ASKU_config: make action (act_regime_raf)
+2020-03-04 15:48:57.374 Loading RLS: 0-"" (lt='')
+2020-03-04 15:48:57.374 AskuLevelCollection: cleanup
+2020-03-04 15:48:57.374 AskuLevelCollection: invalidate
+2020-03-04 15:48:57.375 Loading level scheme: /home/observer/levels/scheme.xml
+2020-03-04 15:48:57.376 Loading level file: /home/observer/levels/base.xml
+2020-03-04 15:48:57.377 AskuLevelCollection: set base level (base)
+2020-03-04 15:48:57.378 Loading level file: /home/observer/levels/d7pg07b.xml
+2020-03-04 15:48:57.379 AskuLevelCollection: set zal level (zal)
+2020-03-04 15:48:57.379 Loading level file: /home/observer/levels/126pk01b.xml
+2020-03-04 15:48:57.380 Loading level file: /home/observer/levels/svkr-4.xml
+2020-03-04 15:48:57.381 Loading level file: /home/observer/levels/ups_snmp.xml
+2020-03-04 15:48:57.385 Loading level file: /home/observer/levels/poikoeff.xml
+2020-03-04 15:48:57.389 Loading level file: /home/observer/levels/cpu.xml
+2020-03-04 15:48:57.390 Loading level file: /home/observer/levels/voi.xml
+2020-03-04 15:48:57.390 Loading level file: /home/observer/levels/d7aa06.xml
+2020-03-04 15:48:57.391 Loading level file: /home/observer/levels/125yy03.xml
+2020-03-04 15:48:57.393 Loading level file: /home/observer/levels/124ee02.xml
+2020-03-04 15:48:57.395 Loading level file: /home/observer/levels/124yy08.xml
+2020-03-04 15:48:57.395 Loading level file: /home/observer/levels/prmsysb.xml
+2020-03-04 15:48:57.395 Loading level file: /home/observer/levels/124pp04b.xml
+2020-03-04 15:48:57.396 Loading level file: /home/observer/levels/d1ht502.xml
+2020-03-04 15:48:57.396 Loading level file: /home/observer/levels/sotr.xml
+2020-03-04 15:48:57.397 Loading level file: /home/observer/levels/ks-10.xml
+2020-03-04 15:48:57.398 Loading level file: /home/observer/levels/vector.xml
+2020-03-04 15:48:57.399 Loading level file: /home/observer/levels/rs485-asku.xml
+2020-03-04 15:48:57.400 Loading level file: /home/observer/levels/rs485-des.xml
+2020-03-04 15:48:57.400 Loading level file: /home/observer/levels/vospd_rs485.xml
+2020-03-04 15:48:57.402 Loading level file: /home/observer/levels/rs485-sotr.xml
+2020-03-04 15:48:57.404 Loading level file: /home/observer/levels/rs485-svo.xml
+2020-03-04 15:48:57.405 Loading level file: /home/observer/levels/rs485-drive.xml
+2020-03-04 15:48:57.406 Loading level file: /home/observer/levels/126gp02.xml
+2020-03-04 15:48:57.407 Loading level file: /home/observer/levels/mvrl-kn.xml
+2020-03-04 15:48:57.408 Loading level file: /home/observer/levels/126gp02-panel.xml
+2020-03-04 15:48:57.409 Loading level file: /home/observer/levels/svkr-5.xml
+2020-03-04 15:48:57.409 Loading level file: /home/observer/levels/ca648.xml
+2020-03-04 15:48:57.410 Loading level file: /home/observer/levels/126gp02-vum.xml
+2020-03-04 15:48:57.414 Loading level file: /home/observer/levels/126gp02-prm.xml
+2020-03-04 15:48:57.415 Loading level file: /home/observer/levels/126gp02-azn.xml
+2020-03-04 15:48:57.416 Loading level file: /home/observer/levels/prdsysb.xml
+2020-03-04 15:48:57.417 Loading level file: /home/observer/levels/125yy04.xml
+2020-03-04 15:48:57.418 Loading level file: /home/observer/levels/125yy04-panel.xml
+2020-03-04 15:48:57.418 Loading level file: /home/observer/levels/124yg02.xml
+2020-03-04 15:48:57.419 Loading level file: /home/observer/levels/126gg02b.xml
+2020-03-04 15:48:57.420 Loading level file: /home/observer/levels/126gg02b1.xml
+2020-03-04 15:48:57.422 Loading level file: /home/observer/levels/paramumi.xml
+2020-03-04 15:48:57.466 Loading level file: /home/observer/levels/ksb.xml
+2020-03-04 15:48:57.467 Loading level file: /home/observer/levels/des.xml
+2020-03-04 15:48:57.468 Loading level file: /home/observer/levels/des-mains.xml
+2020-03-04 15:48:57.470 Loading level file: /home/observer/levels/des-dg.xml
+2020-03-04 15:48:57.475 Loading level function: /home/observer/levels/function.xml
+2020-03-04 15:48:57.486 AskuLevelCollection: set top base(base)
+2020-03-04 15:48:57.494 AskuLevelCollection: do trip from () to (base)
+2020-03-04 15:48:57.494 AskuLevelCollection: invalidate
+2020-03-04 15:48:58.523 moduleConnected idConnection=1 (127.0.0.1:5555)
+2020-03-04 15:48:58.588 AskuLevelCollection: element not found (prmsys@d2ht502_1)
+2020-03-04 15:48:58.588 AskuLevelCollection: element not found (prmsys@d2ht502_2)
+2020-03-04 15:48:58.590 AskuLevelCollection: invalidate
+2020-03-04 15:48:59.496 AskuLevelCollection: invalidate
+2020-03-04 15:49:02.374 AskuLevelCollection: invalidate
+2020-03-04 15:49:06.399 CommonDialogSet::Invoke action dialog "dialog_control_panel" show
+2020-03-04 15:49:06.399 CommonDialogSet::show : "dialog_control_panel" not found
+2020-03-04 15:49:06.399 rlsDialogSet_0::Invoke action dialog "dialog_control_panel" show
+2020-03-04 15:49:07.374 AskuLevelCollection: invalidate
+2020-03-04 15:49:18.767 DlgCtrlPanel: try check rafButtonOn
+2020-03-04 15:49:25.847 DlgCtrlPanel: try check rafButtonOff
+2020-03-04 15:50:12.799 DlgCtrlPanel: try check rgdvButtonOn
+2020-03-04 15:50:12.799 CommonDialogSet::Invoke action dialog "dialog_listrgdv" show
+2020-03-04 15:50:12.799 CommonDialogSet::show : "dialog_listrgdv" not found
+2020-03-04 15:50:12.799 rlsDialogSet_0::Invoke action dialog "dialog_listrgdv" show
+2020-03-04 15:51:07.622 CommonDialogSet::Invoke action dialog "dialog_viewer" show
+2020-03-04 15:51:07.622 CommonDialogSet::show : "dialog_viewer" not found
+2020-03-04 15:51:07.622 rlsDialogSet_0::Invoke action dialog "dialog_viewer" show
+2020-03-04 15:51:14.022 CommonDialogSet::Invoke action dialog "dialog_viewer" show
+2020-03-04 15:51:14.023 CommonDialogSet::show : "dialog_viewer" not found
+2020-03-04 15:51:14.023 rlsDialogSet_0::Invoke action dialog "dialog_viewer" show
+2020-03-04 15:51:21.350 AskuLevelCollection: set top zal(zal)
+2020-03-04 15:51:21.350 AskuLevelCollection: do trip from (base) to (zal)
+2020-03-04 15:51:21.350 AskuLevelCollection: invalidate
+2020-03-04 15:51:22.142 AskuLevelCollection: set top base(base)
+2020-03-04 15:51:22.142 AskuLevelCollection: do trip from (zal) to (base)
+2020-03-04 15:51:22.142 AskuLevelCollection: invalidate
+2020-03-04 15:51:23.150 CommonDialogSet::Invoke action dialog "dialog_skrpilot" show
+2020-03-04 15:51:23.150 CommonDialogSet::show : "dialog_skrpilot" not found
+2020-03-04 15:51:23.150 rlsDialogSet_0::Invoke action dialog "dialog_skrpilot" show
+2020-03-04 15:51:35.350 CommonDialogSet::Invoke action dialog "dialog_avtomatica" show
+2020-03-04 15:51:35.350 CommonDialogSet::show : "dialog_avtomatica" not found
+2020-03-04 15:51:35.350 rlsDialogSet_0::Invoke action dialog "dialog_avtomatica" show
+2020-03-04 18:02:07.655 moduleDisconnected idConnection=1
+2020-03-04 18:02:07.658 asku-gui: error write file /var/run/asku-gui.pid
+2020-03-04 18:02:07.659 --- Log stopped --------------------------------------
